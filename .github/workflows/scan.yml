@@ -1,0 +1,40 @@
+name: Hype scan
+
+on:
+  schedule:
+    # Hourly from 11:00-23:00 UTC on weekdays = 7am-7pm ET. Covers premarket
+    # (where a lot of these get set up overnight), the whole session, and the
+    # after-hours reaction. Hourly is what builds the mention time series -
+    # a single daily snapshot cannot tell you a pump is rolling over.
+    - cron: "0 11-23 * * 1-5"
+    # Weekends run every 4h. Reddit doesn't stop on Saturday, and Monday gaps
+    # are usually set up over the weekend.
+    - cron: "0 12,16,20 * * 0,6"
+  workflow_dispatch:
+
+# Never let two runs write history.json at once.
+concurrency:
+  group: hype-scan
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan social feeds
+        run: python3 scripts/scan_hype.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "hype-scout-bot"
+          git config user.email "actions@github.com"
+          git add data/scan.json data/history.json
+          git diff --cached --quiet || git commit -m "Scan $(date -u +'%Y-%m-%d %H:%M')"
+          # Another run may have pushed while this one was fetching.
+          git pull --rebase --autostash origin main || true
+          git push

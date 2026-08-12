@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0f14">
+<title>Hype Scout</title>
+<style>
+:root{
+  --bg:#0b0f14; --panel:#141a22; --panel2:#1b232d; --line:#26313d;
+  --ink:#e8eef5; --dim:#8b9bad; --faint:#5d6b7c;
+  --up:#3fcf8e; --down:#f26d6d; --warn:#f0a848; --hot:#7aa2f7; --purp:#b48ce8;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;
+  padding-bottom:env(safe-area-inset-bottom)}
+header{padding:18px 16px 12px;border-bottom:1px solid var(--line);
+  position:sticky;top:0;background:rgba(11,15,20,.94);backdrop-filter:blur(12px);z-index:10}
+h1{margin:0;font-size:19px;letter-spacing:-.3px}
+.sub{color:var(--faint);font-size:12px;margin-top:3px}
+nav{display:flex;gap:4px;padding:10px 12px 0;overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+nav button{flex:0 0 auto;background:none;border:0;color:var(--dim);font:600 13px/1 inherit;
+  padding:9px 13px;border-radius:8px}
+nav button.on{background:var(--panel2);color:var(--ink)}
+main{padding:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:13px;
+  padding:13px;margin-bottom:9px}
+.row1{display:flex;align-items:baseline;gap:8px}
+.sym{font-weight:700;font-size:17px;letter-spacing:-.2px}
+.exch{font-size:10px;color:var(--faint);border:1px solid var(--line);
+  padding:1px 5px;border-radius:4px}
+.px{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:600}
+.chg{font-variant-numeric:tabular-nums;font-weight:600;font-size:13px}
+.up{color:var(--up)} .down{color:var(--down)}
+.nm{color:var(--dim);font-size:12px;margin:3px 0 9px;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.stage{display:inline-block;font:700 10px/1 inherit;letter-spacing:.6px;
+  padding:5px 8px;border-radius:5px;margin-bottom:7px}
+.s-EARLY{background:rgba(63,207,142,.16);color:#6fe0ab}
+.s-RUNNING{background:rgba(122,162,247,.16);color:#9dbcff}
+.s-FRESH{background:rgba(122,162,247,.10);color:#8fb0f5}
+.s-TALK{background:rgba(240,168,72,.14);color:#f5cd93}
+.s-PEAKING{background:rgba(242,109,109,.15);color:#ff9d9d}
+.s-FADING{background:rgba(242,109,109,.10);color:#d98a8a}
+.s-LOUD{background:rgba(180,140,232,.14);color:#c9adf0}
+.s-QUIET{background:var(--panel2);color:var(--faint)}
+.snote{font-size:12.5px;color:var(--dim);line-height:1.5;margin-bottom:9px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:9px}
+.cell{background:var(--panel2);border-radius:8px;padding:7px 8px}
+.cell b{display:block;font-size:14px;font-variant-numeric:tabular-nums}
+.cell span{display:block;font-size:10px;color:var(--faint);margin-top:1px}
+.spark{display:block;width:100%;height:34px;margin:2px 0 8px}
+.sparklab{font-size:10px;color:var(--faint);display:flex;justify-content:space-between;
+  margin-bottom:8px}
+.srcs{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:8px}
+.src{font-size:10px;background:var(--panel2);color:var(--dim);padding:3px 7px;
+  border-radius:5px}
+.post{font-size:11.5px;color:var(--faint);line-height:1.45;margin-top:4px;
+  padding-left:9px;border-left:2px solid var(--line)}
+.bar{height:4px;background:var(--panel2);border-radius:3px;overflow:hidden;margin:9px 0 4px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--hot),var(--up))}
+.barlab{font-size:10px;color:var(--faint);display:flex;justify-content:space-between}
+.flag{display:flex;gap:6px;align-items:flex-start;font-size:11.5px;
+  padding:5px 8px;border-radius:7px;margin-top:5px;line-height:1.4}
+.flag.high{background:rgba(242,109,109,.11);color:#ffb3b3}
+.flag.med{background:rgba(240,168,72,.10);color:#f5cd93}
+.note{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--warn);
+  border-radius:10px;padding:13px;margin-bottom:12px;font-size:13px;line-height:1.6;color:var(--dim)}
+.note b{color:var(--ink)}
+.stat{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:12px}
+.stat div{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:12px}
+.stat b{display:block;font-size:21px;font-variant-numeric:tabular-nums}
+.stat span{font-size:11px;color:var(--faint)}
+.hrow{display:flex;align-items:center;gap:9px;padding:9px 2px;border-bottom:1px solid var(--line);
+  font-size:13px}
+.hrow:last-child{border:0}
+.hrow .s{font-weight:600;width:58px}
+.hrow .d{color:var(--faint);font-size:11px;width:74px}
+.hrow .v{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:600}
+.empty{color:var(--faint);text-align:center;padding:34px 16px;font-size:13px;line-height:1.6}
+h2{font-size:13px;color:var(--dim);margin:16px 2px 8px;font-weight:600}
+.learn{background:var(--panel);border:1px solid var(--line);border-radius:11px;
+  padding:13px;margin-bottom:9px;font-size:13.5px;line-height:1.65;color:var(--dim)}
+.learn h3{margin:0 0 6px;font-size:14px;color:var(--ink)}
+.learn code{background:var(--panel2);padding:1px 5px;border-radius:4px;font-size:12px}
+.learn b{color:var(--ink)}
+</style>
+</head>
+<body>
+<header>
+  <h1>Hype Scout</h1>
+  <div class="sub" id="stamp">Loading…</div>
+  <nav>
+    <button class="on" data-t="hot">Heating up</button>
+    <button data-t="all">Everything</button>
+    <button data-t="record">Track record</button>
+    <button data-t="learn">Read first</button>
+  </nav>
+</header>
+<main id="main"></main>
+
+<script>
+const $ = s => document.querySelector(s);
+let DATA = null, TAB = 'hot';
+
+const fmt = n => n >= 1e9 ? (n/1e9).toFixed(1)+'B'
+  : n >= 1e6 ? (n/1e6).toFixed(1)+'M'
+  : n >= 1e3 ? (n/1e3).toFixed(0)+'K' : String(Math.round(n));
+const money = n => '$' + (n < 1 ? n.toFixed(4) : n.toFixed(2));
+const sign = n => (n > 0 ? '+' : '') + n.toFixed(1) + '%';
+const cls = n => n > 0 ? 'up' : n < 0 ? 'down' : '';
+const esc = s => String(s||'').replace(/[<>&]/g, c => ({'<':'&lt;','>':'&gt;','&':'&amp;'}[c]));
+
+// Mention count over the last 24 snapshots. The shape is the signal: rising
+// means the crowd is still arriving, rolling over means it's leaving.
+function spark(series){
+  if(!series || series.length < 2) return '';
+  const v = series.map(s => s[1]);
+  const max = Math.max(...v), min = Math.min(...v), rng = (max - min) || 1;
+  const W = 300, H = 34;
+  const pts = v.map((n,i) => [
+    (i/(v.length-1))*W,
+    H - 3 - ((n-min)/rng)*(H-6)
+  ]);
+  const line = pts.map(p => p[0].toFixed(1)+','+p[1].toFixed(1)).join(' ');
+  const area = `0,${H} ` + line + ` ${W},${H}`;
+  const rising = v[v.length-1] >= v[0];
+  const col = rising ? 'var(--up)' : 'var(--down)';
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+    <polygon points="${area}" fill="${col}" opacity=".10"/>
+    <polyline points="${line}" fill="none" stroke="${col}" stroke-width="2"
+      stroke-linejoin="round" stroke-linecap="round"/>
+  </svg>
+  <div class="sparklab"><span>mentions, last ${v.length} checks</span>
+    <span>${min} → ${v[v.length-1]} (peak ${max})</span></div>`;
+}
+
+function card(c){
+  const flags = (c.flags||[]).map(f =>
+    `<div class="flag ${f.level}"><span>${f.level==='high'?'⚠':'•'}</span><span>${esc(f.text)}</span></div>`
+  ).join('');
+  const srcs = Object.entries(c.sources||{})
+    .sort((a,b) => b[1]-a[1]).slice(0,7)
+    .map(([k,v]) => `<span class="src">${esc(k)} ${v}</span>`).join('');
+  const posts = (c.posts||[]).slice(0,2)
+    .map(p => `<div class="post">r/${esc(p.sub)} · ${esc(p.title)}</div>`).join('');
+  const since = c.pct_since_first_seen != null && c.first_seen
+    ? `<div class="sparklab"><span>since first flagged ${c.first_seen.slice(5,16).replace('T',' ')}</span>
+       <span class="${cls(c.pct_since_first_seen)}">${sign(c.pct_since_first_seen)}</span></div>` : '';
+
+  return `<div class="card">
+    <div class="row1">
+      <span class="sym">${esc(c.symbol)}</span>
+      <span class="exch">${esc(c.exchange)}</span>
+      <span class="px">${money(c.price)} <span class="chg ${cls(c.pct_change)}">${sign(c.pct_change)}</span></span>
+    </div>
+    <div class="nm">${esc(c.name)}${c.sector ? ' · ' + esc(c.sector) : ''}</div>
+    <div class="stage s-${c.stage}">${c.stage}</div>
+    <div class="snote">${esc(c.stage_note)}</div>
+    <div class="grid">
+      <div class="cell"><b>${fmt(c.mentions)}</b><span>mentions / 24h</span></div>
+      <div class="cell"><b>${c.accel}×</b><span>vs 24h ago (${fmt(c.mentions_24h_ago)})</span></div>
+      <div class="cell"><b>${c.rel_volume ? c.rel_volume+'×' : '—'}</b><span>vs avg volume</span></div>
+    </div>
+    ${spark(c.series)}
+    ${since}
+    <div class="srcs">${srcs}</div>
+    <div class="bar"><i style="width:${Math.min(c.hype_score,100)}%"></i></div>
+    <div class="barlab"><span>Hype score ${c.hype_score}/100</span>
+      <span>$100 = ${c.shares_per_100} shares</span></div>
+    ${flags}
+    ${posts}
+  </div>`;
+}
+
+const HOT = ['EARLY','RUNNING','FRESH','TALK','PEAKING','FADING'];
+
+function viewHot(){
+  const c = (DATA.candidates||[]).filter(x => HOT.includes(x.stage));
+  if(!c.length) return `<div class="empty">Nothing is accelerating right now.<br>
+    That is the normal state of the market — most hours there is no pump.<br>
+    Check <b>Everything</b> for what is merely popular.</div>`;
+  let out = '';
+  for(const st of HOT){
+    const g = c.filter(x => x.stage === st);
+    if(!g.length) continue;
+    out += `<h2>${st} — ${g.length}</h2>` + g.map(card).join('');
+  }
+  return out;
+}
+
+function viewAll(){
+  const c = DATA.candidates || [];
+  if(!c.length) return `<div class="empty">No candidates this run.</div>`;
+  return c.map(card).join('');
+}
+
+function viewRecord(){
+  const t = DATA.track_record || {};
+  if(!t.tracked) return `<div class="empty">
+    No calls have been graded yet.<br>
+    Every EARLY and RUNNING flag gets logged here with what happened next —
+    including the losers. Give it a few days.</div>`;
+
+  const ex = t.exit_on_fade;
+  let out = `<div class="note">
+    This is every name this scanner flagged, tracked forward for 21 days,
+    <b>winners and losers both</b>. A scanner that only shows you its wins is
+    just a slower way of losing money. The <b>median</b> is the honest number —
+    the average gets dragged around by one lucky outlier.
+  </div>
+  <div class="stat">
+    <div><b>${t.tracked}</b><span>calls tracked</span></div>
+    <div><b class="${cls(t.median)}">${sign(t.median)}</b><span>median result</span></div>
+    <div><b>${t.pct_up}%</b><span>went up at all</span></div>
+    <div><b class="${cls(t.median_peak_gain)}">${sign(t.median_peak_gain)}</b><span>median best moment</span></div>
+    <div><b class="up">${sign(t.best)}</b><span>best</span></div>
+    <div><b class="down">${sign(t.worst)}</b><span>worst</span></div>
+  </div>`;
+
+  if(ex){
+    out += `<h2>If you sold the moment hype rolled over</h2>
+    <div class="note">
+      The strategy you actually asked for, measured: buy the flag, sell the
+      first time mentions drop 45% off their peak. ${ex.n} completed round trips.
+      <br><br>
+      Median <b class="${cls(ex.median)}">${sign(ex.median)}</b> ·
+      ${ex.pct_up}% profitable ·
+      <b class="${cls(ex.total_on_100)}">${ex.total_on_100>0?'+':''}$${ex.total_on_100.toFixed(2)}</b>
+      total on $100 per trade.
+    </div>`;
+  }
+
+  out += `<h2>Every call</h2>`;
+  for(const c of (DATA.recent_calls||[])){
+    out += `<div class="hrow">
+      <span class="s">${esc(c.symbol)}</span>
+      <span class="d">${c.ts.slice(5,10)} ${c.stage}</span>
+      <span class="d">${money(c.price)}</span>
+      <span class="v ${cls(c.pct_now)}">${sign(c.pct_now)}</span>
+    </div>`;
+  }
+  return out;
+}
+
+function viewLearn(){
+  return `
+  <div class="note">
+    <b>What this is.</b> It watches Reddit and 4chan for stocks whose mention
+    count is <b>accelerating</b>, then checks whether the trading volume agrees.
+    It tells you where a name sits on the hype curve. It is not a buy signal,
+    and I am not a licensed advisor.
+  </div>
+
+  <div class="learn"><h3>The stages</h3>
+    <b>EARLY</b> — mentions 3×+ in 24h, price hasn't caught up, volume confirms.
+    The only stage where you aren't the exit liquidity. Most still go nowhere.<br><br>
+    <b>RUNNING</b> — hype and price climbing together. You're not early, but the
+    crowd is still arriving.<br><br>
+    <b>FRESH</b> — just appeared in live Reddit/4chan posts, no 24h baseline
+    yet. Earliest possible signal, least confirmed.<br><br>
+    <b>TALK</b> — loud posting, normal volume. People are typing, nobody is
+    buying. <b>The most common false alarm here.</b><br><br>
+    <b>PEAKING</b> — price up 25%+ and chatter has stopped growing. Latecomers
+    are the only buyers left.<br><br>
+    <b>FADING</b> — mentions 45%+ off their peak. The crowd has moved on. This
+    is the closest thing to a "get out" signal this thing has.<br><br>
+    <b>LOUD / QUIET</b> — context, not candidates.
+  </div>
+
+  <div class="learn"><h3>Why acceleration, not popularity</h3>
+    A stock with 4,000 mentions that had 4,000 yesterday is a board favourite,
+    not a pump. The signal is <code>15 → 400</code>. Ratios are smoothed so that
+    <code>1 → 17</code> doesn't read as "17×" — at those counts it's one person
+    posting twice, not a crowd.
+  </div>
+
+  <div class="learn"><h3>The honest part</h3>
+    The thing that makes a pump profitable for whoever started it is that
+    <b>somebody buys it later</b>. If you found it on a public leaderboard, you
+    are somewhere in that queue, and you cannot tell from mention counts whether
+    you are near the front or the back. That's why <b>Track record</b> exists and
+    why it publishes the losers. Judge this tool on that tab, not on the one
+    winner you remember.<br><br>
+    A pump can also unwind in minutes. This scans hourly, so it will sometimes
+    tell you about a peak that already happened.
+  </div>
+
+  <div class="learn"><h3>Your $100</h3>
+    Every card shows what $100 buys. Under 1 share means you need a broker that
+    does fractional shares. On sub-$1 names the <b>spread</b> — the gap between
+    buy and sell price — can cost 5–15% the instant you're in, before the stock
+    does anything. That's flagged per card.
+  </div>
+
+  <div class="learn"><h3>Where the data comes from</h3>
+    ApeWisdom (Reddit mention counts across ~10 subs + 4chan), Reddit's live RSS
+    feeds, 4chan /biz/, and Nasdaq for price and volume. No API keys, no
+    accounts, nothing to pay for. Reddit's JSON API blocks this kind of access
+    now, so the RSS feeds do that job.<br><br>
+    Every "ticker" is checked against the real list of US listings, and words
+    like <code>ALL</code> or <code>SO</code> only count when someone actually
+    wrote <code>$ALL</code> — otherwise every post saying "so" becomes a stock.
+  </div>`;
+}
+
+function render(){
+  const v = {hot:viewHot, all:viewAll, record:viewRecord, learn:viewLearn}[TAB];
+  $('#main').innerHTML = v();
+  window.scrollTo(0,0);
+}
+
+document.querySelector('nav').addEventListener('click', e => {
+  const b = e.target.closest('button');
+  if(!b) return;
+  document.querySelectorAll('nav button').forEach(x => x.classList.toggle('on', x===b));
+  TAB = b.dataset.t;
+  render();
+});
+
+fetch('data/scan.json?t=' + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    DATA = d;
+    const when = new Date(d.generated);
+    const mins = Math.round((Date.now() - when) / 60000);
+    const ago = mins < 60 ? mins + 'm ago'
+      : mins < 1440 ? Math.round(mins/60) + 'h ago'
+      : Math.round(mins/1440) + 'd ago';
+    const s = d.sources || {};
+    $('#stamp').textContent =
+      `Updated ${ago} · ${d.considered} tickers with real chatter · `
+      + `${s.apewisdom||0} from Reddit/4chan aggregate, ${s.reddit_live||0} live`;
+    render();
+  })
+  .catch(() => {
+    $('#stamp').textContent = 'Could not load scan data';
+    $('#main').innerHTML = `<div class="empty">
+      No scan data yet.<br>The scanner writes <code>data/scan.json</code> on its
+      first run.</div>`;
+  });
+</script>
+</body>
+</html>
