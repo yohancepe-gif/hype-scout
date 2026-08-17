@@ -95,6 +95,7 @@ h2{font-size:13px;color:var(--dim);margin:16px 2px 8px;font-weight:600}
   <nav>
     <button class="on" data-t="hot">Heating up</button>
     <button data-t="all">Everything</button>
+    <button data-t="bot">Bot</button>
     <button data-t="record">Track record</button>
     <button data-t="learn">Read first</button>
   </nav>
@@ -103,7 +104,7 @@ h2{font-size:13px;color:var(--dim);margin:16px 2px 8px;font-weight:600}
 
 <script>
 const $ = s => document.querySelector(s);
-let DATA = null, TAB = 'hot';
+let DATA = null, BOT = null, TAB = 'hot';
 
 const fmt = n => n >= 1e9 ? (n/1e9).toFixed(1)+'B'
   : n >= 1e6 ? (n/1e6).toFixed(1)+'M'
@@ -245,6 +246,112 @@ function viewRecord(){
   return out;
 }
 
+function viewBot(){
+  if(!BOT || !BOT.summary) return `<div class="empty">
+    The bot hasn't run yet.<br>It trades on paper — no account, no real money.</div>`;
+  const s = BOT.summary;
+  const live = s.mode !== 'sim';
+
+  let out = `<div class="note">
+    ${live ? '<b>LIVE MODE — this is placing real orders.</b>'
+           : '<b>Paper simulator. No broker, no account, no real money.</b>'}
+    It runs the exact decision engine that would trade your account, on real
+    prices, with a spread and slippage model. It exists to find out whether
+    these signals are worth money <b>before</b> any is at stake.
+    ${live ? '' : 'Nothing here can win or lose you a penny.'}
+  </div>
+  <div class="stat">
+    <div><b class="${cls(s.total_return_pct)}">${sign(s.total_return_pct)}</b><span>total return</span></div>
+    <div><b>$${s.equity.toFixed(2)}</b><span>equity from $${s.start_capital}</span></div>
+    <div><b class="${cls(s.total_pnl)}">${s.total_pnl>0?'+':''}$${s.total_pnl.toFixed(2)}</b><span>realised P&amp;L</span></div>
+    <div><b>${s.trades_closed}</b><span>trades closed</span></div>
+    <div><b>${s.win_rate}%</b><span>win rate</span></div>
+    <div><b class="${cls(s.median_trade_pct)}">${sign(s.median_trade_pct)}</b><span>median trade</span></div>
+  </div>`;
+
+  if(s.trades_closed < 20){
+    out += `<div class="note">Only <b>${s.trades_closed} closed trades</b> so far.
+      Anything under about 30 is noise — a 100% win rate on 3 trades means
+      nothing. Let it run.</div>`;
+  }
+
+  const eq = (BOT.equity||[]).map(e => [e[0], e[1]]);
+  if(eq.length > 2){
+    const v = eq.map(e => e[1]);
+    const max = Math.max(...v), min = Math.min(...v), rng = (max-min)||1;
+    const W=300,H=44;
+    const line = v.map((n,i) => `${(i/(v.length-1)*W).toFixed(1)},${(H-3-((n-min)/rng)*(H-6)).toFixed(1)}`).join(' ');
+    const col = v[v.length-1] >= v[0] ? 'var(--up)' : 'var(--down)';
+    out += `<h2>Equity</h2>
+      <svg class="spark" style="height:44px" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+        <polyline points="${line}" fill="none" stroke="${col}" stroke-width="2"
+          stroke-linejoin="round"/></svg>
+      <div class="sparklab"><span>${eq.length} checks</span>
+        <span>low $${min.toFixed(2)} · high $${max.toFixed(2)}</span></div>`;
+  }
+
+  out += `<h2>Open — ${(BOT.positions||[]).length}</h2>`;
+  if(!(BOT.positions||[]).length){
+    out += `<div class="empty">Nothing held right now.</div>`;
+  } else {
+    for(const p of BOT.positions){
+      out += `<div class="card">
+        <div class="row1">
+          <span class="sym">${esc(p.symbol)}</span>
+          <span class="exch">${p.qty} sh</span>
+          <span class="px">${money(p.last_price||p.entry_price)}
+            <span class="chg ${cls(p.pnl_pct||0)}">${sign(p.pnl_pct||0)}</span></span>
+        </div>
+        <div class="grid" style="margin-top:9px">
+          <div class="cell"><b>${money(p.entry_price)}</b><span>entry</span></div>
+          <div class="cell"><b>${money(p.stop)}</b><span>stop</span></div>
+          <div class="cell"><b>${money(p.target)}</b><span>target</span></div>
+        </div>
+        <div class="sparklab"><span>opened ${p.entry_ts.slice(5,16).replace('T',' ')}</span>
+          <span class="${cls(p.pnl||0)}">${(p.pnl||0)>0?'+':''}$${(p.pnl||0).toFixed(2)}</span></div>
+      </div>`;
+    }
+  }
+
+  const closed = (BOT.closed||[]).slice().reverse();
+  out += `<h2>Closed — ${closed.length}</h2>`;
+  if(!closed.length){
+    out += `<div class="empty">No completed trades yet.</div>`;
+  } else {
+    for(const c of closed.slice(0,60)){
+      out += `<div class="hrow">
+        <span class="s">${esc(c.symbol)}</span>
+        <span class="d">${c.exit_ts.slice(5,10)}</span>
+        <span class="d" style="width:auto;flex:1">${esc(c.reason)}</span>
+        <span class="v ${cls(c.pnl)}">${c.pnl>0?'+':''}$${c.pnl.toFixed(2)}</span>
+      </div>`;
+    }
+  }
+
+  const rs = Object.entries(s.exit_reasons||{});
+  if(rs.length){
+    out += `<h2>How trades ended</h2><div class="learn">` +
+      rs.sort((a,b)=>b[1]-a[1]).map(([k,v]) => `${esc(k)} — <b>${v}</b>`).join('<br>') +
+      `</div>`;
+  }
+
+  out += `<div class="learn"><h3>What it can't model</h3>
+    It sees prices once an hour, so it can't simulate an intraday stop fill —
+    when a stop is breached it fills at the <b>worse</b> of the stop and the
+    observed price, deliberately pessimistic. Slippage is an estimate, not your
+    broker's real fill. And it assumes your order doesn't move the price, which
+    is roughly true at $100 and stops being true long before $10,000.
+  </div>
+  <div class="learn"><h3>The rule that constrains this most</h3>
+    Under $25,000 equity in a margin account, FINRA's pattern-day-trader rule
+    allows only <b>3 day trades per 5 business days</b>. Buying and selling the
+    same stock the same day is one day trade — which is exactly what this
+    strategy does. The bot counts its own and stops at 3.
+    Used in the last 5 days: <b>${s.day_trades_5d}</b>.
+  </div>`;
+  return out;
+}
+
 function viewLearn(){
   return `
   <div class="note">
@@ -307,7 +414,7 @@ function viewLearn(){
 }
 
 function render(){
-  const v = {hot:viewHot, all:viewAll, record:viewRecord, learn:viewLearn}[TAB];
+  const v = {hot:viewHot, all:viewAll, bot:viewBot, record:viewRecord, learn:viewLearn}[TAB];
   $('#main').innerHTML = v();
   window.scrollTo(0,0);
 }
@@ -320,10 +427,12 @@ document.querySelector('nav').addEventListener('click', e => {
   render();
 });
 
-fetch('data/scan.json?t=' + Date.now())
-  .then(r => r.json())
-  .then(d => {
-    DATA = d;
+Promise.all([
+  fetch('data/scan.json?t=' + Date.now()).then(r => r.json()),
+  fetch('data/portfolio.json?t=' + Date.now()).then(r => r.ok ? r.json() : null).catch(() => null),
+])
+  .then(([d, b]) => {
+    DATA = d; BOT = b;
     const when = new Date(d.generated);
     const mins = Math.round((Date.now() - when) / 60000);
     const ago = mins < 60 ? mins + 'm ago'

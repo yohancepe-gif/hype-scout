@@ -45,13 +45,62 @@ Two things that took some fighting:
   Reading it that way invents a fake `-100% FADING` signal. Absent means
   unknown, and unknown never gets written into the time series.
 
+## The bot
+
+`scripts/trade.py` acts on the `EARLY` signals. One decision engine, two backends:
+
+| Mode | What it does |
+|---|---|
+| `sim` (default) | No broker, no account, no money. Simulates fills against real prices with a spread/slippage model. |
+| `alpaca` | Sends real orders. Paper endpoint unless you explicitly point it elsewhere **and** set `HYPE_TRADER_ALLOW_LIVE=I_UNDERSTAND`. |
+
+Rules: $100 a position, max 5 open, −15% stop, +30% target, sell on
+`PEAKING`/`FADING`, time stop at 5 days. Entry needs `EARLY` + score ≥45 +
+volume ≥1.5× average — a `TALK` (chatter without volume) never gets bought.
+
+Three constraints that shaped the design:
+
+- **Fractional shares can't have bracket legs at Alpaca.** No fractional means
+  no broker-side stop, and a stop that only exists inside an hourly cron isn't a
+  stop. So: whole shares only, which caps entries at $100/share.
+- **PDT.** Under $25,000 in a margin account, FINRA allows **3 day trades per 5
+  business days**. Buy-and-sell-same-day is exactly this strategy, so at $500 of
+  capital this is the binding constraint. The bot counts its own and stops at 3.
+- **The simulator must not flatter the strategy.** Breached stops fill at the
+  *worse* of stop and observed price; sub-$1 names are charged 3% slippage.
+
+Run it:
+
+```bash
+python3 scripts/trade.py && python3 scripts/test_trade.py
+```
+
+### Pointing it at Alpaca paper
+
+You have to do these bits yourself — I can't create accounts or handle keys:
+
+1. Sign up at [alpaca.markets](https://alpaca.markets) and open the **Paper
+   Trading** dashboard (paper accounts are free and come with fake money).
+2. Generate an API key pair. Copy both halves; the secret shows once.
+3. In this repo: **Settings → Secrets and variables → Actions**
+   - *Secrets* tab → add `ALPACA_KEY_ID` and `ALPACA_SECRET_KEY`
+   - *Variables* tab → add `HYPE_TRADER_MODE` = `alpaca`
+4. Actions → *Hype scan* → **Run workflow** to test it.
+
+To switch to real money you would also have to change `ALPACA_BASE_URL` and set
+`HYPE_TRADER_ALLOW_LIVE=I_UNDERSTAND`. The script refuses otherwise. Don't do
+that until the Bot tab has 30+ closed trades to look at.
+
 ## Files
 
 ```
 scripts/scan_hype.py   the scanner (stdlib only, Python 3.9+)
-index.html             the phone app - reads data/scan.json, no build step
+scripts/trade.py       the trading engine (sim or Alpaca)
+scripts/test_trade.py  replay tests for the engine - run before trusting it
+index.html             the phone app - reads data/*.json, no build step
 data/scan.json         current candidates
 data/history.json      per-ticker mention series + every call and its outcome
+data/portfolio.json    the bot's cash, positions, closed trades, equity curve
 .github/workflows/     hourly cron, 7am-7pm ET weekdays
 ```
 

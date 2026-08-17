@@ -29,11 +29,24 @@ jobs:
       - name: Scan social feeds
         run: python3 scripts/scan_hype.py
 
+      - name: Check the trading engine still behaves
+        run: python3 scripts/test_trade.py
+
+      # Paper simulator by default - no broker, no account, no money.
+      # To trade an Alpaca paper account instead, set HYPE_TRADER_MODE to
+      # "alpaca" and add ALPACA_KEY_ID / ALPACA_SECRET_KEY as repo secrets.
+      - name: Trade the signals
+        env:
+          HYPE_TRADER_MODE: ${{ vars.HYPE_TRADER_MODE || 'sim' }}
+          ALPACA_KEY_ID: ${{ secrets.ALPACA_KEY_ID }}
+          ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python3 scripts/trade.py
+
       - name: Commit if changed
         run: |
           git config user.name "hype-scout-bot"
           git config user.email "actions@github.com"
-          git add data/scan.json data/history.json
+          git add data/scan.json data/history.json data/portfolio.json
           git diff --cached --quiet || git commit -m "Scan $(date -u +'%Y-%m-%d %H:%M')"
           # Another run may have pushed while this one was fetching.
           git pull --rebase --autostash origin main || true
