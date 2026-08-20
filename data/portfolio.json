@@ -1,22 +1,8 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 304.845152,
+ "cash": 401.96615199999997,
  "positions": [
-  {
-   "symbol": "CAST",
-   "qty": 58,
-   "entry_price": 1.6985,
-   "entry_ts": "2026-08-19T14:38:32+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 82,
-   "stop": 1.4437,
-   "target": 2.2081,
-   "last_price": 1.8398,
-   "pnl_pct": 8.32,
-   "pnl": 8.2,
-   "high_water": 1.8398
-  },
   {
    "symbol": "RNA",
    "qty": 7,
@@ -32,7 +18,21 @@
    "high_water": 13.806
   }
  ],
- "closed": [],
+ "closed": [
+  {
+   "symbol": "CAST",
+   "qty": 58,
+   "entry_price": 1.6985,
+   "entry_ts": "2026-08-19T14:38:32+00:00",
+   "exit_price": 1.6745,
+   "exit_ts": "2026-08-20T12:57:41+00:00",
+   "reason": "hype rolled over (FADING)",
+   "pnl": -1.39,
+   "pnl_pct": -1.41,
+   "entry_stage": "EARLY",
+   "entry_score": 82
+  }
+ ],
  "equity": [
   [
    "2026-08-17T01:07:55+00:00",
@@ -169,6 +169,10 @@
   [
    "2026-08-20T11:32:38+00:00",
    507.52
+  ],
+  [
+   "2026-08-20T12:57:41+00:00",
+   497.94
   ]
  ],
  "day_trades": [],
@@ -180,22 +184,28 @@
   {
    "ts": "2026-08-19T20:33:36+00:00",
    "msg": "BUY  RNA x7 @ 13.8060 (score 73, relvol 2.2x)"
+  },
+  {
+   "ts": "2026-08-20T12:57:41+00:00",
+   "msg": "SELL CAST x58 @ 1.6745 (hype rolled over (FADING)) -> -1.39"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 507.52,
-  "total_return_pct": 1.5,
-  "cash": 304.85,
-  "open_positions": 2,
-  "trades_closed": 0,
-  "win_rate": 0,
-  "median_trade_pct": 0,
-  "best_pct": 0,
-  "worst_pct": 0,
-  "total_pnl": 0,
-  "exit_reasons": {},
+  "equity": 497.94,
+  "total_return_pct": -0.41,
+  "cash": 401.97,
+  "open_positions": 1,
+  "trades_closed": 1,
+  "win_rate": 0.0,
+  "median_trade_pct": -1.41,
+  "best_pct": -1.41,
+  "worst_pct": -1.41,
+  "total_pnl": -1.39,
+  "exit_reasons": {
+   "hype rolled over (FADING)": 1
+  },
   "day_trades_5d": 0
  }
 }
