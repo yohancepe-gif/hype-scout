@@ -45,6 +45,21 @@ Two things that took some fighting:
   Reading it that way invents a fake `-100% FADING` signal. Absent means
   unknown, and unknown never gets written into the time series.
 
+## Installing it as an app
+
+It's a PWA, so it installs from the browser with no App Store and no signing.
+
+**Mac (Safari):** open the site → menu bar **File → Add to Dock** → Add.
+**Mac (Chrome/Edge):** open the site → the **install icon** in the address bar.
+**iPhone (Safari):** **Share** → **Add to Home Screen**.
+
+You get its own icon, its own window with no browser chrome, and it keeps
+working with no connection — `sw.js` is network-first, so an installed copy
+never quietly shows a stale signal as if it were live. When it does fall back to
+cache it says **"Offline — last saved scan"** across the top.
+
+Icons are generated, not checked in by hand: `python3 scripts/make_icons.py`.
+
 ## The bot
 
 `scripts/trade.py` acts on the `EARLY` signals. One decision engine, two backends:
