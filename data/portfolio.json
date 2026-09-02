@@ -1,8 +1,35 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 495.66563199999996,
- "positions": [],
+ "cash": 296.975692,
+ "positions": [
+  {
+   "symbol": "VIVK",
+   "qty": 108,
+   "entry_price": 0.9203,
+   "entry_ts": "2026-09-02T19:18:46+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 58,
+   "stop": 0.7823,
+   "target": 1.1964,
+   "last_price": 0.8935,
+   "pnl_pct": -2.91,
+   "pnl": -2.89
+  },
+  {
+   "symbol": "GTLB",
+   "qty": 2,
+   "entry_price": 49.6485,
+   "entry_ts": "2026-09-02T19:18:46+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 58,
+   "stop": 42.2012,
+   "target": 64.543,
+   "last_price": 49.5,
+   "pnl_pct": -0.3,
+   "pnl": -0.3
+  }
+ ],
  "closed": [
   {
    "symbol": "CAST",
@@ -487,6 +514,10 @@
   [
    "2026-09-02T15:01:51+00:00",
    495.67
+  ],
+  [
+   "2026-09-02T19:18:46+00:00",
+   492.47
   ]
  ],
  "day_trades": [],
@@ -506,15 +537,23 @@
   {
    "ts": "2026-08-20T21:32:27+00:00",
    "msg": "SELL RNA x7 @ 13.3856 (hype rolled over (FADING)) -> -2.94"
+  },
+  {
+   "ts": "2026-09-02T19:18:46+00:00",
+   "msg": "BUY  VIVK x108 @ 0.9203 (score 58, relvol 5.5x)"
+  },
+  {
+   "ts": "2026-09-02T19:18:46+00:00",
+   "msg": "BUY  GTLB x2 @ 49.6485 (score 58, relvol 5.7x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 495.67,
-  "total_return_pct": -0.87,
-  "cash": 495.67,
-  "open_positions": 0,
+  "equity": 492.47,
+  "total_return_pct": -1.51,
+  "cash": 296.98,
+  "open_positions": 2,
   "trades_closed": 2,
   "win_rate": 0.0,
   "median_trade_pct": -1.41,
