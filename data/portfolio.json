@@ -12,9 +12,10 @@
    "entry_score": 58,
    "stop": 0.7823,
    "target": 1.1964,
-   "last_price": 0.8935,
-   "pnl_pct": -2.91,
-   "pnl": -2.89
+   "last_price": 0.9325,
+   "pnl_pct": 1.33,
+   "pnl": 1.32,
+   "high_water": 0.9325
   },
   {
    "symbol": "GTLB",
@@ -25,9 +26,10 @@
    "entry_score": 58,
    "stop": 42.2012,
    "target": 64.543,
-   "last_price": 49.5,
-   "pnl_pct": -0.3,
-   "pnl": -0.3
+   "last_price": 49.66,
+   "pnl_pct": 0.02,
+   "pnl": 0.02,
+   "high_water": 49.66
   }
  ],
  "closed": [
@@ -518,6 +520,10 @@
   [
    "2026-09-02T19:18:46+00:00",
    492.47
+  ],
+  [
+   "2026-09-02T22:28:32+00:00",
+   497.01
   ]
  ],
  "day_trades": [],
@@ -550,8 +556,8 @@
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 492.47,
-  "total_return_pct": -1.51,
+  "equity": 497.01,
+  "total_return_pct": -0.6,
   "cash": 296.98,
   "open_positions": 2,
   "trades_closed": 2,
