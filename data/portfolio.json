@@ -1,7 +1,7 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 296.975692,
+ "cash": 199.231192,
  "positions": [
   {
    "symbol": "VIVK",
@@ -12,9 +12,9 @@
    "entry_score": 58,
    "stop": 0.7823,
    "target": 1.1964,
-   "last_price": 0.8463,
-   "pnl_pct": -8.04,
-   "pnl": -7.99,
+   "last_price": 0.8657,
+   "pnl_pct": -5.93,
+   "pnl": -5.9,
    "high_water": 0.969
   },
   {
@@ -26,10 +26,23 @@
    "entry_score": 58,
    "stop": 42.2012,
    "target": 64.543,
-   "last_price": 49.7547,
-   "pnl_pct": 0.21,
-   "pnl": 0.21,
+   "last_price": 50.04,
+   "pnl_pct": 0.79,
+   "pnl": 0.78,
    "high_water": 50.08
+  },
+  {
+   "symbol": "AMC",
+   "qty": 36,
+   "entry_price": 2.7151,
+   "entry_ts": "2026-09-04T18:13:09+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 62,
+   "stop": 2.3079,
+   "target": 3.5297,
+   "last_price": 2.675,
+   "pnl_pct": -1.48,
+   "pnl": -1.44
   }
  ],
  "closed": [
@@ -548,6 +561,10 @@
   [
    "2026-09-04T14:54:38+00:00",
    487.89
+  ],
+  [
+   "2026-09-04T18:13:09+00:00",
+   489.11
   ]
  ],
  "day_trades": [],
@@ -575,15 +592,19 @@
   {
    "ts": "2026-09-02T19:18:46+00:00",
    "msg": "BUY  GTLB x2 @ 49.6485 (score 58, relvol 5.7x)"
+  },
+  {
+   "ts": "2026-09-04T18:13:13+00:00",
+   "msg": "BUY  AMC x36 @ 2.7151 (score 62, relvol 1.8x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 487.89,
-  "total_return_pct": -2.42,
-  "cash": 296.98,
-  "open_positions": 2,
+  "equity": 489.11,
+  "total_return_pct": -2.18,
+  "cash": 199.23,
+  "open_positions": 3,
   "trades_closed": 2,
   "win_rate": 0.0,
   "median_trade_pct": -1.41,
