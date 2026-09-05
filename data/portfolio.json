@@ -1,7 +1,7 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 199.231192,
+ "cash": 293.200192,
  "positions": [
   {
    "symbol": "VIVK",
@@ -12,9 +12,9 @@
    "entry_score": 58,
    "stop": 0.7823,
    "target": 1.1964,
-   "last_price": 0.82,
-   "pnl_pct": -10.9,
-   "pnl": -10.83,
+   "last_price": 0.8232,
+   "pnl_pct": -10.55,
+   "pnl": -10.49,
    "high_water": 0.969
   },
   {
@@ -26,24 +26,10 @@
    "entry_score": 58,
    "stop": 42.2012,
    "target": 64.543,
-   "last_price": 49.7008,
-   "pnl_pct": 0.11,
-   "pnl": 0.1,
+   "last_price": 49.83,
+   "pnl_pct": 0.37,
+   "pnl": 0.36,
    "high_water": 50.08
-  },
-  {
-   "symbol": "AMC",
-   "qty": 36,
-   "entry_price": 2.7151,
-   "entry_ts": "2026-09-04T18:13:09+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 62,
-   "stop": 2.3079,
-   "target": 3.5297,
-   "last_price": 2.65,
-   "pnl_pct": -2.4,
-   "pnl": -2.34,
-   "high_water": 2.7151
   }
  ],
  "closed": [
@@ -72,6 +58,19 @@
    "pnl_pct": -3.04,
    "entry_stage": "EARLY",
    "entry_score": 73
+  },
+  {
+   "symbol": "AMC",
+   "qty": 36,
+   "entry_price": 2.7151,
+   "entry_ts": "2026-09-04T18:13:09+00:00",
+   "exit_price": 2.6102,
+   "exit_ts": "2026-09-05T14:53:24+00:00",
+   "reason": "hype rolled over (FADING)",
+   "pnl": -3.77,
+   "pnl_pct": -3.86,
+   "entry_stage": "EARLY",
+   "entry_score": 62
   }
  ],
  "equity": [
@@ -574,6 +573,10 @@
   [
    "2026-09-04T23:50:18+00:00",
    482.59
+  ],
+  [
+   "2026-09-05T14:53:24+00:00",
+   481.77
   ]
  ],
  "day_trades": [],
@@ -605,23 +608,27 @@
   {
    "ts": "2026-09-04T18:13:13+00:00",
    "msg": "BUY  AMC x36 @ 2.7151 (score 62, relvol 1.8x)"
+  },
+  {
+   "ts": "2026-09-05T14:53:27+00:00",
+   "msg": "SELL AMC x36 @ 2.6102 (hype rolled over (FADING)) -> -3.77"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 482.59,
-  "total_return_pct": -3.48,
-  "cash": 199.23,
-  "open_positions": 3,
-  "trades_closed": 2,
+  "equity": 481.77,
+  "total_return_pct": -3.65,
+  "cash": 293.2,
+  "open_positions": 2,
+  "trades_closed": 3,
   "win_rate": 0.0,
-  "median_trade_pct": -1.41,
+  "median_trade_pct": -3.04,
   "best_pct": -1.41,
-  "worst_pct": -3.04,
-  "total_pnl": -4.33,
+  "worst_pct": -3.86,
+  "total_pnl": -8.1,
   "exit_reasons": {
-   "hype rolled over (FADING)": 2
+   "hype rolled over (FADING)": 3
   },
   "day_trades_5d": 0
  }
