@@ -1,8 +1,22 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 478.799644,
- "positions": [],
+ "cash": 421.779094,
+ "positions": [
+  {
+   "symbol": "TTAN",
+   "qty": 1,
+   "entry_price": 57.0205,
+   "entry_ts": "2026-09-09T15:04:32+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 60,
+   "stop": 48.4675,
+   "target": 74.1267,
+   "last_price": 56.85,
+   "pnl_pct": -0.3,
+   "pnl": -0.17
+  }
+ ],
  "closed": [
   {
    "symbol": "CAST",
@@ -622,6 +636,10 @@
   [
    "2026-09-09T01:08:54+00:00",
    478.8
+  ],
+  [
+   "2026-09-09T15:04:32+00:00",
+   478.63
   ]
  ],
  "day_trades": [],
@@ -665,15 +683,19 @@
   {
    "ts": "2026-09-07T20:24:23+00:00",
    "msg": "SELL GTLB x2 @ 49.6805 (time stop, 5 days) -> +0.06"
+  },
+  {
+   "ts": "2026-09-09T15:04:32+00:00",
+   "msg": "BUY  TTAN x1 @ 57.0205 (score 60, relvol 8.2x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 478.8,
-  "total_return_pct": -4.24,
-  "cash": 478.8,
-  "open_positions": 0,
+  "equity": 478.63,
+  "total_return_pct": -4.27,
+  "cash": 421.78,
+  "open_positions": 1,
   "trades_closed": 5,
   "win_rate": 20.0,
   "median_trade_pct": -3.04,
