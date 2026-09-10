@@ -1,7 +1,7 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 332.266864,
+ "cash": 418.83660399999997,
  "positions": [
   {
    "symbol": "TTAN",
@@ -12,24 +12,10 @@
    "entry_score": 60,
    "stop": 48.4675,
    "target": 74.1267,
-   "last_price": 56.445,
-   "pnl_pct": -1.01,
-   "pnl": -0.58,
+   "last_price": 56.131,
+   "pnl_pct": -1.56,
+   "pnl": -0.89,
    "high_water": 57.68
-  },
-  {
-   "symbol": "AEO",
-   "qty": 6,
-   "entry_price": 14.9187,
-   "entry_ts": "2026-09-10T14:56:48+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 58,
-   "stop": 12.6809,
-   "target": 19.3943,
-   "last_price": 14.12,
-   "pnl_pct": -5.35,
-   "pnl": -4.79,
-   "high_water": 14.9187
   }
  ],
  "closed": [
@@ -95,6 +81,19 @@
    "reason": "time stop, 5 days",
    "pnl": 0.06,
    "pnl_pct": 0.06,
+   "entry_stage": "EARLY",
+   "entry_score": 58
+  },
+  {
+   "symbol": "AEO",
+   "qty": 6,
+   "entry_price": 14.9187,
+   "entry_ts": "2026-09-10T14:56:48+00:00",
+   "exit_price": 14.4283,
+   "exit_ts": "2026-09-10T21:29:25+00:00",
+   "reason": "hype rolled over (FADING)",
+   "pnl": -2.94,
+   "pnl_pct": -3.29,
    "entry_stage": "EARLY",
    "entry_score": 58
   }
@@ -675,9 +674,18 @@
   [
    "2026-09-10T18:16:14+00:00",
    473.43
+  ],
+  [
+   "2026-09-10T21:29:25+00:00",
+   474.97
   ]
  ],
- "day_trades": [],
+ "day_trades": [
+  [
+   "2026-09-10",
+   "AEO"
+  ]
+ ],
  "log": [
   {
    "ts": "2026-08-19T14:38:32+00:00",
@@ -726,25 +734,29 @@
   {
    "ts": "2026-09-10T14:56:52+00:00",
    "msg": "BUY  AEO x6 @ 14.9187 (score 58, relvol 1.8x)"
+  },
+  {
+   "ts": "2026-09-10T21:29:29+00:00",
+   "msg": "SELL AEO x6 @ 14.4283 (hype rolled over (FADING)) -> -2.94"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 473.43,
-  "total_return_pct": -5.31,
-  "cash": 332.27,
-  "open_positions": 2,
-  "trades_closed": 5,
-  "win_rate": 20.0,
+  "equity": 474.97,
+  "total_return_pct": -5.01,
+  "cash": 418.84,
+  "open_positions": 1,
+  "trades_closed": 6,
+  "win_rate": 16.7,
   "median_trade_pct": -3.04,
   "best_pct": 0.06,
   "worst_pct": -13.23,
-  "total_pnl": -21.19,
+  "total_pnl": -24.13,
   "exit_reasons": {
-   "hype rolled over (FADING)": 3,
+   "hype rolled over (FADING)": 4,
    "time stop": 2
   },
-  "day_trades_5d": 0
+  "day_trades_5d": 1
  }
 }

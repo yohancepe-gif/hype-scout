@@ -1,799 +1,62 @@
 {
- "generated": "2026-09-10T18:14:56+00:00",
- "universe_size": 5783,
+ "generated": "2026-09-10T21:28:51+00:00",
+ "universe_size": 5784,
  "sources": {
-  "apewisdom": 371,
-  "reddit_live": 57,
-  "fourchan": 29
+  "apewisdom": 366,
+  "reddit_live": 64,
+  "fourchan": 32
  },
- "considered": 42,
+ "considered": 39,
  "candidates": [
-  {
-   "symbol": "AVAV",
-   "name": "AeroVironment Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Industrials",
-   "price": 154.15,
-   "pct_change": 9.48,
-   "volume": 6755712,
-   "dollar_volume": 1041393004,
-   "market_cap": 7834306102,
-   "mentions": 65,
-   "mentions_24h_ago": 16,
-   "in_apewisdom": true,
-   "upvotes": 122,
-   "accel": 3.3,
-   "rank": 8,
-   "rank_jump": 37,
-   "live_mentions": 0,
-   "sources": {
-    "wallstreetbets": 65,
-    "stocks": 1
-   },
-   "source_count": 2,
-   "posts": [],
-   "first_seen": "2026-09-09T15:02:55+00:00",
-   "first_price": 142.324,
-   "pct_since_first_seen": 8.3,
-   "shares_per_100": 0.65,
-   "rel_volume": 5.5,
-   "high_30d": 196.02,
-   "hype_score": 56,
-   "stage": "EARLY",
-   "stage_note": "Mentions 3x in 24h and the price has not caught up yet. This is the only stage where you are not the exit liquidity - and most of these still go nowhere.",
-   "off_mention_peak": -5.8,
-   "peak_mentions": 69,
-   "series": [
-    [
-     "09-09T15:02",
-     12
-    ],
-    [
-     "09-09T19:09",
-     22
-    ],
-    [
-     "09-09T22:22",
-     52
-    ],
-    [
-     "09-10T00:55",
-     52
-    ],
-    [
-     "09-10T14:55",
-     69
-    ],
-    [
-     "09-10T18:14",
-     65
-    ]
-   ],
-   "flags": [
-    {
-     "text": "$100 buys 0.65 shares - needs a broker that does fractionals",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "SWRD",
-   "name": "Stewards Inc",
-   "exchange": "NASDAQ",
-   "sector": "",
-   "price": 2.231,
-   "pct_change": -45.59,
-   "volume": 1752368,
-   "dollar_volume": 3909533,
-   "market_cap": 471075567,
-   "mentions": 0,
-   "mentions_24h_ago": 0,
-   "in_apewisdom": false,
-   "upvotes": 0,
-   "accel": 1.0,
-   "rank": 999,
-   "rank_jump": 0,
-   "live_mentions": 8,
-   "sources": {
-    "reddit-live": 8
-   },
-   "source_count": 1,
-   "posts": [
-    {
-     "sub": "pennystocks",
-     "title": "$SWRD NQ Approved starting tomorrow 9/10!"
-    }
-   ],
-   "first_seen": "2026-09-10T18:14:56+00:00",
-   "first_price": 2.231,
-   "pct_since_first_seen": 0.0,
-   "shares_per_100": 44.82,
-   "rel_volume": 259.6,
-   "high_30d": 4.55,
-   "hype_score": 40,
-   "stage": "FRESH",
-   "stage_note": "Just appeared in live Reddit/4chan posts (8 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 1,
-   "series": [],
-   "flags": []
-  },
-  {
-   "symbol": "GME",
-   "name": "GameStop Corporation",
-   "exchange": "NYSE",
-   "sector": "Consumer Discretionary",
-   "price": 20.48,
-   "pct_change": 2.97,
-   "volume": 5780650,
-   "dollar_volume": 118387712,
-   "market_cap": 9189196943,
-   "mentions": 1,
-   "mentions_24h_ago": 0,
-   "in_apewisdom": true,
-   "upvotes": 0,
-   "accel": 1.2,
-   "rank": 999,
-   "rank_jump": 0,
-   "live_mentions": 12,
-   "sources": {
-    "pennystocks": 1,
-    "Shortsqueeze": 1,
-    "options": 1,
-    "wallstreetbetsELITE": 1,
-    "SPACs": 1,
-    "StockMarket": 1,
-    "4chan": 11,
-    "reddit-live": 1
-   },
-   "source_count": 8,
-   "posts": [
-    {
-     "sub": "Daytrading",
-     "title": "No live trades today \u2014 but this may have been one of my best process days"
-    }
-   ],
-   "first_seen": "2026-08-12T01:07:52+00:00",
-   "first_price": 18.82,
-   "pct_since_first_seen": 8.8,
-   "shares_per_100": 4.88,
-   "rel_volume": 0.8,
-   "high_30d": 22.16,
-   "hype_score": 26,
-   "stage": "FRESH",
-   "stage_note": "Just appeared in live Reddit/4chan posts (12 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 9,
-   "series": [
-    [
-     "09-03T01:01",
-     8
-    ],
-    [
-     "09-03T14:55",
-     8
-    ],
-    [
-     "09-03T18:25",
-     1
-    ],
-    [
-     "09-03T21:35",
-     1
-    ],
-    [
-     "09-03T23:52",
-     1
-    ],
-    [
-     "09-04T14:52",
-     1
-    ],
-    [
-     "09-04T18:12",
-     1
-    ],
-    [
-     "09-04T21:18",
-     1
-    ],
-    [
-     "09-04T23:49",
-     1
-    ],
-    [
-     "09-05T14:51",
-     4
-    ],
-    [
-     "09-05T18:00",
-     3
-    ],
-    [
-     "09-05T21:58",
-     1
-    ],
-    [
-     "09-06T15:11",
-     1
-    ],
-    [
-     "09-06T18:07",
-     1
-    ],
-    [
-     "09-06T22:00",
-     1
-    ],
-    [
-     "09-08T19:20",
-     1
-    ],
-    [
-     "09-08T22:28",
-     1
-    ],
-    [
-     "09-09T01:06",
-     1
-    ],
-    [
-     "09-09T15:02",
-     1
-    ],
-    [
-     "09-09T19:09",
-     7
-    ],
-    [
-     "09-09T22:22",
-     9
-    ],
-    [
-     "09-10T00:55",
-     8
-    ],
-    [
-     "09-10T14:55",
-     5
-    ],
-    [
-     "09-10T18:14",
-     1
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Showing up on 8 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "EONR",
-   "name": "EON Resources Inc. Class A",
-   "exchange": "AMEX",
-   "sector": "Energy",
-   "price": 0.6235,
-   "pct_change": 5.86,
-   "volume": 1251525,
-   "dollar_volume": 780325,
-   "market_cap": 31155262,
-   "mentions": 0,
-   "mentions_24h_ago": 0,
-   "in_apewisdom": false,
-   "upvotes": 0,
-   "accel": 1.0,
-   "rank": 999,
-   "rank_jump": 0,
-   "live_mentions": 9,
-   "sources": {
-    "reddit-live": 9
-   },
-   "source_count": 1,
-   "posts": [
-    {
-     "sub": "pennystocks",
-     "title": "$EONR Eon Resources surges on Oil increase"
-    }
-   ],
-   "first_seen": "2026-09-10T18:14:56+00:00",
-   "first_price": 0.6235,
-   "pct_since_first_seen": 0.0,
-   "shares_per_100": 160.38,
-   "rel_volume": 2.2,
-   "high_30d": 0.576,
-   "hype_score": 26,
-   "stage": "FRESH",
-   "stage_note": "Just appeared in live Reddit/4chan posts (9 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 1,
-   "series": [],
-   "flags": [
-    {
-     "text": "Sub-$1 - the bid/ask spread alone can cost 5-15% round trip",
-     "level": "high"
-    },
-    {
-     "text": "Thin - under $2M traded today, easy to get stuck in",
-     "level": "high"
-    },
-    {
-     "text": "Nano-cap - a single seller can move this 20%",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "IBM",
-   "name": "International Business Machines Corporation",
-   "exchange": "NYSE",
-   "sector": "Technology",
-   "price": 234.745,
-   "pct_change": -2.17,
-   "volume": 2580138,
-   "dollar_volume": 605674494,
-   "market_cap": 221161337381,
-   "mentions": 1,
-   "mentions_24h_ago": 0,
-   "in_apewisdom": true,
-   "upvotes": 0,
-   "accel": 1.2,
-   "rank": 999,
-   "rank_jump": 0,
-   "live_mentions": 11,
-   "sources": {
-    "stocks": 1,
-    "StockMarket": 1,
-    "reddit-live": 11
-   },
-   "source_count": 3,
-   "posts": [
-    {
-     "sub": "stocks",
-     "title": "$IBM and $LMT Lockheed Martin Announce Swiss Quantum Innovation Hub at ETH Zurich, Anchored by Switzerland's First IBM Quantum Computer"
-    }
-   ],
-   "first_seen": "2026-09-10T18:14:56+00:00",
-   "first_price": 234.745,
-   "pct_since_first_seen": 0.0,
-   "shares_per_100": 0.43,
-   "rel_volume": 0.4,
-   "high_30d": 238.79,
-   "hype_score": 19,
-   "stage": "FRESH",
-   "stage_note": "Just appeared in live Reddit/4chan posts (11 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 1,
-   "series": [
-    [
-     "09-10T18:14",
-     1
-    ]
-   ],
-   "flags": [
-    {
-     "text": "$100 buys 0.43 shares - needs a broker that does fractionals",
-     "level": "med"
-    },
-    {
-     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "TV",
-   "name": "Grupo Televisa S.A.B.",
-   "exchange": "NYSE",
-   "sector": "Industrials",
-   "price": 2.375,
-   "pct_change": -0.21,
-   "volume": 1000077,
-   "dollar_volume": 2375182,
-   "market_cap": 1465763550,
-   "mentions": 0,
-   "mentions_24h_ago": 0,
-   "in_apewisdom": false,
-   "upvotes": 0,
-   "accel": 1.0,
-   "rank": 999,
-   "rank_jump": 0,
-   "live_mentions": 6,
-   "sources": {
-    "4chan": 6
-   },
-   "source_count": 1,
-   "posts": [],
-   "first_seen": "2026-09-10T18:14:56+00:00",
-   "first_price": 2.375,
-   "pct_since_first_seen": 0.0,
-   "shares_per_100": 42.11,
-   "rel_volume": 1.0,
-   "high_30d": 2.9,
-   "hype_score": 19,
-   "stage": "FRESH",
-   "stage_note": "Just appeared in live Reddit/4chan posts (6 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 1,
-   "series": [],
-   "flags": []
-  },
-  {
-   "symbol": "CCS",
-   "name": "Century Communities Inc.",
-   "exchange": "NYSE",
-   "sector": "Consumer Discretionary",
-   "price": 59.865,
-   "pct_change": -3.83,
-   "volume": 90595,
-   "dollar_volume": 5423469,
-   "market_cap": 1702135559,
-   "mentions": 0,
-   "mentions_24h_ago": 0,
-   "in_apewisdom": false,
-   "upvotes": 0,
-   "accel": 1.0,
-   "rank": 999,
-   "rank_jump": 0,
-   "live_mentions": 8,
-   "sources": {
-    "reddit-live": 8
-   },
-   "source_count": 1,
-   "posts": [
-    {
-     "sub": "Daytrading",
-     "title": "SPX 0DTE Credit Spreads: The PCS Never Came and Chasing It Could Have Been Mistake +$420"
-    }
-   ],
-   "first_seen": "2026-08-29T16:27:38+00:00",
-   "first_price": 69.16,
-   "pct_since_first_seen": -13.4,
-   "shares_per_100": 1.67,
-   "rel_volume": 0.4,
-   "high_30d": 71.76,
-   "hype_score": 17,
-   "stage": "FRESH",
-   "stage_note": "Just appeared in live Reddit/4chan posts (8 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 3,
-   "series": [
-    [
-     "08-29T16:27",
-     1
-    ],
-    [
-     "08-29T22:29",
-     2
-    ],
-    [
-     "09-03T14:55",
-     1
-    ],
-    [
-     "09-05T14:51",
-     1
-    ],
-    [
-     "09-05T18:00",
-     3
-    ],
-    [
-     "09-05T21:58",
-     1
-    ]
-   ],
-   "flags": []
-  },
-  {
-   "symbol": "IEP",
-   "name": "Icahn Enterprises L.P.",
-   "exchange": "NASDAQ",
-   "sector": "Energy",
-   "price": 6.845,
-   "pct_change": 0.22,
-   "volume": 400194,
-   "dollar_volume": 2739327,
-   "market_cap": 4866213812,
-   "mentions": 0,
-   "mentions_24h_ago": 0,
-   "in_apewisdom": false,
-   "upvotes": 0,
-   "accel": 1.0,
-   "rank": 999,
-   "rank_jump": 0,
-   "live_mentions": 6,
-   "sources": {
-    "4chan": 6
-   },
-   "source_count": 1,
-   "posts": [],
-   "first_seen": "2026-09-10T18:14:56+00:00",
-   "first_price": 6.845,
-   "pct_since_first_seen": 0.0,
-   "shares_per_100": 14.61,
-   "rel_volume": 0.3,
-   "high_30d": 7.83,
-   "hype_score": 12,
-   "stage": "FRESH",
-   "stage_note": "Just appeared in live Reddit/4chan posts (6 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 1,
-   "series": [],
-   "flags": []
-  },
-  {
-   "symbol": "UBS",
-   "name": "UBS Group AG Registered Ordinary Shares",
-   "exchange": "NYSE",
-   "sector": "Finance",
-   "price": 53.92,
-   "pct_change": -1.68,
-   "volume": 598946,
-   "dollar_volume": 32295168,
-   "market_cap": 167337229165,
-   "mentions": 0,
-   "mentions_24h_ago": 0,
-   "in_apewisdom": false,
-   "upvotes": 0,
-   "accel": 1.0,
-   "rank": 999,
-   "rank_jump": 0,
-   "live_mentions": 9,
-   "sources": {
-    "reddit-live": 9
-   },
-   "source_count": 1,
-   "posts": [
-    {
-     "sub": "stocks",
-     "title": "UBS CEO flags investor complacency as geopolitical and economic risks mount"
-    }
-   ],
-   "first_seen": "2026-09-10T18:14:56+00:00",
-   "first_price": 53.92,
-   "pct_since_first_seen": 0.0,
-   "shares_per_100": 1.85,
-   "rel_volume": 0.4,
-   "high_30d": 55.72,
-   "hype_score": 12,
-   "stage": "FRESH",
-   "stage_note": "Just appeared in live Reddit/4chan posts (9 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 1,
-   "series": [],
-   "flags": [
-    {
-     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "WTI",
-   "name": "W&T Offshore Inc.",
-   "exchange": "NYSE",
-   "sector": "Energy",
-   "price": 4.22,
-   "pct_change": 3.94,
-   "volume": 3182104,
-   "dollar_volume": 13428478,
-   "market_cap": 636979257,
-   "mentions": 29,
-   "mentions_24h_ago": 6,
-   "in_apewisdom": true,
-   "upvotes": 83,
-   "accel": 3.1,
-   "rank": 18,
-   "rank_jump": 72,
-   "live_mentions": 0,
-   "sources": {
-    "wallstreetbets": 27,
-    "pennystocks": 1,
-    "wallstreetbetsELITE": 1,
-    "StockMarket": 1,
-    "investing": 1,
-    "4chan": 2
-   },
-   "source_count": 6,
-   "posts": [],
-   "first_seen": "2026-09-01T22:29:16+00:00",
-   "first_price": 3.85,
-   "pct_since_first_seen": 9.6,
-   "shares_per_100": 23.7,
-   "rel_volume": 0.9,
-   "high_30d": 4.01,
-   "hype_score": 46,
-   "stage": "TALK",
-   "stage_note": "Mentions 3x but volume is normal (0.9x). People are posting, nobody is buying. This is the most common false alarm on this list.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 29,
-   "series": [
-    [
-     "09-01T22:29",
-     11
-    ],
-    [
-     "09-02T00:54",
-     11
-    ],
-    [
-     "09-02T15:01",
-     11
-    ],
-    [
-     "09-09T22:22",
-     11
-    ],
-    [
-     "09-10T00:55",
-     11
-    ],
-    [
-     "09-10T14:55",
-     24
-    ],
-    [
-     "09-10T18:14",
-     29
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Loud on Reddit but volume is normal - talk without buying",
-     "level": "high"
-    },
-    {
-     "text": "Showing up on 6 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "ADBE",
-   "name": "Adobe Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Technology",
-   "price": 247.82,
-   "pct_change": -2.76,
-   "volume": 4267206,
-   "dollar_volume": 1057498990,
-   "market_cap": 98508450000,
-   "mentions": 24,
-   "mentions_24h_ago": 2,
-   "in_apewisdom": true,
-   "upvotes": 39,
-   "accel": 4.1,
-   "rank": 25,
-   "rank_jump": 189,
-   "live_mentions": 3,
-   "sources": {
-    "wallstreetbets": 22,
-    "stocks": 1,
-    "4chan": 1,
-    "reddit-live": 3
-   },
-   "source_count": 4,
-   "posts": [
-    {
-     "sub": "Shortsqueeze",
-     "title": "SqueezeFinder - Sept 10th 2026"
-    }
-   ],
-   "first_seen": "2026-08-29T22:29:34+00:00",
-   "first_price": 291.52,
-   "pct_since_first_seen": -15.0,
-   "shares_per_100": 0.4,
-   "rel_volume": 0.9,
-   "high_30d": 292.79,
-   "hype_score": 45,
-   "stage": "TALK",
-   "stage_note": "Mentions 4x but volume is normal (0.9x). People are posting, nobody is buying. This is the most common false alarm on this list.",
-   "off_mention_peak": 0.0,
-   "peak_mentions": 24,
-   "series": [
-    [
-     "08-29T22:29",
-     1
-    ],
-    [
-     "09-04T14:52",
-     11
-    ],
-    [
-     "09-04T18:12",
-     13
-    ],
-    [
-     "09-04T21:18",
-     11
-    ],
-    [
-     "09-04T23:49",
-     11
-    ],
-    [
-     "09-10T14:55",
-     18
-    ],
-    [
-     "09-10T18:14",
-     24
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Loud on Reddit but volume is normal - talk without buying",
-     "level": "high"
-    },
-    {
-     "text": "$100 buys 0.40 shares - needs a broker that does fractionals",
-     "level": "med"
-    },
-    {
-     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
-     "level": "med"
-    },
-    {
-     "text": "Showing up on 4 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
-  },
   {
    "symbol": "ORCL",
    "name": "Oracle Corporation",
    "exchange": "NYSE",
    "sector": "Technology",
-   "price": 156.05,
-   "pct_change": -3.45,
-   "volume": 21389320,
-   "dollar_volume": 3337803386,
-   "market_cap": 449497499550,
-   "mentions": 84,
-   "mentions_24h_ago": 20,
+   "price": 152.94,
+   "pct_change": -5.38,
+   "volume": 51017776,
+   "dollar_volume": 7802658661,
+   "market_cap": 440539234740,
+   "mentions": 215,
+   "mentions_24h_ago": 35,
    "in_apewisdom": true,
-   "upvotes": 153,
-   "accel": 3.6,
-   "rank": 5,
-   "rank_jump": 21,
-   "live_mentions": 16,
+   "upvotes": 464,
+   "accel": 5.5,
+   "rank": 2,
+   "rank_jump": 23,
+   "live_mentions": 4,
    "sources": {
-    "wallstreetbets": 80,
+    "wallstreetbets": 210,
     "stocks": 1,
-    "options": 1,
+    "options": 2,
     "StockMarket": 1,
-    "4chan": 5,
-    "reddit-live": 16
+    "4chan": 6,
+    "reddit-live": 4
    },
    "source_count": 6,
    "posts": [
     {
-     "sub": "Shortsqueeze",
-     "title": "SqueezeFinder - Sept 10th 2026"
+     "sub": "wallstreetbets",
+     "title": "ORCL small but sizable yolo"
     },
     {
-     "sub": "stocks",
-     "title": "ORCL reports tomorrow after close, Missed EPS 7 of last 8 quarters."
+     "sub": "Shortsqueeze",
+     "title": "SqueezeFinder - Sept 10th 2026"
     }
    ],
    "first_seen": "2026-08-13T00:09:09+00:00",
    "first_price": 153.28,
-   "pct_since_first_seen": 1.8,
-   "shares_per_100": 0.64,
-   "rel_volume": 0.8,
+   "pct_since_first_seen": -0.2,
+   "shares_per_100": 0.65,
+   "rel_volume": 1.9,
    "high_30d": 162.52,
-   "hype_score": 41,
-   "stage": "TALK",
-   "stage_note": "Mentions 4x but volume is normal (0.8x). People are posting, nobody is buying. This is the most common false alarm on this list.",
+   "hype_score": 57,
+   "stage": "EARLY",
+   "stage_note": "Mentions 6x in 24h and the price has not caught up yet. This is the only stage where you are not the exit liquidity - and most of these still go nowhere.",
    "off_mention_peak": 0.0,
-   "peak_mentions": 84,
+   "peak_mentions": 215,
    "series": [
-    [
-     "08-27T04:27",
-     16
-    ],
     [
      "08-27T20:56",
      12
@@ -885,15 +148,15 @@
     [
      "09-10T18:14",
      84
+    ],
+    [
+     "09-10T21:28",
+     215
     ]
    ],
    "flags": [
     {
-     "text": "Loud on Reddit but volume is normal - talk without buying",
-     "level": "high"
-    },
-    {
-     "text": "$100 buys 0.64 shares - needs a broker that does fractionals",
+     "text": "$100 buys 0.65 shares - needs a broker that does fractionals",
      "level": "med"
     },
     {
@@ -907,25 +170,811 @@
    ]
   },
   {
+   "symbol": "ADBE",
+   "name": "Adobe Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Technology",
+   "price": 248.83,
+   "pct_change": -2.37,
+   "volume": 9916470,
+   "dollar_volume": 2467515230,
+   "market_cap": 98909925000,
+   "mentions": 42,
+   "mentions_24h_ago": 4,
+   "in_apewisdom": true,
+   "upvotes": 84,
+   "accel": 5.2,
+   "rank": 12,
+   "rank_jump": 137,
+   "live_mentions": 3,
+   "sources": {
+    "wallstreetbets": 41,
+    "stocks": 1,
+    "4chan": 1,
+    "reddit-live": 3
+   },
+   "source_count": 4,
+   "posts": [
+    {
+     "sub": "Shortsqueeze",
+     "title": "SqueezeFinder - Sept 10th 2026"
+    }
+   ],
+   "first_seen": "2026-08-29T22:29:34+00:00",
+   "first_price": 291.52,
+   "pct_since_first_seen": -14.6,
+   "shares_per_100": 0.4,
+   "rel_volume": 2.1,
+   "high_30d": 292.79,
+   "hype_score": 56,
+   "stage": "EARLY",
+   "stage_note": "Mentions 5x in 24h and the price has not caught up yet. This is the only stage where you are not the exit liquidity - and most of these still go nowhere.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 42,
+   "series": [
+    [
+     "08-29T22:29",
+     1
+    ],
+    [
+     "09-04T14:52",
+     11
+    ],
+    [
+     "09-04T18:12",
+     13
+    ],
+    [
+     "09-04T21:18",
+     11
+    ],
+    [
+     "09-04T23:49",
+     11
+    ],
+    [
+     "09-10T14:55",
+     18
+    ],
+    [
+     "09-10T18:14",
+     24
+    ],
+    [
+     "09-10T21:28",
+     42
+    ]
+   ],
+   "flags": [
+    {
+     "text": "$100 buys 0.40 shares - needs a broker that does fractionals",
+     "level": "med"
+    },
+    {
+     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
+     "level": "med"
+    },
+    {
+     "text": "Showing up on 4 separate boards at once - either real news or a coordinated push",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "WTI",
+   "name": "W&T Offshore Inc.",
+   "exchange": "NYSE",
+   "sector": "Energy",
+   "price": 4.19,
+   "pct_change": 3.2,
+   "volume": 5470087,
+   "dollar_volume": 22919664,
+   "market_cap": 632450969,
+   "mentions": 31,
+   "mentions_24h_ago": 7,
+   "in_apewisdom": true,
+   "upvotes": 90,
+   "accel": 3.0,
+   "rank": 17,
+   "rank_jump": 61,
+   "live_mentions": 2,
+   "sources": {
+    "wallstreetbets": 29,
+    "pennystocks": 1,
+    "wallstreetbetsELITE": 1,
+    "StockMarket": 1,
+    "investing": 1,
+    "4chan": 2,
+    "reddit-live": 2
+   },
+   "source_count": 7,
+   "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "Oil Superglut wen?"
+    }
+   ],
+   "first_seen": "2026-09-01T22:29:16+00:00",
+   "first_price": 3.85,
+   "pct_since_first_seen": 8.8,
+   "shares_per_100": 23.87,
+   "rel_volume": 1.5,
+   "high_30d": 4.01,
+   "hype_score": 49,
+   "stage": "EARLY",
+   "stage_note": "Mentions 3x in 24h and the price has not caught up yet. This is the only stage where you are not the exit liquidity - and most of these still go nowhere.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 31,
+   "series": [
+    [
+     "09-01T22:29",
+     11
+    ],
+    [
+     "09-02T00:54",
+     11
+    ],
+    [
+     "09-02T15:01",
+     11
+    ],
+    [
+     "09-09T22:22",
+     11
+    ],
+    [
+     "09-10T00:55",
+     11
+    ],
+    [
+     "09-10T14:55",
+     24
+    ],
+    [
+     "09-10T18:14",
+     29
+    ],
+    [
+     "09-10T21:28",
+     31
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Showing up on 7 separate boards at once - either real news or a coordinated push",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "EONR",
+   "name": "EON Resources Inc. Class A",
+   "exchange": "AMEX",
+   "sector": "Energy",
+   "price": 0.614,
+   "pct_change": 4.24,
+   "volume": 1634478,
+   "dollar_volume": 1003569,
+   "market_cap": 30680563,
+   "mentions": 0,
+   "mentions_24h_ago": 0,
+   "in_apewisdom": false,
+   "upvotes": 0,
+   "accel": 1.0,
+   "rank": 999,
+   "rank_jump": 0,
+   "live_mentions": 9,
+   "sources": {
+    "reddit-live": 9
+   },
+   "source_count": 1,
+   "posts": [
+    {
+     "sub": "pennystocks",
+     "title": "$EONR Eon Resources surges on Oil increase"
+    }
+   ],
+   "first_seen": "2026-09-10T21:28:51+00:00",
+   "first_price": 0.614,
+   "pct_since_first_seen": 0.0,
+   "shares_per_100": 162.87,
+   "rel_volume": 2.9,
+   "high_30d": 0.576,
+   "hype_score": 30,
+   "stage": "FRESH",
+   "stage_note": "Just appeared in live Reddit/4chan posts (9 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 1,
+   "series": [],
+   "flags": [
+    {
+     "text": "Sub-$1 - the bid/ask spread alone can cost 5-15% round trip",
+     "level": "high"
+    },
+    {
+     "text": "Thin - under $2M traded today, easy to get stuck in",
+     "level": "high"
+    },
+    {
+     "text": "Nano-cap - a single seller can move this 20%",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "GME",
+   "name": "GameStop Corporation",
+   "exchange": "NYSE",
+   "sector": "Consumer Discretionary",
+   "price": 20.39,
+   "pct_change": 2.51,
+   "volume": 10519307,
+   "dollar_volume": 214488669,
+   "market_cap": 9148814730,
+   "mentions": 1,
+   "mentions_24h_ago": 0,
+   "in_apewisdom": true,
+   "upvotes": 0,
+   "accel": 1.2,
+   "rank": 999,
+   "rank_jump": 0,
+   "live_mentions": 11,
+   "sources": {
+    "pennystocks": 1,
+    "Shortsqueeze": 1,
+    "options": 1,
+    "wallstreetbetsELITE": 1,
+    "SPACs": 1,
+    "StockMarket": 1,
+    "4chan": 11
+   },
+   "source_count": 7,
+   "posts": [],
+   "first_seen": "2026-08-12T01:07:52+00:00",
+   "first_price": 18.82,
+   "pct_since_first_seen": 8.3,
+   "shares_per_100": 4.9,
+   "rel_volume": 1.5,
+   "high_30d": 22.16,
+   "hype_score": 29,
+   "stage": "FRESH",
+   "stage_note": "Just appeared in live Reddit/4chan posts (11 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 9,
+   "series": [
+    [
+     "09-03T14:55",
+     8
+    ],
+    [
+     "09-03T18:25",
+     1
+    ],
+    [
+     "09-03T21:35",
+     1
+    ],
+    [
+     "09-03T23:52",
+     1
+    ],
+    [
+     "09-04T14:52",
+     1
+    ],
+    [
+     "09-04T18:12",
+     1
+    ],
+    [
+     "09-04T21:18",
+     1
+    ],
+    [
+     "09-04T23:49",
+     1
+    ],
+    [
+     "09-05T14:51",
+     4
+    ],
+    [
+     "09-05T18:00",
+     3
+    ],
+    [
+     "09-05T21:58",
+     1
+    ],
+    [
+     "09-06T15:11",
+     1
+    ],
+    [
+     "09-06T18:07",
+     1
+    ],
+    [
+     "09-06T22:00",
+     1
+    ],
+    [
+     "09-08T19:20",
+     1
+    ],
+    [
+     "09-08T22:28",
+     1
+    ],
+    [
+     "09-09T01:06",
+     1
+    ],
+    [
+     "09-09T15:02",
+     1
+    ],
+    [
+     "09-09T19:09",
+     7
+    ],
+    [
+     "09-09T22:22",
+     9
+    ],
+    [
+     "09-10T00:55",
+     8
+    ],
+    [
+     "09-10T14:55",
+     5
+    ],
+    [
+     "09-10T18:14",
+     1
+    ],
+    [
+     "09-10T21:28",
+     1
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Showing up on 7 separate boards at once - either real news or a coordinated push",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "TV",
+   "name": "Grupo Televisa S.A.B.",
+   "exchange": "NYSE",
+   "sector": "Industrials",
+   "price": 2.37,
+   "pct_change": -0.42,
+   "volume": 2070934,
+   "dollar_volume": 4908113,
+   "market_cap": 1462677732,
+   "mentions": 0,
+   "mentions_24h_ago": 0,
+   "in_apewisdom": false,
+   "upvotes": 0,
+   "accel": 1.0,
+   "rank": 999,
+   "rank_jump": 0,
+   "live_mentions": 6,
+   "sources": {
+    "4chan": 6
+   },
+   "source_count": 1,
+   "posts": [],
+   "first_seen": "2026-09-10T21:28:51+00:00",
+   "first_price": 2.37,
+   "pct_since_first_seen": 0.0,
+   "shares_per_100": 42.19,
+   "rel_volume": 2.1,
+   "high_30d": 2.9,
+   "hype_score": 24,
+   "stage": "FRESH",
+   "stage_note": "Just appeared in live Reddit/4chan posts (6 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 1,
+   "series": [],
+   "flags": []
+  },
+  {
+   "symbol": "IBM",
+   "name": "International Business Machines Corporation",
+   "exchange": "NYSE",
+   "sector": "Technology",
+   "price": 234.02,
+   "pct_change": -2.47,
+   "volume": 5353112,
+   "dollar_volume": 1252735270,
+   "market_cap": 220478289948,
+   "mentions": 1,
+   "mentions_24h_ago": 0,
+   "in_apewisdom": true,
+   "upvotes": 0,
+   "accel": 1.2,
+   "rank": 999,
+   "rank_jump": 0,
+   "live_mentions": 11,
+   "sources": {
+    "stocks": 1,
+    "StockMarket": 1,
+    "reddit-live": 11
+   },
+   "source_count": 3,
+   "posts": [
+    {
+     "sub": "stocks",
+     "title": "$IBM and $LMT Lockheed Martin Announce Swiss Quantum Innovation Hub at ETH Zurich, Anchored by Switzerland's First IBM Quantum Computer"
+    }
+   ],
+   "first_seen": "2026-09-10T18:14:56+00:00",
+   "first_price": 234.745,
+   "pct_since_first_seen": -0.3,
+   "shares_per_100": 0.43,
+   "rel_volume": 0.9,
+   "high_30d": 238.79,
+   "hype_score": 21,
+   "stage": "FRESH",
+   "stage_note": "Just appeared in live Reddit/4chan posts (11 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 1,
+   "series": [
+    [
+     "09-10T18:14",
+     1
+    ],
+    [
+     "09-10T21:28",
+     1
+    ]
+   ],
+   "flags": [
+    {
+     "text": "$100 buys 0.43 shares - needs a broker that does fractionals",
+     "level": "med"
+    },
+    {
+     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "DECK",
+   "name": "Deckers Outdoor Corporation",
+   "exchange": "NYSE",
+   "sector": "Consumer Discretionary",
+   "price": 79.88,
+   "pct_change": -0.44,
+   "volume": 2802465,
+   "dollar_volume": 223860904,
+   "market_cap": 10896768453,
+   "mentions": 0,
+   "mentions_24h_ago": 0,
+   "in_apewisdom": false,
+   "upvotes": 0,
+   "accel": 1.0,
+   "rank": 999,
+   "rank_jump": 0,
+   "live_mentions": 16,
+   "sources": {
+    "reddit-live": 16
+   },
+   "source_count": 1,
+   "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "$DECK DD: Hoka is taking over the trail and the stock is dirt cheap (11 P/E)"
+    },
+    {
+     "sub": "stocks",
+     "title": "Past month: ADS -15 %, NKE -12 %, ONON -31 %, DKS -38 %, DECK -18 %, LULU -22 %."
+    }
+   ],
+   "first_seen": "2026-09-10T21:28:51+00:00",
+   "first_price": 79.88,
+   "pct_since_first_seen": 0.0,
+   "shares_per_100": 1.25,
+   "rel_volume": 1.1,
+   "high_30d": 103.92,
+   "hype_score": 19,
+   "stage": "FRESH",
+   "stage_note": "Just appeared in live Reddit/4chan posts (16 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 1,
+   "series": [],
+   "flags": []
+  },
+  {
+   "symbol": "TENX",
+   "name": "Tenax Therapeutics Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Health Care",
+   "price": 1.95,
+   "pct_change": -8.45,
+   "volume": 4139921,
+   "dollar_volume": 8072845,
+   "market_cap": 72976638,
+   "mentions": 0,
+   "mentions_24h_ago": 0,
+   "in_apewisdom": false,
+   "upvotes": 0,
+   "accel": 1.0,
+   "rank": 999,
+   "rank_jump": 0,
+   "live_mentions": 6,
+   "sources": {
+    "reddit-live": 6
+   },
+   "source_count": 1,
+   "posts": [
+    {
+     "sub": "pennystocks",
+     "title": "$TENX Cantor Fitzgerald Reiterates rating and $35 Price Target"
+    }
+   ],
+   "first_seen": "2026-09-10T21:28:51+00:00",
+   "first_price": 1.95,
+   "pct_since_first_seen": 0.0,
+   "shares_per_100": 51.28,
+   "rel_volume": 0.5,
+   "high_30d": 15.8,
+   "hype_score": 16,
+   "stage": "FRESH",
+   "stage_note": "Just appeared in live Reddit/4chan posts (6 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 1,
+   "series": [],
+   "flags": []
+  },
+  {
+   "symbol": "BRUN",
+   "name": "Boost Run Inc. Class A",
+   "exchange": "NASDAQ",
+   "sector": "Technology",
+   "price": 16.46,
+   "pct_change": -5.18,
+   "volume": 1140072,
+   "dollar_volume": 18765585,
+   "market_cap": 1308363279,
+   "mentions": 0,
+   "mentions_24h_ago": 0,
+   "in_apewisdom": false,
+   "upvotes": 0,
+   "accel": 1.0,
+   "rank": 999,
+   "rank_jump": 0,
+   "live_mentions": 6,
+   "sources": {
+    "reddit-live": 6
+   },
+   "source_count": 1,
+   "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "BRUN, about to go on a RUN? My First DD. Second time posting."
+    }
+   ],
+   "first_seen": "2026-09-10T21:28:51+00:00",
+   "first_price": 16.46,
+   "pct_since_first_seen": 0.0,
+   "shares_per_100": 6.08,
+   "rel_volume": 0.5,
+   "high_30d": 22.93,
+   "hype_score": 16,
+   "stage": "FRESH",
+   "stage_note": "Just appeared in live Reddit/4chan posts (6 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 1,
+   "series": [],
+   "flags": []
+  },
+  {
+   "symbol": "IEP",
+   "name": "Icahn Enterprises L.P.",
+   "exchange": "NASDAQ",
+   "sector": "Energy",
+   "price": 6.88,
+   "pct_change": 0.73,
+   "volume": 723164,
+   "dollar_volume": 4975368,
+   "market_cap": 4891095840,
+   "mentions": 0,
+   "mentions_24h_ago": 0,
+   "in_apewisdom": false,
+   "upvotes": 0,
+   "accel": 1.0,
+   "rank": 999,
+   "rank_jump": 0,
+   "live_mentions": 6,
+   "sources": {
+    "4chan": 6
+   },
+   "source_count": 1,
+   "posts": [],
+   "first_seen": "2026-09-10T21:28:51+00:00",
+   "first_price": 6.88,
+   "pct_since_first_seen": 0.0,
+   "shares_per_100": 14.53,
+   "rel_volume": 0.6,
+   "high_30d": 7.83,
+   "hype_score": 14,
+   "stage": "FRESH",
+   "stage_note": "Just appeared in live Reddit/4chan posts (6 hits) with no 24h baseline to compare against yet. Earliest possible signal, and the least confirmed one.",
+   "off_mention_peak": 0.0,
+   "peak_mentions": 1,
+   "series": [],
+   "flags": []
+  },
+  {
+   "symbol": "AVAV",
+   "name": "AeroVironment Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Industrials",
+   "price": 147.065,
+   "pct_change": 4.45,
+   "volume": 8714156,
+   "dollar_volume": 1281547352,
+   "market_cap": 7474227875,
+   "mentions": 37,
+   "mentions_24h_ago": 44,
+   "in_apewisdom": true,
+   "upvotes": 51,
+   "accel": 0.9,
+   "rank": 13,
+   "rank_jump": 20,
+   "live_mentions": 0,
+   "sources": {
+    "wallstreetbets": 35
+   },
+   "source_count": 1,
+   "posts": [],
+   "first_seen": "2026-09-09T15:02:55+00:00",
+   "first_price": 142.324,
+   "pct_since_first_seen": 3.3,
+   "shares_per_100": 0.68,
+   "rel_volume": 7.1,
+   "high_30d": 196.02,
+   "hype_score": 39,
+   "stage": "FADING",
+   "stage_note": "Mentions are 46% off their peak of 69. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -46.4,
+   "peak_mentions": 69,
+   "series": [
+    [
+     "09-09T15:02",
+     12
+    ],
+    [
+     "09-09T19:09",
+     22
+    ],
+    [
+     "09-09T22:22",
+     52
+    ],
+    [
+     "09-10T00:55",
+     52
+    ],
+    [
+     "09-10T14:55",
+     69
+    ],
+    [
+     "09-10T18:14",
+     65
+    ],
+    [
+     "09-10T21:28",
+     37
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
+     "level": "high"
+    },
+    {
+     "text": "$100 buys 0.68 shares - needs a broker that does fractionals",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "AEO",
+   "name": "American Eagle Outfitters Inc.",
+   "exchange": "NYSE",
+   "sector": "Consumer Discretionary",
+   "price": 14.53,
+   "pct_change": -13.97,
+   "volume": 28366941,
+   "dollar_volume": 412171652,
+   "market_cap": 2434840528,
+   "mentions": 14,
+   "mentions_24h_ago": 57,
+   "in_apewisdom": true,
+   "upvotes": 84,
+   "accel": 0.3,
+   "rank": 37,
+   "rank_jump": 0,
+   "live_mentions": 0,
+   "sources": {
+    "wallstreetbets": 14,
+    "4chan": 1
+   },
+   "source_count": 2,
+   "posts": [],
+   "first_seen": "2026-09-09T19:09:47+00:00",
+   "first_price": 17.095,
+   "pct_since_first_seen": -15.0,
+   "shares_per_100": 6.88,
+   "rel_volume": 6.3,
+   "high_30d": 18.32,
+   "hype_score": 34,
+   "stage": "FADING",
+   "stage_note": "Mentions are 79% off their peak of 66. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -78.8,
+   "peak_mentions": 66,
+   "series": [
+    [
+     "09-09T19:09",
+     35
+    ],
+    [
+     "09-09T22:22",
+     64
+    ],
+    [
+     "09-10T00:55",
+     66
+    ],
+    [
+     "09-10T14:55",
+     64
+    ],
+    [
+     "09-10T18:14",
+     39
+    ],
+    [
+     "09-10T21:28",
+     14
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
+     "level": "high"
+    }
+   ]
+  },
+  {
    "symbol": "LULU",
    "name": "lululemon athletica inc.",
    "exchange": "NASDAQ",
    "sector": "Consumer Discretionary",
-   "price": 97.22,
-   "pct_change": -2.51,
-   "volume": 4074035,
-   "dollar_volume": 396077682,
-   "market_cap": 10265854902,
+   "price": 96.88,
+   "pct_change": -2.85,
+   "volume": 7808172,
+   "dollar_volume": 756455703,
+   "market_cap": 10229952920,
    "mentions": 23,
-   "mentions_24h_ago": 13,
+   "mentions_24h_ago": 12,
    "in_apewisdom": true,
-   "upvotes": 847,
+   "upvotes": 937,
    "accel": 1.6,
-   "rank": 29,
-   "rank_jump": 2,
+   "rank": 26,
+   "rank_jump": 17,
    "live_mentions": 2,
    "sources": {
-    "wallstreetbets": 19,
+    "wallstreetbets": 18,
     "stocks": 3,
     "StockMarket": 1,
     "investing": 1,
@@ -941,20 +990,16 @@
    ],
    "first_seen": "2026-08-25T11:32:16+00:00",
    "first_price": 122.78,
-   "pct_since_first_seen": -20.8,
+   "pct_since_first_seen": -21.1,
    "shares_per_100": 1.03,
-   "rel_volume": 0.8,
+   "rel_volume": 1.5,
    "high_30d": 128.58,
-   "hype_score": 24,
+   "hype_score": 31,
    "stage": "FADING",
    "stage_note": "Mentions are 94% off their peak of 401. Whatever this was, the crowd has moved on.",
    "off_mention_peak": -94.3,
    "peak_mentions": 401,
    "series": [
-    [
-     "09-03T18:25",
-     33
-    ],
     [
      "09-03T21:35",
      228
@@ -1046,6 +1091,10 @@
     [
      "09-10T18:14",
      23
+    ],
+    [
+     "09-10T21:28",
+     23
     ]
    ],
    "flags": [
@@ -1064,31 +1113,35 @@
    "name": "Nike Inc.",
    "exchange": "NYSE",
    "sector": "Consumer Discretionary",
-   "price": 36.8,
-   "pct_change": -1.47,
-   "volume": 19423518,
-   "dollar_volume": 714785462,
-   "market_cap": 54592752270,
-   "mentions": 23,
-   "mentions_24h_ago": 17,
+   "price": 36.62,
+   "pct_change": -1.95,
+   "volume": 29566901,
+   "dollar_volume": 1082739914,
+   "market_cap": 54325722504,
+   "mentions": 32,
+   "mentions_24h_ago": 16,
    "in_apewisdom": true,
-   "upvotes": 1370,
-   "accel": 1.3,
-   "rank": 28,
-   "rank_jump": 6,
-   "live_mentions": 4,
+   "upvotes": 1514,
+   "accel": 1.8,
+   "rank": 16,
+   "rank_jump": 16,
+   "live_mentions": 6,
    "sources": {
-    "wallstreetbets": 19,
-    "stocks": 3,
+    "wallstreetbets": 26,
+    "stocks": 4,
     "pennystocks": 1,
     "options": 1,
     "StockMarket": 1,
     "investing": 1,
     "4chan": 1,
-    "reddit-live": 3
+    "reddit-live": 6
    },
    "source_count": 8,
    "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "$DECK DD: Hoka is taking over the trail and the stock is dirt cheap (11 P/E)"
+    },
     {
      "sub": "stocks",
      "title": "Past month: ADS -15 %, NKE -12 %, ONON -31 %, DKS -38 %, DECK -18 %, LULU -22 %."
@@ -1096,20 +1149,16 @@
    ],
    "first_seen": "2026-08-17T15:55:07+00:00",
    "first_price": 39.425,
-   "pct_since_first_seen": -6.7,
-   "shares_per_100": 2.72,
-   "rel_volume": 0.8,
+   "pct_since_first_seen": -7.1,
+   "shares_per_100": 2.73,
+   "rel_volume": 1.2,
    "high_30d": 43.22,
-   "hype_score": 23,
+   "hype_score": 30,
    "stage": "FADING",
-   "stage_note": "Mentions are 83% off their peak of 133. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -82.7,
+   "stage_note": "Mentions are 76% off their peak of 133. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -75.9,
    "peak_mentions": 133,
    "series": [
-    [
-     "09-03T18:25",
-     19
-    ],
     [
      "09-03T21:35",
      26
@@ -1201,6 +1250,10 @@
     [
      "09-10T18:14",
      23
+    ],
+    [
+     "09-10T21:28",
+     32
     ]
    ],
    "flags": [
@@ -1223,21 +1276,21 @@
    "name": "Meta Platforms Inc. Class A",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 648.839,
-   "pct_change": -0.74,
-   "volume": 12634181,
-   "dollar_volume": 8197549365,
-   "market_cap": 1652921391523,
-   "mentions": 63,
-   "mentions_24h_ago": 146,
+   "price": 644.38,
+   "pct_change": -1.42,
+   "volume": 20425168,
+   "dollar_volume": 13161569755,
+   "market_cap": 1641562061266,
+   "mentions": 61,
+   "mentions_24h_ago": 117,
    "in_apewisdom": true,
-   "upvotes": 412,
+   "upvotes": 165,
    "accel": 0.5,
-   "rank": 9,
+   "rank": 8,
    "rank_jump": 0,
    "live_mentions": 9,
    "sources": {
-    "wallstreetbets": 57,
+    "wallstreetbets": 56,
     "Shortsqueeze": 1,
     "options": 1,
     "wallstreetbetsELITE": 1,
@@ -1259,20 +1312,16 @@
    ],
    "first_seen": "2026-08-12T01:07:52+00:00",
    "first_price": 599.12,
-   "pct_since_first_seen": 8.3,
-   "shares_per_100": 0.15,
-   "rel_volume": 0.7,
+   "pct_since_first_seen": 7.6,
+   "shares_per_100": 0.16,
+   "rel_volume": 1.2,
    "high_30d": 616.77,
-   "hype_score": 22,
+   "hype_score": 25,
    "stage": "FADING",
-   "stage_note": "Mentions are 75% off their peak of 254. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -75.2,
+   "stage_note": "Mentions are 76% off their peak of 254. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -76.0,
    "peak_mentions": 254,
    "series": [
-    [
-     "09-02T22:28",
-     67
-    ],
     [
      "09-03T01:01",
      69
@@ -1364,6 +1413,10 @@
     [
      "09-10T18:14",
      63
+    ],
+    [
+     "09-10T21:28",
+     61
     ]
    ],
    "flags": [
@@ -1372,7 +1425,7 @@
      "level": "high"
     },
     {
-     "text": "$100 buys 0.15 shares - needs a broker that does fractionals",
+     "text": "$100 buys 0.16 shares - needs a broker that does fractionals",
      "level": "med"
     },
     {
@@ -1390,26 +1443,27 @@
    "name": "Reddit Inc. Class A",
    "exchange": "NYSE",
    "sector": "Technology",
-   "price": 156.12,
-   "pct_change": 6.61,
-   "volume": 3753846,
-   "dollar_volume": 586050437,
-   "market_cap": 30036943141,
-   "mentions": 47,
-   "mentions_24h_ago": 38,
+   "price": 155.34,
+   "pct_change": 6.08,
+   "volume": 5782861,
+   "dollar_volume": 898309627,
+   "market_cap": 29886873863,
+   "mentions": 44,
+   "mentions_24h_ago": 25,
    "in_apewisdom": true,
-   "upvotes": 235,
-   "accel": 1.2,
+   "upvotes": 239,
+   "accel": 1.6,
    "rank": 11,
    "rank_jump": 5,
    "live_mentions": 1,
    "sources": {
-    "wallstreetbets": 45,
+    "wallstreetbets": 40,
     "Shortsqueeze": 1,
     "wallstreetbetsELITE": 1,
+    "investing": 2,
     "reddit-live": 1
    },
-   "source_count": 4,
+   "source_count": 5,
    "posts": [
     {
      "sub": "Shortsqueeze",
@@ -1418,20 +1472,16 @@
    ],
    "first_seen": "2026-08-12T01:07:52+00:00",
    "first_price": 156.19,
-   "pct_since_first_seen": -0.0,
+   "pct_since_first_seen": -0.5,
    "shares_per_100": 0.64,
-   "rel_volume": 0.5,
+   "rel_volume": 0.8,
    "high_30d": 179.23,
-   "hype_score": 21,
+   "hype_score": 24,
    "stage": "FADING",
-   "stage_note": "Mentions are 76% off their peak of 192. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -75.5,
+   "stage_note": "Mentions are 77% off their peak of 192. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -77.1,
    "peak_mentions": 192,
    "series": [
-    [
-     "09-01T15:25",
-     37
-    ],
     [
      "09-01T19:17",
      38
@@ -1523,6 +1573,10 @@
     [
      "09-10T18:14",
      47
+    ],
+    [
+     "09-10T21:28",
+     44
     ]
    ],
    "flags": [
@@ -1535,331 +1589,7 @@
      "level": "med"
     },
     {
-     "text": "Showing up on 4 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "MU",
-   "name": "Micron Technology Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Technology",
-   "price": 978.48,
-   "pct_change": -4.8,
-   "volume": 18198957,
-   "dollar_volume": 17807315445,
-   "market_cap": 1105088610390,
-   "mentions": 87,
-   "mentions_24h_ago": 158,
-   "in_apewisdom": true,
-   "upvotes": 176,
-   "accel": 0.6,
-   "rank": 4,
-   "rank_jump": 0,
-   "live_mentions": 0,
-   "sources": {
-    "wallstreetbets": 81,
-    "stocks": 1,
-    "pennystocks": 1,
-    "Shortsqueeze": 1,
-    "options": 4,
-    "wallstreetbetsELITE": 1,
-    "SPACs": 1,
-    "StockMarket": 1,
-    "investing": 1,
-    "4chan": 5
-   },
-   "source_count": 10,
-   "posts": [],
-   "first_seen": "2026-08-12T01:07:52+00:00",
-   "first_price": 868.52,
-   "pct_since_first_seen": 12.7,
-   "shares_per_100": 0.1,
-   "rel_volume": 0.5,
-   "high_30d": 1016.59,
-   "hype_score": 19,
-   "stage": "FADING",
-   "stage_note": "Mentions are 79% off their peak of 424. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -79.5,
-   "peak_mentions": 424,
-   "series": [
-    [
-     "08-29T03:34",
-     149
-    ],
-    [
-     "08-29T16:27",
-     63
-    ],
-    [
-     "08-29T22:29",
-     21
-    ],
-    [
-     "08-30T16:20",
-     39
-    ],
-    [
-     "08-30T22:31",
-     48
-    ],
-    [
-     "08-31T17:56",
-     104
-    ],
-    [
-     "08-31T22:44",
-     111
-    ],
-    [
-     "09-01T01:43",
-     112
-    ],
-    [
-     "09-01T15:25",
-     94
-    ],
-    [
-     "09-01T19:17",
-     119
-    ],
-    [
-     "09-01T22:29",
-     112
-    ],
-    [
-     "09-02T00:54",
-     118
-    ],
-    [
-     "09-02T15:01",
-     153
-    ],
-    [
-     "09-02T19:17",
-     145
-    ],
-    [
-     "09-02T22:28",
-     141
-    ],
-    [
-     "09-03T01:01",
-     132
-    ],
-    [
-     "09-03T14:55",
-     111
-    ],
-    [
-     "09-03T18:25",
-     105
-    ],
-    [
-     "09-03T21:35",
-     128
-    ],
-    [
-     "09-03T23:52",
-     128
-    ],
-    [
-     "09-04T14:52",
-     212
-    ],
-    [
-     "09-04T18:12",
-     253
-    ],
-    [
-     "09-10T14:55",
-     87
-    ],
-    [
-     "09-10T18:14",
-     87
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
-     "level": "high"
-    },
-    {
-     "text": "$100 buys 0.10 shares - needs a broker that does fractionals",
-     "level": "med"
-    },
-    {
-     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
-     "level": "med"
-    },
-    {
-     "text": "Showing up on 10 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "PLTR",
-   "name": "Palantir Technologies Inc. Class A",
-   "exchange": "NASDAQ",
-   "sector": "Technology",
-   "price": 166.26,
-   "pct_change": -1.93,
-   "volume": 11909953,
-   "dollar_volume": 1980148785,
-   "market_cap": 399365411585,
-   "mentions": 16,
-   "mentions_24h_ago": 35,
-   "in_apewisdom": true,
-   "upvotes": 48,
-   "accel": 0.5,
-   "rank": 36,
-   "rank_jump": 0,
-   "live_mentions": 9,
-   "sources": {
-    "wallstreetbets": 13,
-    "pennystocks": 1,
-    "Shortsqueeze": 1,
-    "options": 1,
-    "wallstreetbetsELITE": 1,
-    "SPACs": 1,
-    "StockMarket": 1,
-    "investing": 1,
-    "reddit-live": 9
-   },
-   "source_count": 9,
-   "posts": [
-    {
-     "sub": "StockMarket",
-     "title": "$PLTR and Fujitsu Deepen Partnership to Advance Enterprise AI Transformation, with Fujitsu Strengthening as a Global FDE Partner"
-    }
-   ],
-   "first_seen": "2026-08-12T01:07:52+00:00",
-   "first_price": 174.94,
-   "pct_since_first_seen": -5.0,
-   "shares_per_100": 0.6,
-   "rel_volume": 0.3,
-   "high_30d": 186.38,
-   "hype_score": 18,
-   "stage": "FADING",
-   "stage_note": "Mentions are 84% off their peak of 100. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -84.0,
-   "peak_mentions": 100,
-   "series": [
-    [
-     "09-01T19:17",
-     18
-    ],
-    [
-     "09-01T22:29",
-     22
-    ],
-    [
-     "09-02T00:54",
-     20
-    ],
-    [
-     "09-02T15:01",
-     16
-    ],
-    [
-     "09-02T19:17",
-     43
-    ],
-    [
-     "09-02T22:28",
-     46
-    ],
-    [
-     "09-03T01:01",
-     50
-    ],
-    [
-     "09-03T14:55",
-     73
-    ],
-    [
-     "09-03T18:25",
-     51
-    ],
-    [
-     "09-03T21:35",
-     49
-    ],
-    [
-     "09-03T23:52",
-     52
-    ],
-    [
-     "09-04T14:52",
-     32
-    ],
-    [
-     "09-04T18:12",
-     41
-    ],
-    [
-     "09-04T21:18",
-     35
-    ],
-    [
-     "09-05T14:51",
-     18
-    ],
-    [
-     "09-08T19:20",
-     20
-    ],
-    [
-     "09-08T22:28",
-     23
-    ],
-    [
-     "09-09T01:06",
-     24
-    ],
-    [
-     "09-09T15:02",
-     20
-    ],
-    [
-     "09-09T19:09",
-     34
-    ],
-    [
-     "09-09T22:22",
-     30
-    ],
-    [
-     "09-10T00:55",
-     30
-    ],
-    [
-     "09-10T14:55",
-     39
-    ],
-    [
-     "09-10T18:14",
-     16
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
-     "level": "high"
-    },
-    {
-     "text": "$100 buys 0.60 shares - needs a broker that does fractionals",
-     "level": "med"
-    },
-    {
-     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
-     "level": "med"
-    },
-    {
-     "text": "Showing up on 9 separate boards at once - either real news or a coordinated push",
+     "text": "Showing up on 5 separate boards at once - either real news or a coordinated push",
      "level": "med"
     }
    ]
@@ -1869,21 +1599,21 @@
    "name": "NVIDIA Corporation",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 218.42,
-   "pct_change": -2.24,
-   "volume": 63838525,
-   "dollar_volume": 13943610630,
-   "market_cap": 5263922000000,
-   "mentions": 70,
-   "mentions_24h_ago": 103,
+   "price": 218.36,
+   "pct_change": -2.27,
+   "volume": 101114500,
+   "dollar_volume": 22079362220,
+   "market_cap": 5262476000000,
+   "mentions": 78,
+   "mentions_24h_ago": 79,
    "in_apewisdom": true,
-   "upvotes": 172,
-   "accel": 0.7,
+   "upvotes": 270,
+   "accel": 1.0,
    "rank": 6,
    "rank_jump": 0,
-   "live_mentions": 0,
+   "live_mentions": 3,
    "sources": {
-    "wallstreetbets": 63,
+    "wallstreetbets": 72,
     "stocks": 1,
     "pennystocks": 1,
     "Shortsqueeze": 1,
@@ -1892,26 +1622,32 @@
     "SPACs": 1,
     "StockMarket": 1,
     "investing": 1,
-    "4chan": 1
+    "4chan": 1,
+    "reddit-live": 3
    },
-   "source_count": 10,
-   "posts": [],
+   "source_count": 11,
+   "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "Absolute YOLO - 350 NVDA contracts expiring in 2 trading days ($16k)"
+    },
+    {
+     "sub": "wallstreetbets",
+     "title": "BRUN, about to go on a RUN? My First DD. Second time posting."
+    }
+   ],
    "first_seen": "2026-08-12T01:07:52+00:00",
    "first_price": 217.5,
    "pct_since_first_seen": 0.4,
    "shares_per_100": 0.46,
-   "rel_volume": 0.5,
+   "rel_volume": 0.8,
    "high_30d": 230.36,
-   "hype_score": 18,
+   "hype_score": 23,
    "stage": "FADING",
-   "stage_note": "Mentions are 96% off their peak of 1576. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -95.6,
+   "stage_note": "Mentions are 95% off their peak of 1576. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -95.1,
    "peak_mentions": 1576,
    "series": [
-    [
-     "09-03T23:52",
-     173
-    ],
     [
      "09-04T14:52",
      182
@@ -2003,6 +1739,10 @@
     [
      "09-10T18:14",
      70
+    ],
+    [
+     "09-10T21:28",
+     78
     ]
    ],
    "flags": [
@@ -2019,7 +1759,328 @@
      "level": "med"
     },
     {
-     "text": "Showing up on 10 separate boards at once - either real news or a coordinated push",
+     "text": "Showing up on 11 separate boards at once - either real news or a coordinated push",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "IREN",
+   "name": "IREN Limited Ordinary Shares",
+   "exchange": "NASDAQ",
+   "sector": "Finance",
+   "price": 43.64,
+   "pct_change": -3.81,
+   "volume": 35562700,
+   "dollar_volume": 1551956228,
+   "market_cap": 17196719399,
+   "mentions": 10,
+   "mentions_24h_ago": 12,
+   "in_apewisdom": true,
+   "upvotes": 33,
+   "accel": 0.9,
+   "rank": 52,
+   "rank_jump": 2,
+   "live_mentions": 1,
+   "sources": {
+    "wallstreetbets": 8,
+    "Shortsqueeze": 1,
+    "options": 1,
+    "wallstreetbetsELITE": 1,
+    "StockMarket": 1,
+    "reddit-live": 1
+   },
+   "source_count": 6,
+   "posts": [
+    {
+     "sub": "Shortsqueeze",
+     "title": "IREN - still squeezable after recent pop"
+    }
+   ],
+   "first_seen": "2026-08-12T14:42:32+00:00",
+   "first_price": 43.37,
+   "pct_since_first_seen": 0.6,
+   "shares_per_100": 2.29,
+   "rel_volume": 0.8,
+   "high_30d": 44.9,
+   "hype_score": 21,
+   "stage": "FADING",
+   "stage_note": "Mentions are 96% off their peak of 260. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -96.2,
+   "peak_mentions": 260,
+   "series": [
+    [
+     "09-02T15:01",
+     10
+    ],
+    [
+     "09-02T19:17",
+     14
+    ],
+    [
+     "09-02T22:28",
+     15
+    ],
+    [
+     "09-03T01:01",
+     15
+    ],
+    [
+     "09-03T14:55",
+     24
+    ],
+    [
+     "09-03T18:25",
+     27
+    ],
+    [
+     "09-03T21:35",
+     25
+    ],
+    [
+     "09-03T23:52",
+     26
+    ],
+    [
+     "09-04T14:52",
+     25
+    ],
+    [
+     "09-04T18:12",
+     24
+    ],
+    [
+     "09-04T21:18",
+     27
+    ],
+    [
+     "09-04T23:49",
+     28
+    ],
+    [
+     "09-05T14:51",
+     15
+    ],
+    [
+     "09-05T18:00",
+     10
+    ],
+    [
+     "09-08T15:00",
+     15
+    ],
+    [
+     "09-08T19:20",
+     20
+    ],
+    [
+     "09-08T22:28",
+     20
+    ],
+    [
+     "09-09T01:06",
+     21
+    ],
+    [
+     "09-09T15:02",
+     12
+    ],
+    [
+     "09-09T19:09",
+     11
+    ],
+    [
+     "09-09T22:22",
+     13
+    ],
+    [
+     "09-10T00:55",
+     13
+    ],
+    [
+     "09-10T14:55",
+     12
+    ],
+    [
+     "09-10T21:28",
+     10
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
+     "level": "high"
+    },
+    {
+     "text": "Showing up on 6 separate boards at once - either real news or a coordinated push",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies Inc. Class A",
+   "exchange": "NASDAQ",
+   "sector": "Technology",
+   "price": 165.86,
+   "pct_change": -2.17,
+   "volume": 21083922,
+   "dollar_volume": 3496979302,
+   "market_cap": 398404590193,
+   "mentions": 16,
+   "mentions_24h_ago": 30,
+   "in_apewisdom": true,
+   "upvotes": 51,
+   "accel": 0.6,
+   "rank": 35,
+   "rank_jump": 0,
+   "live_mentions": 10,
+   "sources": {
+    "wallstreetbets": 13,
+    "pennystocks": 1,
+    "Shortsqueeze": 1,
+    "options": 1,
+    "wallstreetbetsELITE": 1,
+    "SPACs": 1,
+    "StockMarket": 1,
+    "investing": 1,
+    "reddit-live": 10
+   },
+   "source_count": 9,
+   "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "BRUN, about to go on a RUN? My First DD. Second time posting."
+    },
+    {
+     "sub": "StockMarket",
+     "title": "$PLTR and Fujitsu Deepen Partnership to Advance Enterprise AI Transformation, with Fujitsu Strengthening as a Global FDE Partner"
+    }
+   ],
+   "first_seen": "2026-08-12T01:07:52+00:00",
+   "first_price": 174.94,
+   "pct_since_first_seen": -5.2,
+   "shares_per_100": 0.6,
+   "rel_volume": 0.5,
+   "high_30d": 186.38,
+   "hype_score": 20,
+   "stage": "FADING",
+   "stage_note": "Mentions are 84% off their peak of 100. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -84.0,
+   "peak_mentions": 100,
+   "series": [
+    [
+     "09-01T22:29",
+     22
+    ],
+    [
+     "09-02T00:54",
+     20
+    ],
+    [
+     "09-02T15:01",
+     16
+    ],
+    [
+     "09-02T19:17",
+     43
+    ],
+    [
+     "09-02T22:28",
+     46
+    ],
+    [
+     "09-03T01:01",
+     50
+    ],
+    [
+     "09-03T14:55",
+     73
+    ],
+    [
+     "09-03T18:25",
+     51
+    ],
+    [
+     "09-03T21:35",
+     49
+    ],
+    [
+     "09-03T23:52",
+     52
+    ],
+    [
+     "09-04T14:52",
+     32
+    ],
+    [
+     "09-04T18:12",
+     41
+    ],
+    [
+     "09-04T21:18",
+     35
+    ],
+    [
+     "09-05T14:51",
+     18
+    ],
+    [
+     "09-08T19:20",
+     20
+    ],
+    [
+     "09-08T22:28",
+     23
+    ],
+    [
+     "09-09T01:06",
+     24
+    ],
+    [
+     "09-09T15:02",
+     20
+    ],
+    [
+     "09-09T19:09",
+     34
+    ],
+    [
+     "09-09T22:22",
+     30
+    ],
+    [
+     "09-10T00:55",
+     30
+    ],
+    [
+     "09-10T14:55",
+     39
+    ],
+    [
+     "09-10T18:14",
+     16
+    ],
+    [
+     "09-10T21:28",
+     16
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
+     "level": "high"
+    },
+    {
+     "text": "$100 buys 0.60 shares - needs a broker that does fractionals",
+     "level": "med"
+    },
+    {
+     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
+     "level": "med"
+    },
+    {
+     "text": "Showing up on 9 separate boards at once - either real news or a coordinated push",
      "level": "med"
     }
    ]
@@ -2029,21 +2090,21 @@
    "name": "Microsoft Corporation",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 492.72,
-   "pct_change": 0.22,
-   "volume": 7593931,
-   "dollar_volume": 3741681682,
-   "market_cap": 3658714774326,
-   "mentions": 27,
-   "mentions_24h_ago": 30,
+   "price": 492.44,
+   "pct_change": 0.16,
+   "volume": 15914019,
+   "dollar_volume": 7836699516,
+   "market_cap": 3656635621588,
+   "mentions": 28,
+   "mentions_24h_ago": 32,
    "in_apewisdom": true,
-   "upvotes": 67,
+   "upvotes": 75,
    "accel": 0.9,
-   "rank": 20,
-   "rank_jump": 2,
+   "rank": 18,
+   "rank_jump": 5,
    "live_mentions": 1,
    "sources": {
-    "wallstreetbets": 25,
+    "wallstreetbets": 26,
     "stocks": 1,
     "pennystocks": 1,
     "Shortsqueeze": 1,
@@ -2064,20 +2125,16 @@
    ],
    "first_seen": "2026-08-12T01:07:52+00:00",
    "first_price": 503.81,
-   "pct_since_first_seen": -2.2,
+   "pct_since_first_seen": -2.3,
    "shares_per_100": 0.2,
-   "rel_volume": 0.2,
+   "rel_volume": 0.5,
    "high_30d": 513.53,
-   "hype_score": 17,
+   "hype_score": 19,
    "stage": "FADING",
-   "stage_note": "Mentions are 69% off their peak of 88. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -69.3,
+   "stage_note": "Mentions are 68% off their peak of 88. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -68.2,
    "peak_mentions": 88,
    "series": [
-    [
-     "09-03T21:35",
-     43
-    ],
     [
      "09-03T23:52",
      45
@@ -2169,6 +2226,10 @@
     [
      "09-10T18:14",
      27
+    ],
+    [
+     "09-10T21:28",
+     28
     ]
    ],
    "flags": [
@@ -2191,498 +2252,25 @@
    ]
   },
   {
-   "symbol": "TSLA",
-   "name": "Tesla Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Industrials",
-   "price": 366.41,
-   "pct_change": -0.38,
-   "volume": 20288509,
-   "dollar_volume": 7433912582,
-   "market_cap": 1447153660636,
-   "mentions": 30,
-   "mentions_24h_ago": 49,
-   "in_apewisdom": true,
-   "upvotes": 52,
-   "accel": 0.6,
-   "rank": 17,
-   "rank_jump": 0,
-   "live_mentions": 2,
-   "sources": {
-    "wallstreetbets": 24,
-    "stocks": 1,
-    "pennystocks": 1,
-    "Shortsqueeze": 1,
-    "options": 1,
-    "wallstreetbetsELITE": 1,
-    "SPACs": 1,
-    "StockMarket": 1,
-    "investing": 1,
-    "4chan": 1,
-    "reddit-live": 2
-   },
-   "source_count": 11,
-   "posts": [
-    {
-     "sub": "stocks",
-     "title": "Uber wins in an AV future, I'm buying"
-    },
-    {
-     "sub": "Daytrading",
-     "title": "No live trades today \u2014 but this may have been one of my best process days"
-    }
-   ],
-   "first_seen": "2026-08-12T01:07:52+00:00",
-   "first_price": 332.81,
-   "pct_since_first_seen": 10.1,
-   "shares_per_100": 0.27,
-   "rel_volume": 0.5,
-   "high_30d": 376.365,
-   "hype_score": 17,
-   "stage": "FADING",
-   "stage_note": "Mentions are 82% off their peak of 165. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -81.8,
-   "peak_mentions": 165,
-   "series": [
-    [
-     "09-03T23:52",
-     122
-    ],
-    [
-     "09-04T14:52",
-     126
-    ],
-    [
-     "09-04T18:12",
-     116
-    ],
-    [
-     "09-04T21:18",
-     124
-    ],
-    [
-     "09-04T23:49",
-     116
-    ],
-    [
-     "09-05T14:51",
-     72
-    ],
-    [
-     "09-05T18:00",
-     51
-    ],
-    [
-     "09-05T21:58",
-     26
-    ],
-    [
-     "09-06T15:11",
-     22
-    ],
-    [
-     "09-06T18:07",
-     17
-    ],
-    [
-     "09-06T22:00",
-     16
-    ],
-    [
-     "09-07T16:19",
-     16
-    ],
-    [
-     "09-07T20:23",
-     17
-    ],
-    [
-     "09-07T23:21",
-     18
-    ],
-    [
-     "09-08T15:00",
-     30
-    ],
-    [
-     "09-08T19:20",
-     47
-    ],
-    [
-     "09-08T22:28",
-     57
-    ],
-    [
-     "09-09T01:06",
-     56
-    ],
-    [
-     "09-09T15:02",
-     62
-    ],
-    [
-     "09-09T19:09",
-     49
-    ],
-    [
-     "09-09T22:22",
-     39
-    ],
-    [
-     "09-10T00:55",
-     37
-    ],
-    [
-     "09-10T14:55",
-     34
-    ],
-    [
-     "09-10T18:14",
-     30
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
-     "level": "high"
-    },
-    {
-     "text": "$100 buys 0.27 shares - needs a broker that does fractionals",
-     "level": "med"
-    },
-    {
-     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
-     "level": "med"
-    },
-    {
-     "text": "Showing up on 11 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "AGI",
-   "name": "Alamos Gold Inc. Class A Common Shares",
-   "exchange": "NYSE",
-   "sector": "Basic Materials",
-   "price": 35.95,
-   "pct_change": -2.65,
-   "volume": 1191090,
-   "dollar_volume": 42819685,
-   "market_cap": 15097756525,
-   "mentions": 25,
-   "mentions_24h_ago": 72,
-   "in_apewisdom": true,
-   "upvotes": 208,
-   "accel": 0.4,
-   "rank": 22,
-   "rank_jump": 0,
-   "live_mentions": 1,
-   "sources": {
-    "wallstreetbets": 20,
-    "options": 1,
-    "StockMarket": 3,
-    "investing": 1,
-    "reddit-live": 1
-   },
-   "source_count": 5,
-   "posts": [
-    {
-     "sub": "wallstreetbets",
-     "title": "Why would Anthropic want to IPO with all this uncertainty in the macroeconomic environment ?"
-    }
-   ],
-   "first_seen": "2026-08-12T01:07:52+00:00",
-   "first_price": 33.45,
-   "pct_since_first_seen": 7.5,
-   "shares_per_100": 2.78,
-   "rel_volume": 0.3,
-   "high_30d": 39.02,
-   "hype_score": 17,
-   "stage": "FADING",
-   "stage_note": "Mentions are 93% off their peak of 355. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -93.0,
-   "peak_mentions": 355,
-   "series": [
-    [
-     "08-26T22:56",
-     16
-    ],
-    [
-     "08-27T04:27",
-     14
-    ],
-    [
-     "08-27T20:56",
-     22
-    ],
-    [
-     "08-28T05:10",
-     14
-    ],
-    [
-     "09-01T22:29",
-     10
-    ],
-    [
-     "09-03T21:35",
-     17
-    ],
-    [
-     "09-03T23:52",
-     22
-    ],
-    [
-     "09-04T14:52",
-     37
-    ],
-    [
-     "09-04T18:12",
-     38
-    ],
-    [
-     "09-04T21:18",
-     23
-    ],
-    [
-     "09-04T23:49",
-     16
-    ],
-    [
-     "09-07T16:19",
-     232
-    ],
-    [
-     "09-07T20:23",
-     299
-    ],
-    [
-     "09-07T23:21",
-     355
-    ],
-    [
-     "09-08T15:00",
-     238
-    ],
-    [
-     "09-08T19:20",
-     196
-    ],
-    [
-     "09-08T22:28",
-     177
-    ],
-    [
-     "09-09T01:06",
-     142
-    ],
-    [
-     "09-09T15:02",
-     87
-    ],
-    [
-     "09-09T19:09",
-     66
-    ],
-    [
-     "09-09T22:22",
-     45
-    ],
-    [
-     "09-10T00:55",
-     42
-    ],
-    [
-     "09-10T14:55",
-     27
-    ],
-    [
-     "09-10T18:14",
-     25
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
-     "level": "high"
-    },
-    {
-     "text": "Showing up on 5 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
-  },
-  {
-   "symbol": "CC",
-   "name": "Chemours Company (The)",
-   "exchange": "NYSE",
-   "sector": "Industrials",
-   "price": 15.17,
-   "pct_change": 0.86,
-   "volume": 941729,
-   "dollar_volume": 14286028,
-   "market_cap": 2283069754,
-   "mentions": 10,
-   "mentions_24h_ago": 19,
-   "in_apewisdom": true,
-   "upvotes": 16,
-   "accel": 0.6,
-   "rank": 51,
-   "rank_jump": 0,
-   "live_mentions": 0,
-   "sources": {
-    "wallstreetbets": 7,
-    "pennystocks": 1,
-    "Shortsqueeze": 1,
-    "options": 1,
-    "wallstreetbetsELITE": 1,
-    "SPACs": 1,
-    "StockMarket": 1,
-    "investing": 1,
-    "4chan": 1
-   },
-   "source_count": 9,
-   "posts": [],
-   "first_seen": "2026-08-12T14:42:32+00:00",
-   "first_price": 15.38,
-   "pct_since_first_seen": -1.4,
-   "shares_per_100": 6.59,
-   "rel_volume": 0.4,
-   "high_30d": 17.93,
-   "hype_score": 17,
-   "stage": "FADING",
-   "stage_note": "Mentions are 62% off their peak of 26. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -61.5,
-   "peak_mentions": 26,
-   "series": [
-    [
-     "08-26T11:33",
-     20
-    ],
-    [
-     "08-26T13:00",
-     20
-    ],
-    [
-     "08-26T14:49",
-     21
-    ],
-    [
-     "08-26T16:21",
-     22
-    ],
-    [
-     "08-26T19:06",
-     25
-    ],
-    [
-     "08-26T22:56",
-     23
-    ],
-    [
-     "08-27T04:27",
-     20
-    ],
-    [
-     "08-27T20:56",
-     12
-    ],
-    [
-     "08-28T05:10",
-     10
-    ],
-    [
-     "08-31T22:44",
-     10
-    ],
-    [
-     "09-03T18:25",
-     13
-    ],
-    [
-     "09-03T21:35",
-     20
-    ],
-    [
-     "09-03T23:52",
-     20
-    ],
-    [
-     "09-04T14:52",
-     25
-    ],
-    [
-     "09-04T18:12",
-     19
-    ],
-    [
-     "09-04T21:18",
-     11
-    ],
-    [
-     "09-04T23:49",
-     12
-    ],
-    [
-     "09-05T21:58",
-     12
-    ],
-    [
-     "09-09T15:02",
-     12
-    ],
-    [
-     "09-09T19:09",
-     21
-    ],
-    [
-     "09-09T22:22",
-     23
-    ],
-    [
-     "09-10T00:55",
-     26
-    ],
-    [
-     "09-10T14:55",
-     17
-    ],
-    [
-     "09-10T18:14",
-     10
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
-     "level": "high"
-    },
-    {
-     "text": "Showing up on 9 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
-  },
-  {
    "symbol": "INTC",
    "name": "Intel Corporation",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 101.08,
-   "pct_change": -4.86,
-   "volume": 62488985,
-   "dollar_volume": 6316386603,
-   "market_cap": 534214826172,
-   "mentions": 17,
-   "mentions_24h_ago": 22,
+   "price": 100.32,
+   "pct_change": -5.57,
+   "volume": 96151073,
+   "dollar_volume": 9645875643,
+   "market_cap": 530198173344,
+   "mentions": 15,
+   "mentions_24h_ago": 13,
    "in_apewisdom": true,
-   "upvotes": 180,
-   "accel": 0.8,
-   "rank": 33,
+   "upvotes": 184,
+   "accel": 1.1,
+   "rank": 36,
    "rank_jump": 0,
    "live_mentions": 0,
    "sources": {
-    "wallstreetbets": 15,
+    "wallstreetbets": 13,
     "stocks": 1,
     "pennystocks": 1,
     "options": 1,
@@ -2695,20 +2283,16 @@
    "posts": [],
    "first_seen": "2026-08-13T00:09:09+00:00",
    "first_price": 100.95,
-   "pct_since_first_seen": 0.1,
-   "shares_per_100": 0.99,
-   "rel_volume": 0.6,
+   "pct_since_first_seen": -0.6,
+   "shares_per_100": 1.0,
+   "rel_volume": 0.9,
    "high_30d": 104.56,
-   "hype_score": 17,
+   "hype_score": 19,
    "stage": "FADING",
-   "stage_note": "Mentions are 75% off their peak of 67. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -74.6,
+   "stage_note": "Mentions are 78% off their peak of 67. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -77.6,
    "peak_mentions": 67,
    "series": [
-    [
-     "08-26T14:49",
-     15
-    ],
     [
      "08-26T16:21",
      18
@@ -2800,16 +2384,16 @@
     [
      "09-10T18:14",
      17
+    ],
+    [
+     "09-10T21:28",
+     15
     ]
    ],
    "flags": [
     {
      "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
      "level": "high"
-    },
-    {
-     "text": "$100 buys 0.99 shares - needs a broker that does fractionals",
-     "level": "med"
     },
     {
      "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
@@ -2822,140 +2406,144 @@
    ]
   },
   {
-   "symbol": "RKLB",
-   "name": "Rocket Lab Corporation",
+   "symbol": "MU",
+   "name": "Micron Technology Inc.",
    "exchange": "NASDAQ",
-   "sector": "Industrials",
-   "price": 63.165,
-   "pct_change": 0.15,
-   "volume": 12746674,
-   "dollar_volume": 805143663,
-   "market_cap": 37801709414,
-   "mentions": 25,
-   "mentions_24h_ago": 47,
+   "sector": "Technology",
+   "price": 977.41,
+   "pct_change": -4.9,
+   "volume": 25608687,
+   "dollar_volume": 25030186760,
+   "market_cap": 1103880159719,
+   "mentions": 74,
+   "mentions_24h_ago": 142,
    "in_apewisdom": true,
-   "upvotes": 75,
-   "accel": 0.6,
-   "rank": 24,
+   "upvotes": 142,
+   "accel": 0.5,
+   "rank": 7,
    "rank_jump": 0,
    "live_mentions": 0,
    "sources": {
-    "wallstreetbets": 22,
+    "wallstreetbets": 70,
+    "stocks": 1,
+    "pennystocks": 1,
     "Shortsqueeze": 1,
-    "options": 1,
+    "options": 2,
     "wallstreetbetsELITE": 1,
     "SPACs": 1,
-    "StockMarket": 1
+    "StockMarket": 1,
+    "investing": 1,
+    "4chan": 3
    },
-   "source_count": 6,
+   "source_count": 10,
    "posts": [],
    "first_seen": "2026-08-12T01:07:52+00:00",
-   "first_price": 80.01,
-   "pct_since_first_seen": -21.1,
-   "shares_per_100": 1.58,
-   "rel_volume": 0.7,
-   "high_30d": 82.83,
-   "hype_score": 17,
+   "first_price": 868.52,
+   "pct_since_first_seen": 12.5,
+   "shares_per_100": 0.1,
+   "rel_volume": 0.8,
+   "high_30d": 1016.59,
+   "hype_score": 19,
    "stage": "FADING",
-   "stage_note": "Mentions are 52% off their peak of 52. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -51.9,
-   "peak_mentions": 52,
+   "stage_note": "Mentions are 83% off their peak of 424. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -82.5,
+   "peak_mentions": 424,
    "series": [
     [
-     "09-01T22:29",
-     17
+     "08-29T16:27",
+     63
     ],
     [
-     "09-02T00:54",
-     25
-    ],
-    [
-     "09-02T15:01",
-     42
-    ],
-    [
-     "09-02T19:17",
-     42
-    ],
-    [
-     "09-02T22:28",
-     38
-    ],
-    [
-     "09-03T01:01",
-     32
-    ],
-    [
-     "09-03T14:55",
-     27
-    ],
-    [
-     "09-03T18:25",
-     35
-    ],
-    [
-     "09-03T21:35",
-     32
-    ],
-    [
-     "09-03T23:52",
-     30
-    ],
-    [
-     "09-04T14:52",
-     17
-    ],
-    [
-     "09-04T23:49",
-     15
-    ],
-    [
-     "09-05T14:51",
-     14
-    ],
-    [
-     "09-05T18:00",
-     13
-    ],
-    [
-     "09-05T21:58",
-     10
-    ],
-    [
-     "09-08T19:20",
-     10
-    ],
-    [
-     "09-08T22:28",
-     16
-    ],
-    [
-     "09-09T01:06",
+     "08-29T22:29",
      21
     ],
     [
-     "09-09T15:02",
-     46
+     "08-30T16:20",
+     39
     ],
     [
-     "09-09T19:09",
+     "08-30T22:31",
      48
     ],
     [
-     "09-09T22:22",
-     52
+     "08-31T17:56",
+     104
     ],
     [
-     "09-10T00:55",
-     50
+     "08-31T22:44",
+     111
+    ],
+    [
+     "09-01T01:43",
+     112
+    ],
+    [
+     "09-01T15:25",
+     94
+    ],
+    [
+     "09-01T19:17",
+     119
+    ],
+    [
+     "09-01T22:29",
+     112
+    ],
+    [
+     "09-02T00:54",
+     118
+    ],
+    [
+     "09-02T15:01",
+     153
+    ],
+    [
+     "09-02T19:17",
+     145
+    ],
+    [
+     "09-02T22:28",
+     141
+    ],
+    [
+     "09-03T01:01",
+     132
+    ],
+    [
+     "09-03T14:55",
+     111
+    ],
+    [
+     "09-03T18:25",
+     105
+    ],
+    [
+     "09-03T21:35",
+     128
+    ],
+    [
+     "09-03T23:52",
+     128
+    ],
+    [
+     "09-04T14:52",
+     212
+    ],
+    [
+     "09-04T18:12",
+     253
     ],
     [
      "09-10T14:55",
-     32
+     87
     ],
     [
      "09-10T18:14",
-     25
+     87
+    ],
+    [
+     "09-10T21:28",
+     74
     ]
    ],
    "flags": [
@@ -2964,7 +2552,185 @@
      "level": "high"
     },
     {
-     "text": "Showing up on 6 separate boards at once - either real news or a coordinated push",
+     "text": "$100 buys 0.10 shares - needs a broker that does fractionals",
+     "level": "med"
+    },
+    {
+     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
+     "level": "med"
+    },
+    {
+     "text": "Showing up on 10 separate boards at once - either real news or a coordinated push",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla Inc.",
+   "exchange": "NASDAQ",
+   "sector": "Industrials",
+   "price": 363.56,
+   "pct_change": -1.16,
+   "volume": 29560884,
+   "dollar_volume": 10747154987,
+   "market_cap": 1435897450563,
+   "mentions": 33,
+   "mentions_24h_ago": 40,
+   "in_apewisdom": true,
+   "upvotes": 110,
+   "accel": 0.8,
+   "rank": 15,
+   "rank_jump": 0,
+   "live_mentions": 2,
+   "sources": {
+    "wallstreetbets": 25,
+    "stocks": 2,
+    "pennystocks": 1,
+    "Shortsqueeze": 1,
+    "options": 1,
+    "wallstreetbetsELITE": 1,
+    "SPACs": 1,
+    "StockMarket": 1,
+    "investing": 2,
+    "4chan": 1,
+    "reddit-live": 2
+   },
+   "source_count": 11,
+   "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "BRUN, about to go on a RUN? My First DD. Second time posting."
+    },
+    {
+     "sub": "stocks",
+     "title": "Uber wins in an AV future, I'm buying"
+    }
+   ],
+   "first_seen": "2026-08-12T01:07:52+00:00",
+   "first_price": 332.81,
+   "pct_since_first_seen": 9.2,
+   "shares_per_100": 0.28,
+   "rel_volume": 0.8,
+   "high_30d": 376.365,
+   "hype_score": 19,
+   "stage": "FADING",
+   "stage_note": "Mentions are 80% off their peak of 165. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -80.0,
+   "peak_mentions": 165,
+   "series": [
+    [
+     "09-04T14:52",
+     126
+    ],
+    [
+     "09-04T18:12",
+     116
+    ],
+    [
+     "09-04T21:18",
+     124
+    ],
+    [
+     "09-04T23:49",
+     116
+    ],
+    [
+     "09-05T14:51",
+     72
+    ],
+    [
+     "09-05T18:00",
+     51
+    ],
+    [
+     "09-05T21:58",
+     26
+    ],
+    [
+     "09-06T15:11",
+     22
+    ],
+    [
+     "09-06T18:07",
+     17
+    ],
+    [
+     "09-06T22:00",
+     16
+    ],
+    [
+     "09-07T16:19",
+     16
+    ],
+    [
+     "09-07T20:23",
+     17
+    ],
+    [
+     "09-07T23:21",
+     18
+    ],
+    [
+     "09-08T15:00",
+     30
+    ],
+    [
+     "09-08T19:20",
+     47
+    ],
+    [
+     "09-08T22:28",
+     57
+    ],
+    [
+     "09-09T01:06",
+     56
+    ],
+    [
+     "09-09T15:02",
+     62
+    ],
+    [
+     "09-09T19:09",
+     49
+    ],
+    [
+     "09-09T22:22",
+     39
+    ],
+    [
+     "09-10T00:55",
+     37
+    ],
+    [
+     "09-10T14:55",
+     34
+    ],
+    [
+     "09-10T18:14",
+     30
+    ],
+    [
+     "09-10T21:28",
+     33
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
+     "level": "high"
+    },
+    {
+     "text": "$100 buys 0.28 shares - needs a broker that does fractionals",
+     "level": "med"
+    },
+    {
+     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
+     "level": "med"
+    },
+    {
+     "text": "Showing up on 11 separate boards at once - either real news or a coordinated push",
      "level": "med"
     }
    ]
@@ -2974,43 +2740,45 @@
    "name": "Nebius Group N.V. Class A Ordinary Shares",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 228.955,
-   "pct_change": -4.74,
-   "volume": 8719508,
-   "dollar_volume": 1996374954,
-   "market_cap": 62242611437,
+   "price": 228.11,
+   "pct_change": -5.09,
+   "volume": 12959515,
+   "dollar_volume": 2956194966,
+   "market_cap": 62012893778,
    "mentions": 28,
-   "mentions_24h_ago": 45,
+   "mentions_24h_ago": 31,
    "in_apewisdom": true,
-   "upvotes": 217,
-   "accel": 0.7,
-   "rank": 19,
+   "upvotes": 221,
+   "accel": 0.9,
+   "rank": 20,
    "rank_jump": 0,
-   "live_mentions": 0,
+   "live_mentions": 1,
    "sources": {
     "wallstreetbets": 27,
     "Shortsqueeze": 1,
     "wallstreetbetsELITE": 1,
-    "SPACs": 1
+    "SPACs": 1,
+    "reddit-live": 1
    },
-   "source_count": 4,
-   "posts": [],
+   "source_count": 5,
+   "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "BRUN, about to go on a RUN? My First DD. Second time posting."
+    }
+   ],
    "first_seen": "2026-08-12T01:07:52+00:00",
    "first_price": 193.23,
-   "pct_since_first_seen": 18.5,
+   "pct_since_first_seen": 18.1,
    "shares_per_100": 0.44,
-   "rel_volume": 0.4,
+   "rel_volume": 0.5,
    "high_30d": 277.68,
-   "hype_score": 16,
+   "hype_score": 18,
    "stage": "FADING",
    "stage_note": "Mentions are 83% off their peak of 161. Whatever this was, the crowd has moved on.",
    "off_mention_peak": -82.6,
    "peak_mentions": 161,
    "series": [
-    [
-     "09-02T22:28",
-     32
-    ],
     [
      "09-03T01:01",
      30
@@ -3102,6 +2870,10 @@
     [
      "09-10T18:14",
      28
+    ],
+    [
+     "09-10T21:28",
+     28
     ]
    ],
    "flags": [
@@ -3118,7 +2890,7 @@
      "level": "med"
     },
     {
-     "text": "Showing up on 4 separate boards at once - either real news or a coordinated push",
+     "text": "Showing up on 5 separate boards at once - either real news or a coordinated push",
      "level": "med"
     }
    ]
@@ -3128,21 +2900,21 @@
    "name": "Alphabet Inc. Class A",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 331.7851,
-   "pct_change": 0.34,
-   "volume": 13191786,
-   "dollar_volume": 4376838037,
-   "market_cap": 4057731773000,
-   "mentions": 31,
-   "mentions_24h_ago": 70,
+   "price": 332.6,
+   "pct_change": 0.59,
+   "volume": 22785147,
+   "dollar_volume": 7578339892,
+   "market_cap": 4067698000000,
+   "mentions": 24,
+   "mentions_24h_ago": 73,
    "in_apewisdom": true,
-   "upvotes": 67,
-   "accel": 0.5,
-   "rank": 16,
+   "upvotes": 48,
+   "accel": 0.4,
+   "rank": 25,
    "rank_jump": 0,
    "live_mentions": 1,
    "sources": {
-    "wallstreetbets": 29,
+    "wallstreetbets": 21,
     "Shortsqueeze": 1,
     "options": 1,
     "wallstreetbetsELITE": 1,
@@ -3159,20 +2931,16 @@
    ],
    "first_seen": "2026-08-12T01:07:52+00:00",
    "first_price": 343.8,
-   "pct_since_first_seen": -3.5,
+   "pct_since_first_seen": -3.3,
    "shares_per_100": 0.3,
-   "rel_volume": 0.5,
+   "rel_volume": 0.9,
    "high_30d": 377.65,
-   "hype_score": 16,
+   "hype_score": 18,
    "stage": "FADING",
-   "stage_note": "Mentions are 59% off their peak of 76. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -59.2,
+   "stage_note": "Mentions are 68% off their peak of 76. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -68.4,
    "peak_mentions": 76,
    "series": [
-    [
-     "09-01T15:25",
-     41
-    ],
     [
      "09-01T19:17",
      46
@@ -3264,6 +3032,10 @@
     [
      "09-10T18:14",
      31
+    ],
+    [
+     "09-10T21:28",
+     24
     ]
    ],
    "flags": [
@@ -3286,25 +3058,326 @@
    ]
   },
   {
+   "symbol": "RKLB",
+   "name": "Rocket Lab Corporation",
+   "exchange": "NASDAQ",
+   "sector": "Industrials",
+   "price": 61.96,
+   "pct_change": -1.76,
+   "volume": 18800251,
+   "dollar_volume": 1164863551,
+   "market_cap": 37080565428,
+   "mentions": 18,
+   "mentions_24h_ago": 52,
+   "in_apewisdom": true,
+   "upvotes": 36,
+   "accel": 0.4,
+   "rank": 32,
+   "rank_jump": 0,
+   "live_mentions": 0,
+   "sources": {
+    "wallstreetbets": 15,
+    "Shortsqueeze": 1,
+    "options": 1,
+    "wallstreetbetsELITE": 1,
+    "SPACs": 1,
+    "StockMarket": 1
+   },
+   "source_count": 6,
+   "posts": [],
+   "first_seen": "2026-08-12T01:07:52+00:00",
+   "first_price": 80.01,
+   "pct_since_first_seen": -22.6,
+   "shares_per_100": 1.61,
+   "rel_volume": 1.1,
+   "high_30d": 82.83,
+   "hype_score": 18,
+   "stage": "FADING",
+   "stage_note": "Mentions are 65% off their peak of 52. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -65.4,
+   "peak_mentions": 52,
+   "series": [
+    [
+     "09-02T00:54",
+     25
+    ],
+    [
+     "09-02T15:01",
+     42
+    ],
+    [
+     "09-02T19:17",
+     42
+    ],
+    [
+     "09-02T22:28",
+     38
+    ],
+    [
+     "09-03T01:01",
+     32
+    ],
+    [
+     "09-03T14:55",
+     27
+    ],
+    [
+     "09-03T18:25",
+     35
+    ],
+    [
+     "09-03T21:35",
+     32
+    ],
+    [
+     "09-03T23:52",
+     30
+    ],
+    [
+     "09-04T14:52",
+     17
+    ],
+    [
+     "09-04T23:49",
+     15
+    ],
+    [
+     "09-05T14:51",
+     14
+    ],
+    [
+     "09-05T18:00",
+     13
+    ],
+    [
+     "09-05T21:58",
+     10
+    ],
+    [
+     "09-08T19:20",
+     10
+    ],
+    [
+     "09-08T22:28",
+     16
+    ],
+    [
+     "09-09T01:06",
+     21
+    ],
+    [
+     "09-09T15:02",
+     46
+    ],
+    [
+     "09-09T19:09",
+     48
+    ],
+    [
+     "09-09T22:22",
+     52
+    ],
+    [
+     "09-10T00:55",
+     50
+    ],
+    [
+     "09-10T14:55",
+     32
+    ],
+    [
+     "09-10T18:14",
+     25
+    ],
+    [
+     "09-10T21:28",
+     18
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
+     "level": "high"
+    },
+    {
+     "text": "Showing up on 6 separate boards at once - either real news or a coordinated push",
+     "level": "med"
+    }
+   ]
+  },
+  {
+   "symbol": "AGI",
+   "name": "Alamos Gold Inc. Class A Common Shares",
+   "exchange": "NYSE",
+   "sector": "Basic Materials",
+   "price": 35.67,
+   "pct_change": -3.41,
+   "volume": 2294756,
+   "dollar_volume": 81853946,
+   "market_cap": 14980166210,
+   "mentions": 19,
+   "mentions_24h_ago": 58,
+   "in_apewisdom": true,
+   "upvotes": 308,
+   "accel": 0.4,
+   "rank": 31,
+   "rank_jump": 0,
+   "live_mentions": 1,
+   "sources": {
+    "wallstreetbets": 15,
+    "options": 1,
+    "StockMarket": 2,
+    "investing": 1,
+    "4chan": 2,
+    "reddit-live": 1
+   },
+   "source_count": 6,
+   "posts": [
+    {
+     "sub": "wallstreetbets",
+     "title": "Why would Anthropic want to IPO with all this uncertainty in the macroeconomic environment ?"
+    }
+   ],
+   "first_seen": "2026-08-12T01:07:52+00:00",
+   "first_price": 33.45,
+   "pct_since_first_seen": 6.6,
+   "shares_per_100": 2.8,
+   "rel_volume": 0.5,
+   "high_30d": 39.02,
+   "hype_score": 17,
+   "stage": "FADING",
+   "stage_note": "Mentions are 95% off their peak of 355. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -94.6,
+   "peak_mentions": 355,
+   "series": [
+    [
+     "08-27T04:27",
+     14
+    ],
+    [
+     "08-27T20:56",
+     22
+    ],
+    [
+     "08-28T05:10",
+     14
+    ],
+    [
+     "09-01T22:29",
+     10
+    ],
+    [
+     "09-03T21:35",
+     17
+    ],
+    [
+     "09-03T23:52",
+     22
+    ],
+    [
+     "09-04T14:52",
+     37
+    ],
+    [
+     "09-04T18:12",
+     38
+    ],
+    [
+     "09-04T21:18",
+     23
+    ],
+    [
+     "09-04T23:49",
+     16
+    ],
+    [
+     "09-07T16:19",
+     232
+    ],
+    [
+     "09-07T20:23",
+     299
+    ],
+    [
+     "09-07T23:21",
+     355
+    ],
+    [
+     "09-08T15:00",
+     238
+    ],
+    [
+     "09-08T19:20",
+     196
+    ],
+    [
+     "09-08T22:28",
+     177
+    ],
+    [
+     "09-09T01:06",
+     142
+    ],
+    [
+     "09-09T15:02",
+     87
+    ],
+    [
+     "09-09T19:09",
+     66
+    ],
+    [
+     "09-09T22:22",
+     45
+    ],
+    [
+     "09-10T00:55",
+     42
+    ],
+    [
+     "09-10T14:55",
+     27
+    ],
+    [
+     "09-10T18:14",
+     25
+    ],
+    [
+     "09-10T21:28",
+     19
+    ]
+   ],
+   "flags": [
+    {
+     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
+     "level": "high"
+    },
+    {
+     "text": "Showing up on 6 separate boards at once - either real news or a coordinated push",
+     "level": "med"
+    }
+   ]
+  },
+  {
    "symbol": "GOOG",
    "name": "Alphabet Inc. Class C Capital Stock",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 329.5427,
-   "pct_change": 0.35,
-   "volume": 7508705,
-   "dollar_volume": 2474438919,
-   "market_cap": 4030307221000,
-   "mentions": 27,
-   "mentions_24h_ago": 61,
+   "price": 330.39,
+   "pct_change": 0.61,
+   "volume": 15221652,
+   "dollar_volume": 5029081604,
+   "market_cap": 4040669700000,
+   "mentions": 25,
+   "mentions_24h_ago": 63,
    "in_apewisdom": true,
-   "upvotes": 45,
-   "accel": 0.5,
-   "rank": 21,
+   "upvotes": 40,
+   "accel": 0.4,
+   "rank": 23,
    "rank_jump": 0,
    "live_mentions": 0,
    "sources": {
-    "wallstreetbets": 26,
+    "wallstreetbets": 24,
     "stocks": 1,
     "pennystocks": 1,
     "Shortsqueeze": 1,
@@ -3318,20 +3391,16 @@
    "posts": [],
    "first_seen": "2026-08-12T01:07:52+00:00",
    "first_price": 343.0,
-   "pct_since_first_seen": -3.9,
+   "pct_since_first_seen": -3.7,
    "shares_per_100": 0.3,
-   "rel_volume": 0.4,
+   "rel_volume": 0.9,
    "high_30d": 375.35,
-   "hype_score": 15,
+   "hype_score": 17,
    "stage": "FADING",
-   "stage_note": "Mentions are 64% off their peak of 75. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -64.0,
+   "stage_note": "Mentions are 67% off their peak of 75. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -66.7,
    "peak_mentions": 75,
    "series": [
-    [
-     "09-02T15:01",
-     39
-    ],
     [
      "09-02T19:17",
      39
@@ -3423,6 +3492,10 @@
     [
      "09-10T18:14",
      27
+    ],
+    [
+     "09-10T21:28",
+     25
     ]
    ],
    "flags": [
@@ -3449,21 +3522,21 @@
    "name": "Advanced Micro Devices Inc.",
    "exchange": "NASDAQ",
    "sector": "Technology",
-   "price": 504.94,
-   "pct_change": -3.1,
-   "volume": 9841276,
-   "dollar_volume": 4969253903,
-   "market_cap": 824301947707,
-   "mentions": 17,
-   "mentions_24h_ago": 42,
+   "price": 503.6,
+   "pct_change": -3.36,
+   "volume": 15919534,
+   "dollar_volume": 8017077322,
+   "market_cap": 822114431151,
+   "mentions": 19,
+   "mentions_24h_ago": 40,
    "in_apewisdom": true,
-   "upvotes": 38,
+   "upvotes": 39,
    "accel": 0.5,
-   "rank": 34,
+   "rank": 30,
    "rank_jump": 0,
    "live_mentions": 0,
    "sources": {
-    "wallstreetbets": 13,
+    "wallstreetbets": 11,
     "stocks": 1,
     "pennystocks": 1,
     "Shortsqueeze": 1,
@@ -3471,27 +3544,23 @@
     "wallstreetbetsELITE": 1,
     "SPACs": 1,
     "StockMarket": 1,
-    "investing": 1,
+    "investing": 3,
     "4chan": 1
    },
    "source_count": 10,
    "posts": [],
    "first_seen": "2026-08-12T01:07:52+00:00",
    "first_price": 474.32,
-   "pct_since_first_seen": 6.5,
+   "pct_since_first_seen": 6.2,
    "shares_per_100": 0.2,
-   "rel_volume": 0.4,
+   "rel_volume": 0.7,
    "high_30d": 518.58,
-   "hype_score": 15,
+   "hype_score": 16,
    "stage": "FADING",
-   "stage_note": "Mentions are 73% off their peak of 62. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -72.6,
+   "stage_note": "Mentions are 69% off their peak of 62. Whatever this was, the crowd has moved on.",
+   "off_mention_peak": -69.4,
    "peak_mentions": 62,
    "series": [
-    [
-     "09-02T19:17",
-     30
-    ],
     [
      "09-02T22:28",
      30
@@ -3583,6 +3652,10 @@
     [
      "09-10T18:14",
      17
+    ],
+    [
+     "09-10T21:28",
+     19
     ]
    ],
    "flags": [
@@ -3603,190 +3676,50 @@
      "level": "med"
     }
    ]
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon.com Inc.",
-   "exchange": "NASDAQ",
-   "sector": "Consumer Discretionary",
-   "price": 252.27,
-   "pct_change": -0.05,
-   "volume": 13278170,
-   "dollar_volume": 3349683945,
-   "market_cap": 2721063324808,
-   "mentions": 13,
-   "mentions_24h_ago": 35,
-   "in_apewisdom": true,
-   "upvotes": 19,
-   "accel": 0.5,
-   "rank": 40,
-   "rank_jump": 0,
-   "live_mentions": 1,
-   "sources": {
-    "wallstreetbets": 10,
-    "stocks": 1,
-    "pennystocks": 1,
-    "Shortsqueeze": 1,
-    "options": 1,
-    "wallstreetbetsELITE": 1,
-    "SPACs": 1,
-    "StockMarket": 1,
-    "investing": 1,
-    "4chan": 1,
-    "reddit-live": 1
-   },
-   "source_count": 11,
-   "posts": [
-    {
-     "sub": "pennystocks",
-     "title": "$DMGI.V / $DMGGF \u2014 why the Christina Lake tenant is probably a real one, and why Canada is the point"
-    }
-   ],
-   "first_seen": "2026-08-12T01:07:52+00:00",
-   "first_price": 272.27,
-   "pct_since_first_seen": -7.3,
-   "shares_per_100": 0.4,
-   "rel_volume": 0.3,
-   "high_30d": 284.02,
-   "hype_score": 14,
-   "stage": "FADING",
-   "stage_note": "Mentions are 78% off their peak of 59. Whatever this was, the crowd has moved on.",
-   "off_mention_peak": -78.0,
-   "peak_mentions": 59,
-   "series": [
-    [
-     "09-02T22:28",
-     31
-    ],
-    [
-     "09-03T01:01",
-     33
-    ],
-    [
-     "09-03T14:55",
-     28
-    ],
-    [
-     "09-03T18:25",
-     24
-    ],
-    [
-     "09-03T21:35",
-     21
-    ],
-    [
-     "09-03T23:52",
-     22
-    ],
-    [
-     "09-04T14:52",
-     13
-    ],
-    [
-     "09-04T18:12",
-     16
-    ],
-    [
-     "09-04T21:18",
-     20
-    ],
-    [
-     "09-04T23:49",
-     18
-    ],
-    [
-     "09-05T14:51",
-     13
-    ],
-    [
-     "09-07T16:19",
-     17
-    ],
-    [
-     "09-07T20:23",
-     14
-    ],
-    [
-     "09-07T23:21",
-     11
-    ],
-    [
-     "09-08T15:00",
-     19
-    ],
-    [
-     "09-08T19:20",
-     23
-    ],
-    [
-     "09-08T22:28",
-     22
-    ],
-    [
-     "09-09T01:06",
-     19
-    ],
-    [
-     "09-09T15:02",
-     37
-    ],
-    [
-     "09-09T19:09",
-     36
-    ],
-    [
-     "09-09T22:22",
-     40
-    ],
-    [
-     "09-10T00:55",
-     40
-    ],
-    [
-     "09-10T14:55",
-     18
-    ],
-    [
-     "09-10T18:14",
-     13
-    ]
-   ],
-   "flags": [
-    {
-     "text": "Hype curve is past its peak - this is the exit half of the move, not the entry half",
-     "level": "high"
-    },
-    {
-     "text": "$100 buys 0.40 shares - needs a broker that does fractionals",
-     "level": "med"
-    },
-    {
-     "text": "Mega-cap - retail chatter doesn't move a company this big; it's here because it's popular, not because it's squeezing",
-     "level": "med"
-    },
-    {
-     "text": "Showing up on 11 separate boards at once - either real news or a coordinated push",
-     "level": "med"
-    }
-   ]
   }
  ],
  "track_record": {
-  "tracked": 92,
-  "pct_up": 32.6,
-  "median": -3.2,
-  "average": -4.1,
-  "best": 62.1,
+  "tracked": 94,
+  "pct_up": 30.9,
+  "median": -3.3,
+  "average": -4.4,
+  "best": 59.8,
   "worst": -37.9,
-  "median_peak_gain": 4.1,
+  "median_peak_gain": 3.6,
   "exit_on_fade": {
-   "n": 65,
+   "n": 67,
    "median": -0.6,
-   "pct_up": 38.5,
-   "total_on_100": 1.5
+   "pct_up": 38.8,
+   "total_on_100": -9.1
   }
  },
  "recent_calls": [
+  {
+   "symbol": "ADBE",
+   "ts": "2026-09-10T21:28:51+00:00",
+   "stage": "EARLY",
+   "price": 248.83,
+   "mentions": 42,
+   "hype_score": 56,
+   "last_price": 248.83,
+   "pct_now": 0.0,
+   "best": 0.0,
+   "worst": 0.0,
+   "last_checked": "2026-09-10T21:28:51+00:00"
+  },
+  {
+   "symbol": "WTI",
+   "ts": "2026-09-10T21:28:51+00:00",
+   "stage": "EARLY",
+   "price": 4.19,
+   "mentions": 31,
+   "hype_score": 49,
+   "last_price": 4.19,
+   "pct_now": 0.0,
+   "best": 0.0,
+   "worst": 0.0,
+   "last_checked": "2026-09-10T21:28:51+00:00"
+  },
   {
    "symbol": "AVAV",
    "ts": "2026-09-09T22:22:39+00:00",
@@ -3794,11 +3727,14 @@
    "price": 140.8,
    "mentions": 52,
    "hype_score": 59,
-   "last_price": 154.15,
-   "pct_now": 9.5,
+   "last_price": 147.065,
+   "pct_now": 4.4,
    "best": 11.5,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00",
+   "exit_pct": 4.4,
+   "exit_reason": "mentions fell 45% off peak",
+   "exit_date": "2026-09-10"
   },
   {
    "symbol": "MC",
@@ -3807,11 +3743,11 @@
    "price": 65.39,
    "mentions": 20,
    "hype_score": 44,
-   "last_price": 64.555,
-   "pct_now": -1.3,
+   "last_price": 64.25,
+   "pct_now": -1.7,
    "best": 0.9,
-   "worst": -1.3,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "worst": -1.7,
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "AAPL",
@@ -3820,11 +3756,11 @@
    "price": 315.34,
    "mentions": 130,
    "hype_score": 40,
-   "last_price": 325.375,
-   "pct_now": 3.2,
-   "best": 3.2,
+   "last_price": 326.57,
+   "pct_now": 3.6,
+   "best": 3.6,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "SUNE",
@@ -3833,11 +3769,11 @@
    "price": 4.51,
    "mentions": 10,
    "hype_score": 58,
-   "last_price": 3.68,
-   "pct_now": -18.4,
+   "last_price": 3.37,
+   "pct_now": -25.3,
    "best": 0.0,
-   "worst": -18.4,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "worst": -25.3,
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "AEO",
@@ -3846,11 +3782,14 @@
    "price": 17.095,
    "mentions": 35,
    "hype_score": 47,
-   "last_price": 14.225,
-   "pct_now": -16.8,
+   "last_price": 14.53,
+   "pct_now": -15.0,
    "best": 0.0,
    "worst": -16.8,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00",
+   "exit_pct": -15.0,
+   "exit_reason": "mentions fell 45% off peak",
+   "exit_date": "2026-09-10"
   },
   {
    "symbol": "RKLB",
@@ -3859,11 +3798,11 @@
    "price": 63.8,
    "mentions": 48,
    "hype_score": 37,
-   "last_price": 63.165,
-   "pct_now": -1.0,
+   "last_price": 61.96,
+   "pct_now": -2.9,
    "best": 0.6,
-   "worst": -1.1,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -2.9,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -1.0,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-10"
@@ -3875,11 +3814,11 @@
    "price": 56.85,
    "mentions": 21,
    "hype_score": 60,
-   "last_price": 56.077,
-   "pct_now": -1.4,
+   "last_price": 56.01,
+   "pct_now": -1.5,
    "best": 1.2,
-   "worst": -1.4,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "worst": -1.5,
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "SMR",
@@ -3888,11 +3827,11 @@
    "price": 11.18,
    "mentions": 12,
    "hype_score": 21,
-   "last_price": 10.26,
-   "pct_now": -8.2,
+   "last_price": 10.21,
+   "pct_now": -8.7,
    "best": 0.0,
-   "worst": -8.2,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "worst": -8.7,
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "INTC",
@@ -3901,11 +3840,11 @@
    "price": 104.47,
    "mentions": 66,
    "hype_score": 42,
-   "last_price": 101.08,
-   "pct_now": -3.2,
+   "last_price": 100.32,
+   "pct_now": -4.0,
    "best": 1.7,
-   "worst": -3.2,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -4.0,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -3.1,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-10"
@@ -3917,11 +3856,11 @@
    "price": 162.52,
    "mentions": 51,
    "hype_score": 36,
-   "last_price": 156.05,
-   "pct_now": -4.0,
+   "last_price": 152.94,
+   "pct_now": -5.9,
    "best": 0.3,
-   "worst": -4.0,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -5.9,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -0.6,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-09"
@@ -3933,11 +3872,11 @@
    "price": 505.74,
    "mentions": 36,
    "hype_score": 33,
-   "last_price": 504.94,
-   "pct_now": -0.2,
+   "last_price": 503.6,
+   "pct_now": -0.4,
    "best": 3.4,
-   "worst": -0.2,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -0.4,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": 0.7,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-10"
@@ -3949,11 +3888,11 @@
    "price": 173.44,
    "mentions": 20,
    "hype_score": 44,
-   "last_price": 179.04,
-   "pct_now": 3.2,
+   "last_price": 176.88,
+   "pct_now": 2.0,
    "best": 3.2,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "FICO",
@@ -3962,11 +3901,11 @@
    "price": 932.26,
    "mentions": 28,
    "hype_score": 70,
-   "last_price": 959.33,
-   "pct_now": 2.9,
+   "last_price": 960.67,
+   "pct_now": 3.0,
    "best": 5.5,
    "worst": -2.2,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": 0.0,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-05"
@@ -3978,11 +3917,11 @@
    "price": 2.675,
    "mentions": 44,
    "hype_score": 62,
-   "last_price": 2.425,
-   "pct_now": -9.3,
+   "last_price": 2.36,
+   "pct_now": -11.8,
    "best": 0.0,
-   "worst": -9.3,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -11.8,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -0.9,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-05"
@@ -3994,11 +3933,11 @@
    "price": 998.7857,
    "mentions": 253,
    "hype_score": 34,
-   "last_price": 978.48,
-   "pct_now": -2.0,
+   "last_price": 977.41,
+   "pct_now": -2.1,
    "best": 3.6,
-   "worst": -2.0,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -2.1,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -0.4,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-10"
@@ -4010,11 +3949,11 @@
    "price": 38.75,
    "mentions": 17,
    "hype_score": 46,
-   "last_price": 39.06,
-   "pct_now": 0.8,
+   "last_price": 38.44,
+   "pct_now": -0.8,
    "best": 5.9,
    "worst": -0.8,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "LULU",
@@ -4023,11 +3962,11 @@
    "price": 121.77,
    "mentions": 228,
    "hype_score": 92,
-   "last_price": 97.22,
-   "pct_now": -20.2,
+   "last_price": 96.88,
+   "pct_now": -20.4,
    "best": 0.0,
-   "worst": -20.2,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -20.4,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -17.4,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-04"
@@ -4039,11 +3978,11 @@
    "price": 18.35,
    "mentions": 53,
    "hype_score": 60,
-   "last_price": 17.085,
-   "pct_now": -6.9,
+   "last_price": 16.69,
+   "pct_now": -9.0,
    "best": 0.0,
-   "worst": -6.9,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -9.0,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -5.2,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-09"
@@ -4055,11 +3994,11 @@
    "price": 179.4227,
    "mentions": 23,
    "hype_score": 39,
-   "last_price": 163.395,
+   "last_price": 163.48,
    "pct_now": -8.9,
    "best": 0.0,
    "worst": -10.3,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "SNOW",
@@ -4068,11 +4007,11 @@
    "price": 305.84,
    "mentions": 99,
    "hype_score": 63,
-   "last_price": 331.645,
-   "pct_now": 8.4,
+   "last_price": 329.72,
+   "pct_now": 7.8,
    "best": 21.4,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": 16.6,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-03"
@@ -4084,11 +4023,11 @@
    "price": 49.5,
    "mentions": 15,
    "hype_score": 58,
-   "last_price": 47.215,
-   "pct_now": -4.6,
+   "last_price": 47.3,
+   "pct_now": -4.4,
    "best": 1.6,
    "worst": -6.4,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "HPE",
@@ -4097,11 +4036,11 @@
    "price": 51.85,
    "mentions": 44,
    "hype_score": 57,
-   "last_price": 55.69,
-   "pct_now": 7.4,
+   "last_price": 55.22,
+   "pct_now": 6.5,
    "best": 13.6,
    "worst": -6.6,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": 4.1,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-04"
@@ -4113,11 +4052,11 @@
    "price": 62.44,
    "mentions": 103,
    "hype_score": 38,
-   "last_price": 62.02,
-   "pct_now": -0.7,
+   "last_price": 59.91,
+   "pct_now": -4.1,
    "best": 6.4,
-   "worst": -0.9,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "worst": -4.1,
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -0.7,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-03"
@@ -4129,11 +4068,11 @@
    "price": 170.754,
    "mentions": 45,
    "hype_score": 36,
-   "last_price": 163.3262,
-   "pct_now": -4.4,
+   "last_price": 160.31,
+   "pct_now": -6.1,
    "best": 1.6,
-   "worst": -4.4,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "worst": -6.1,
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "VIVK",
@@ -4142,11 +4081,11 @@
    "price": 0.9333,
    "mentions": 22,
    "hype_score": 57,
-   "last_price": 0.8499,
+   "last_price": 0.85,
    "pct_now": -8.9,
    "best": 1.0,
    "worst": -11.8,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "MDB",
@@ -4155,11 +4094,11 @@
    "price": 434.21,
    "mentions": 17,
    "hype_score": 45,
-   "last_price": 376.25,
-   "pct_now": -13.3,
+   "last_price": 373.87,
+   "pct_now": -13.9,
    "best": 0.0,
    "worst": -18.0,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "PANW",
@@ -4168,11 +4107,11 @@
    "price": 362.09,
    "mentions": 30,
    "hype_score": 36,
-   "last_price": 338.82,
-   "pct_now": -6.4,
+   "last_price": 338.49,
+   "pct_now": -6.5,
    "best": 0.0,
    "worst": -10.7,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -9.3,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-02"
@@ -4184,11 +4123,11 @@
    "price": 0.8762,
    "mentions": 14,
    "hype_score": 70,
-   "last_price": 1.42,
-   "pct_now": 62.1,
+   "last_price": 1.4,
+   "pct_now": 59.8,
    "best": 124.3,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": 50.1,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-02"
@@ -4200,11 +4139,11 @@
    "price": 339.35,
    "mentions": 55,
    "hype_score": 55,
-   "last_price": 331.7851,
-   "pct_now": -2.2,
+   "last_price": 332.6,
+   "pct_now": -2.0,
    "best": 1.0,
    "worst": -2.8,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -1.1,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-09-01"
@@ -4216,11 +4155,11 @@
    "price": 53.66,
    "mentions": 35,
    "hype_score": 59,
-   "last_price": 53.165,
-   "pct_now": -0.9,
+   "last_price": 53.31,
+   "pct_now": -0.7,
    "best": 5.9,
    "worst": -2.8,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": -0.9,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-08-31"
@@ -4232,11 +4171,11 @@
    "price": 107.02,
    "mentions": 36,
    "hype_score": 51,
-   "last_price": 90.1,
-   "pct_now": -15.8,
+   "last_price": 88.91,
+   "pct_now": -16.9,
    "best": 0.0,
    "worst": -19.5,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "AFRM",
@@ -4245,11 +4184,11 @@
    "price": 77.49,
    "mentions": 15,
    "hype_score": 44,
-   "last_price": 67.965,
+   "last_price": 67.99,
    "pct_now": -12.3,
    "best": 0.3,
    "worst": -12.3,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "VNRX",
@@ -4258,11 +4197,11 @@
    "price": 0.501,
    "mentions": 14,
    "hype_score": 60,
-   "last_price": 0.3385,
-   "pct_now": -32.4,
+   "last_price": 0.34,
+   "pct_now": -32.1,
    "best": 0.0,
    "worst": -33.9,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "CRWD",
@@ -4271,11 +4210,11 @@
    "price": 189.18,
    "mentions": 55,
    "hype_score": 55,
-   "last_price": 210.23,
-   "pct_now": 11.1,
+   "last_price": 208.86,
+   "pct_now": 10.4,
    "best": 22.1,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": 22.1,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-08-31"
@@ -4287,11 +4226,11 @@
    "price": 209.66,
    "mentions": 1495,
    "hype_score": 52,
-   "last_price": 218.42,
-   "pct_now": 4.2,
+   "last_price": 218.36,
+   "pct_now": 4.1,
    "best": 12.0,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": 8.7,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-08-28"
@@ -4303,11 +4242,11 @@
    "price": 205.62,
    "mentions": 97,
    "hype_score": 50,
-   "last_price": 243.72,
-   "pct_now": 18.5,
+   "last_price": 243.0,
+   "pct_now": 18.2,
    "best": 29.6,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00",
+   "last_checked": "2026-09-10T21:28:51+00:00",
    "exit_pct": 24.5,
    "exit_reason": "mentions fell 45% off peak",
    "exit_date": "2026-08-28"
@@ -4319,11 +4258,11 @@
    "price": 134.42,
    "mentions": 19,
    "hype_score": 47,
-   "last_price": 170.4801,
-   "pct_now": 26.8,
+   "last_price": 171.11,
+   "pct_now": 27.3,
    "best": 32.0,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   },
   {
    "symbol": "DG",
@@ -4332,40 +4271,11 @@
    "price": 122.78,
    "mentions": 19,
    "hype_score": 42,
-   "last_price": 123.34,
-   "pct_now": 0.5,
+   "last_price": 122.99,
+   "pct_now": 0.2,
    "best": 8.5,
    "worst": 0.0,
-   "last_checked": "2026-09-10T18:14:56+00:00"
-  },
-  {
-   "symbol": "META",
-   "ts": "2026-08-26T16:21:32+00:00",
-   "stage": "EARLY",
-   "price": 574.86,
-   "mentions": 226,
-   "hype_score": 47,
-   "last_price": 648.839,
-   "pct_now": 12.9,
-   "best": 14.1,
-   "worst": -0.7,
-   "last_checked": "2026-09-10T18:14:56+00:00",
-   "exit_pct": -0.7,
-   "exit_reason": "mentions fell 45% off peak",
-   "exit_date": "2026-08-27"
-  },
-  {
-   "symbol": "ANF",
-   "ts": "2026-08-26T16:21:32+00:00",
-   "stage": "RUNNING",
-   "price": 152.565,
-   "mentions": 16,
-   "hype_score": 56,
-   "last_price": 145.15,
-   "pct_now": -4.9,
-   "best": 0.5,
-   "worst": -10.5,
-   "last_checked": "2026-09-10T18:14:56+00:00"
+   "last_checked": "2026-09-10T21:28:51+00:00"
   }
  ]
 }
