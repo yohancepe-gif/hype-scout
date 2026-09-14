@@ -1,23 +1,8 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 418.83660399999997,
- "positions": [
-  {
-   "symbol": "TTAN",
-   "qty": 1,
-   "entry_price": 57.0205,
-   "entry_ts": "2026-09-09T15:04:32+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 60,
-   "stop": 48.4675,
-   "target": 74.1267,
-   "last_price": 54.68,
-   "pnl_pct": -4.1,
-   "pnl": -2.34,
-   "high_water": 57.68
-  }
- ],
+ "cash": 476.50308399999994,
+ "positions": [],
  "closed": [
   {
    "symbol": "CAST",
@@ -96,6 +81,19 @@
    "pnl_pct": -3.29,
    "entry_stage": "EARLY",
    "entry_score": 58
+  },
+  {
+   "symbol": "TTAN",
+   "qty": 1,
+   "entry_price": 57.0205,
+   "entry_ts": "2026-09-09T15:04:32+00:00",
+   "exit_price": 57.6665,
+   "exit_ts": "2026-09-14T16:54:36+00:00",
+   "reason": "time stop, 5 days",
+   "pnl": 0.65,
+   "pnl_pct": 1.13,
+   "entry_stage": "EARLY",
+   "entry_score": 60
   }
  ],
  "equity": [
@@ -722,6 +720,10 @@
   [
    "2026-09-13T22:15:07+00:00",
    473.52
+  ],
+  [
+   "2026-09-14T16:54:36+00:00",
+   476.5
   ]
  ],
  "day_trades": [
@@ -782,24 +784,28 @@
   {
    "ts": "2026-09-10T21:29:29+00:00",
    "msg": "SELL AEO x6 @ 14.4283 (hype rolled over (FADING)) -> -2.94"
+  },
+  {
+   "ts": "2026-09-14T16:54:38+00:00",
+   "msg": "SELL TTAN x1 @ 57.6665 (time stop, 5 days) -> +0.65"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 473.52,
-  "total_return_pct": -5.3,
-  "cash": 418.84,
-  "open_positions": 1,
-  "trades_closed": 6,
-  "win_rate": 16.7,
+  "equity": 476.5,
+  "total_return_pct": -4.7,
+  "cash": 476.5,
+  "open_positions": 0,
+  "trades_closed": 7,
+  "win_rate": 28.6,
   "median_trade_pct": -3.04,
-  "best_pct": 0.06,
+  "best_pct": 1.13,
   "worst_pct": -13.23,
-  "total_pnl": -24.13,
+  "total_pnl": -23.48,
   "exit_reasons": {
    "hype rolled over (FADING)": 4,
-   "time stop": 2
+   "time stop": 3
   },
   "day_trades_5d": 1
  }
