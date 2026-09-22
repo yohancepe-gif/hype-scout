@@ -1,8 +1,22 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 476.50308399999994,
- "positions": [],
+ "cash": 381.82464189999996,
+ "positions": [
+  {
+   "symbol": "BB",
+   "qty": 11,
+   "entry_price": 8.6071,
+   "entry_ts": "2026-09-22T15:29:40+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 51,
+   "stop": 7.3161,
+   "target": 11.1893,
+   "last_price": 8.5473,
+   "pnl_pct": -0.69,
+   "pnl": -0.66
+  }
+ ],
  "closed": [
   {
    "symbol": "CAST",
@@ -832,6 +846,10 @@
   [
    "2026-09-21T23:57:46+00:00",
    476.5
+  ],
+  [
+   "2026-09-22T15:29:40+00:00",
+   475.84
   ]
  ],
  "day_trades": [
@@ -896,15 +914,19 @@
   {
    "ts": "2026-09-14T16:54:38+00:00",
    "msg": "SELL TTAN x1 @ 57.6665 (time stop, 5 days) -> +0.65"
+  },
+  {
+   "ts": "2026-09-22T15:29:40+00:00",
+   "msg": "BUY  BB x11 @ 8.6071 (score 51, relvol 1.5x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 476.5,
-  "total_return_pct": -4.7,
-  "cash": 476.5,
-  "open_positions": 0,
+  "equity": 475.84,
+  "total_return_pct": -4.83,
+  "cash": 381.82,
+  "open_positions": 1,
   "trades_closed": 7,
   "win_rate": 28.6,
   "median_trade_pct": -3.04,
