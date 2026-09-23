@@ -1,7 +1,7 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 381.82464189999996,
+ "cash": 293.97396189999995,
  "positions": [
   {
    "symbol": "BB",
@@ -12,10 +12,23 @@
    "entry_score": 51,
    "stop": 7.3161,
    "target": 11.1893,
-   "last_price": 8.62,
-   "pnl_pct": 0.15,
-   "pnl": 0.14,
+   "last_price": 8.475,
+   "pnl_pct": -1.53,
+   "pnl": -1.45,
    "high_water": 8.64
+  },
+  {
+   "symbol": "JAGX",
+   "qty": 6,
+   "entry_price": 14.6418,
+   "entry_ts": "2026-09-23T15:22:50+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 66,
+   "stop": 12.4455,
+   "target": 19.0343,
+   "last_price": 14.54,
+   "pnl_pct": -0.7,
+   "pnl": -0.61
   }
  ],
  "closed": [
@@ -863,6 +876,10 @@
   [
    "2026-09-23T01:22:03+00:00",
    476.64
+  ],
+  [
+   "2026-09-23T15:22:50+00:00",
+   474.44
   ]
  ],
  "day_trades": [
@@ -931,15 +948,19 @@
   {
    "ts": "2026-09-22T15:29:40+00:00",
    "msg": "BUY  BB x11 @ 8.6071 (score 51, relvol 1.5x)"
+  },
+  {
+   "ts": "2026-09-23T15:22:52+00:00",
+   "msg": "BUY  JAGX x6 @ 14.6418 (score 66, relvol 131.8x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 476.64,
-  "total_return_pct": -4.67,
-  "cash": 381.82,
-  "open_positions": 1,
+  "equity": 474.44,
+  "total_return_pct": -5.11,
+  "cash": 293.97,
+  "open_positions": 2,
   "trades_closed": 7,
   "win_rate": 28.6,
   "median_trade_pct": -3.04,
