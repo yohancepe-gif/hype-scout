@@ -1,7 +1,7 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 293.97396189999995,
+ "cash": 344.91486189999995,
  "positions": [
   {
    "symbol": "BB",
@@ -12,23 +12,10 @@
    "entry_score": 51,
    "stop": 7.3161,
    "target": 11.1893,
-   "last_price": 8.475,
-   "pnl_pct": -1.53,
-   "pnl": -1.45,
+   "last_price": 8.375,
+   "pnl_pct": -2.7,
+   "pnl": -2.55,
    "high_water": 8.64
-  },
-  {
-   "symbol": "JAGX",
-   "qty": 6,
-   "entry_price": 14.6418,
-   "entry_ts": "2026-09-23T15:22:50+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 66,
-   "stop": 12.4455,
-   "target": 19.0343,
-   "last_price": 14.54,
-   "pnl_pct": -0.7,
-   "pnl": -0.61
   }
  ],
  "closed": [
@@ -122,6 +109,19 @@
    "pnl_pct": 1.13,
    "entry_stage": "EARLY",
    "entry_score": 60
+  },
+  {
+   "symbol": "JAGX",
+   "qty": 6,
+   "entry_price": 14.6418,
+   "entry_ts": "2026-09-23T15:22:50+00:00",
+   "exit_price": 8.4901,
+   "exit_ts": "2026-09-23T19:35:01+00:00",
+   "reason": "stop loss -41.6%",
+   "pnl": -36.91,
+   "pnl_pct": -42.01,
+   "entry_stage": "EARLY",
+   "entry_score": 66
   }
  ],
  "equity": [
@@ -880,12 +880,20 @@
   [
    "2026-09-23T15:22:50+00:00",
    474.44
+  ],
+  [
+   "2026-09-23T19:35:01+00:00",
+   437.04
   ]
  ],
  "day_trades": [
   [
    "2026-09-10",
    "AEO"
+  ],
+  [
+   "2026-09-23",
+   "JAGX"
   ]
  ],
  "log": [
@@ -952,25 +960,30 @@
   {
    "ts": "2026-09-23T15:22:52+00:00",
    "msg": "BUY  JAGX x6 @ 14.6418 (score 66, relvol 131.8x)"
+  },
+  {
+   "ts": "2026-09-23T19:35:05+00:00",
+   "msg": "SELL JAGX x6 @ 8.4901 (stop loss -41.6%) -> -36.91"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 474.44,
-  "total_return_pct": -5.11,
-  "cash": 293.97,
-  "open_positions": 2,
-  "trades_closed": 7,
-  "win_rate": 28.6,
+  "equity": 437.04,
+  "total_return_pct": -12.59,
+  "cash": 344.91,
+  "open_positions": 1,
+  "trades_closed": 8,
+  "win_rate": 25.0,
   "median_trade_pct": -3.04,
   "best_pct": 1.13,
-  "worst_pct": -13.23,
-  "total_pnl": -23.48,
+  "worst_pct": -42.01,
+  "total_pnl": -60.39,
   "exit_reasons": {
    "hype rolled over (FADING)": 4,
-   "time stop": 3
+   "time stop": 3,
+   "stop loss -41.6%": 1
   },
-  "day_trades_5d": 0
+  "day_trades_5d": 1
  }
 }
