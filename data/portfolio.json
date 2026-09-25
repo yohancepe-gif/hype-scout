@@ -1,23 +1,8 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 344.91486189999995,
- "positions": [
-  {
-   "symbol": "BB",
-   "qty": 11,
-   "entry_price": 8.6071,
-   "entry_ts": "2026-09-22T15:29:40+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 51,
-   "stop": 7.3161,
-   "target": 11.1893,
-   "last_price": 8.73,
-   "pnl_pct": 1.43,
-   "pnl": 1.35,
-   "high_water": 8.82
-  }
- ],
+ "cash": 440.27265189999997,
+ "positions": [],
  "closed": [
   {
    "symbol": "CAST",
@@ -122,6 +107,19 @@
    "pnl_pct": -42.01,
    "entry_stage": "EARLY",
    "entry_score": 66
+  },
+  {
+   "symbol": "BB",
+   "qty": 11,
+   "entry_price": 8.6071,
+   "entry_ts": "2026-09-22T15:29:40+00:00",
+   "exit_price": 8.6689,
+   "exit_ts": "2026-09-25T19:56:01+00:00",
+   "reason": "hype rolled over (FADING)",
+   "pnl": 0.68,
+   "pnl_pct": 0.72,
+   "entry_stage": "EARLY",
+   "entry_score": 51
   }
  ],
  "equity": [
@@ -908,6 +906,10 @@
   [
    "2026-09-25T15:47:31+00:00",
    440.94
+  ],
+  [
+   "2026-09-25T19:56:01+00:00",
+   440.27
   ]
  ],
  "day_trades": [
@@ -988,23 +990,27 @@
   {
    "ts": "2026-09-23T19:35:05+00:00",
    "msg": "SELL JAGX x6 @ 8.4901 (stop loss -41.6%) -> -36.91"
+  },
+  {
+   "ts": "2026-09-25T19:56:01+00:00",
+   "msg": "SELL BB x11 @ 8.6689 (hype rolled over (FADING)) -> +0.68"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 440.94,
-  "total_return_pct": -11.81,
-  "cash": 344.91,
-  "open_positions": 1,
-  "trades_closed": 8,
-  "win_rate": 25.0,
+  "equity": 440.27,
+  "total_return_pct": -11.95,
+  "cash": 440.27,
+  "open_positions": 0,
+  "trades_closed": 9,
+  "win_rate": 33.3,
   "median_trade_pct": -3.04,
   "best_pct": 1.13,
   "worst_pct": -42.01,
-  "total_pnl": -60.39,
+  "total_pnl": -59.71,
   "exit_reasons": {
-   "hype rolled over (FADING)": 4,
+   "hype rolled over (FADING)": 5,
    "time stop": 3,
    "stop loss -41.6%": 1
   },
