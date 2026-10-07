@@ -1,8 +1,22 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 440.27265189999997,
- "positions": [],
+ "cash": 375.8700219,
+ "positions": [
+  {
+   "symbol": "PENG",
+   "qty": 1,
+   "entry_price": 64.4026,
+   "entry_ts": "2026-10-07T17:43:36+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 59,
+   "stop": 54.7422,
+   "target": 83.7234,
+   "last_price": 64.21,
+   "pnl_pct": -0.3,
+   "pnl": -0.19
+  }
+ ],
  "closed": [
   {
    "symbol": "CAST",
@@ -1022,6 +1036,10 @@
   [
    "2026-10-07T02:12:41+00:00",
    440.27
+  ],
+  [
+   "2026-10-07T17:43:36+00:00",
+   440.08
   ]
  ],
  "day_trades": [
@@ -1106,15 +1124,19 @@
   {
    "ts": "2026-09-25T19:56:01+00:00",
    "msg": "SELL BB x11 @ 8.6689 (hype rolled over (FADING)) -> +0.68"
+  },
+  {
+   "ts": "2026-10-07T17:43:36+00:00",
+   "msg": "BUY  PENG x1 @ 64.4026 (score 59, relvol 10.2x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 440.27,
-  "total_return_pct": -11.95,
-  "cash": 440.27,
-  "open_positions": 0,
+  "equity": 440.08,
+  "total_return_pct": -11.98,
+  "cash": 375.87,
+  "open_positions": 1,
   "trades_closed": 9,
   "win_rate": 33.3,
   "median_trade_pct": -3.04,
