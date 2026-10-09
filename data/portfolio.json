@@ -1,7 +1,7 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 374.7339219,
+ "cash": 280.4887919,
  "positions": [
   {
    "symbol": "PENG",
@@ -12,10 +12,23 @@
    "entry_score": 59,
    "stop": 54.7422,
    "target": 83.7234,
-   "last_price": 71.36,
-   "pnl_pct": 10.8,
-   "pnl": 6.96,
-   "high_water": 73.09
+   "last_price": 74.415,
+   "pnl_pct": 15.55,
+   "pnl": 10.01,
+   "high_water": 74.415
+  },
+  {
+   "symbol": "MH",
+   "qty": 7,
+   "entry_price": 13.4636,
+   "entry_ts": "2026-10-09T17:25:03+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 47,
+   "stop": 11.4441,
+   "target": 17.5027,
+   "last_price": 13.37,
+   "pnl_pct": -0.7,
+   "pnl": -0.66
   }
  ],
  "closed": [
@@ -1083,6 +1096,10 @@
   [
    "2026-10-08T23:08:05+00:00",
    446.09
+  ],
+  [
+   "2026-10-09T17:25:03+00:00",
+   448.49
   ]
  ],
  "day_trades": [
@@ -1195,15 +1212,19 @@
   {
    "ts": "2026-10-08T23:08:09+00:00",
    "msg": "SELL APLD x4 @ 23.7386 (hype rolled over (FADING)) -> -0.57"
+  },
+  {
+   "ts": "2026-10-09T17:25:05+00:00",
+   "msg": "BUY  MH x7 @ 13.4636 (score 47, relvol 1.5x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 446.09,
-  "total_return_pct": -10.78,
-  "cash": 374.73,
-  "open_positions": 1,
+  "equity": 448.49,
+  "total_return_pct": -10.3,
+  "cash": 280.49,
+  "open_positions": 2,
   "trades_closed": 11,
   "win_rate": 27.3,
   "median_trade_pct": -1.41,
