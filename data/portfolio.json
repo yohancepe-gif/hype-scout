@@ -1,23 +1,8 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 359.5010419,
- "positions": [
-  {
-   "symbol": "MH",
-   "qty": 7,
-   "entry_price": 13.4636,
-   "entry_ts": "2026-10-09T17:25:03+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 47,
-   "stop": 11.4441,
-   "target": 17.5027,
-   "last_price": 13.335,
-   "pnl_pct": -0.96,
-   "pnl": -0.9,
-   "high_water": 13.58
-  }
- ],
+ "cash": 451.6713019,
+ "positions": [],
  "closed": [
   {
    "symbol": "CAST",
@@ -174,6 +159,19 @@
    "pnl_pct": 22.68,
    "entry_stage": "EARLY",
    "entry_score": 59
+  },
+  {
+   "symbol": "MH",
+   "qty": 7,
+   "entry_price": 13.4636,
+   "entry_ts": "2026-10-09T17:25:03+00:00",
+   "exit_price": 13.1672,
+   "exit_ts": "2026-10-14T20:05:46+00:00",
+   "reason": "time stop, 5 days",
+   "pnl": -2.07,
+   "pnl_pct": -2.2,
+   "entry_stage": "EARLY",
+   "entry_score": 47
   }
  ],
  "equity": [
@@ -1144,6 +1142,10 @@
   [
    "2026-10-14T15:45:24+00:00",
    452.85
+  ],
+  [
+   "2026-10-14T20:05:46+00:00",
+   451.67
   ]
  ],
  "day_trades": [
@@ -1264,24 +1266,28 @@
   {
    "ts": "2026-10-12T20:12:52+00:00",
    "msg": "SELL PENG x1 @ 79.0122 (time stop, 5 days) -> +14.61"
+  },
+  {
+   "ts": "2026-10-14T20:05:50+00:00",
+   "msg": "SELL MH x7 @ 13.1672 (time stop, 5 days) -> -2.07"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 452.85,
-  "total_return_pct": -9.43,
-  "cash": 359.5,
-  "open_positions": 1,
-  "trades_closed": 12,
-  "win_rate": 33.3,
-  "median_trade_pct": -0.6,
+  "equity": 451.67,
+  "total_return_pct": -9.67,
+  "cash": 451.67,
+  "open_positions": 0,
+  "trades_closed": 13,
+  "win_rate": 30.8,
+  "median_trade_pct": -1.41,
   "best_pct": 22.68,
   "worst_pct": -42.01,
-  "total_pnl": -46.23,
+  "total_pnl": -48.3,
   "exit_reasons": {
    "hype rolled over (FADING)": 7,
-   "time stop": 4,
+   "time stop": 5,
    "stop loss -41.6%": 1
   },
   "day_trades_5d": 2
