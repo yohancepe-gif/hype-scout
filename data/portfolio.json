@@ -1,8 +1,22 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 451.6713019,
- "positions": [],
+ "cash": 354.1937019,
+ "positions": [
+  {
+   "symbol": "AVEX",
+   "qty": 10,
+   "entry_price": 9.7478,
+   "entry_ts": "2026-10-22T19:51:45+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 63,
+   "stop": 8.2856,
+   "target": 12.6721,
+   "last_price": 9.68,
+   "pnl_pct": -0.7,
+   "pnl": -0.68
+  }
+ ],
  "closed": [
   {
    "symbol": "CAST",
@@ -1242,6 +1256,10 @@
   [
    "2026-10-22T15:51:13+00:00",
    451.67
+  ],
+  [
+   "2026-10-22T19:51:45+00:00",
+   450.99
   ]
  ],
  "day_trades": [
@@ -1366,15 +1384,19 @@
   {
    "ts": "2026-10-14T20:05:50+00:00",
    "msg": "SELL MH x7 @ 13.1672 (time stop, 5 days) -> -2.07"
+  },
+  {
+   "ts": "2026-10-22T19:51:45+00:00",
+   "msg": "BUY  AVEX x10 @ 9.7478 (score 63, relvol 8.3x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 451.67,
-  "total_return_pct": -9.67,
-  "cash": 451.67,
-  "open_positions": 0,
+  "equity": 450.99,
+  "total_return_pct": -9.8,
+  "cash": 354.19,
+  "open_positions": 1,
   "trades_closed": 13,
   "win_rate": 30.8,
   "median_trade_pct": -1.41,
