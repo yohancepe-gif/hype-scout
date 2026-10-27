@@ -1,23 +1,8 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 354.1937019,
- "positions": [
-  {
-   "symbol": "AVEX",
-   "qty": 10,
-   "entry_price": 9.7478,
-   "entry_ts": "2026-10-22T19:51:45+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 63,
-   "stop": 8.2856,
-   "target": 12.6721,
-   "last_price": 11.17,
-   "pnl_pct": 14.59,
-   "pnl": 14.22,
-   "high_water": 11.17
-  }
- ],
+ "cash": 465.7076019,
+ "positions": [],
  "closed": [
   {
    "symbol": "CAST",
@@ -187,6 +172,19 @@
    "pnl_pct": -2.2,
    "entry_stage": "EARLY",
    "entry_score": 47
+  },
+  {
+   "symbol": "AVEX",
+   "qty": 10,
+   "entry_price": 9.7478,
+   "entry_ts": "2026-10-22T19:51:45+00:00",
+   "exit_price": 11.1514,
+   "exit_ts": "2026-10-27T21:09:32+00:00",
+   "reason": "time stop, 5 days",
+   "pnl": 14.04,
+   "pnl_pct": 14.4,
+   "entry_stage": "EARLY",
+   "entry_score": 63
   }
  ],
  "equity": [
@@ -1321,6 +1319,10 @@
   [
    "2026-10-27T16:17:52+00:00",
    465.89
+  ],
+  [
+   "2026-10-27T21:09:32+00:00",
+   465.71
   ]
  ],
  "day_trades": [
@@ -1449,24 +1451,28 @@
   {
    "ts": "2026-10-22T19:51:45+00:00",
    "msg": "BUY  AVEX x10 @ 9.7478 (score 63, relvol 8.3x)"
+  },
+  {
+   "ts": "2026-10-27T21:09:34+00:00",
+   "msg": "SELL AVEX x10 @ 11.1514 (time stop, 5 days) -> +14.04"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 465.89,
-  "total_return_pct": -6.82,
-  "cash": 354.19,
-  "open_positions": 1,
-  "trades_closed": 13,
-  "win_rate": 30.8,
-  "median_trade_pct": -1.41,
+  "equity": 465.71,
+  "total_return_pct": -6.86,
+  "cash": 465.71,
+  "open_positions": 0,
+  "trades_closed": 14,
+  "win_rate": 35.7,
+  "median_trade_pct": -0.6,
   "best_pct": 22.68,
   "worst_pct": -42.01,
-  "total_pnl": -48.3,
+  "total_pnl": -34.26,
   "exit_reasons": {
    "hype rolled over (FADING)": 7,
-   "time stop": 5,
+   "time stop": 6,
    "stop loss -41.6%": 1
   },
   "day_trades_5d": 0
