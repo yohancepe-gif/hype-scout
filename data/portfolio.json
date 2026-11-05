@@ -1,8 +1,22 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 465.7076019,
- "positions": [],
+ "cash": 369.2420019,
+ "positions": [
+  {
+   "symbol": "DNUT",
+   "qty": 27,
+   "entry_price": 3.5728,
+   "entry_ts": "2026-11-05T18:37:10+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 53,
+   "stop": 3.0369,
+   "target": 4.6446,
+   "last_price": 3.52,
+   "pnl_pct": -1.48,
+   "pnl": -1.43
+  }
+ ],
  "closed": [
   {
    "symbol": "CAST",
@@ -1403,6 +1417,10 @@
   [
    "2026-11-05T00:14:58+00:00",
    465.71
+  ],
+  [
+   "2026-11-05T18:37:10+00:00",
+   464.28
   ]
  ],
  "day_trades": [
@@ -1535,15 +1553,19 @@
   {
    "ts": "2026-10-27T21:09:34+00:00",
    "msg": "SELL AVEX x10 @ 11.1514 (time stop, 5 days) -> +14.04"
+  },
+  {
+   "ts": "2026-11-05T18:37:10+00:00",
+   "msg": "BUY  DNUT x27 @ 3.5728 (score 53, relvol 1.7x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 465.71,
-  "total_return_pct": -6.86,
-  "cash": 465.71,
-  "open_positions": 0,
+  "equity": 464.28,
+  "total_return_pct": -7.14,
+  "cash": 369.24,
+  "open_positions": 1,
   "trades_closed": 14,
   "win_rate": 35.7,
   "median_trade_pct": -0.6,
