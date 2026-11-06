@@ -1,21 +1,20 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 369.2420019,
+ "cash": 393.3402674,
  "positions": [
   {
-   "symbol": "DNUT",
-   "qty": 27,
-   "entry_price": 3.5728,
-   "entry_ts": "2026-11-05T18:37:10+00:00",
+   "symbol": "OKLO",
+   "qty": 5,
+   "entry_price": 19.5408,
+   "entry_ts": "2026-11-06T17:53:50+00:00",
    "entry_stage": "EARLY",
-   "entry_score": 53,
-   "stop": 3.0369,
-   "target": 4.6446,
-   "last_price": 3.52,
-   "pnl_pct": -1.48,
-   "pnl": -1.43,
-   "high_water": 3.5728
+   "entry_score": 48,
+   "stop": 16.6097,
+   "target": 25.4031,
+   "last_price": 19.405,
+   "pnl_pct": -0.69,
+   "pnl": -0.68
   }
  ],
  "closed": [
@@ -200,6 +199,19 @@
    "pnl_pct": 14.4,
    "entry_stage": "EARLY",
    "entry_score": 63
+  },
+  {
+   "symbol": "DNUT",
+   "qty": 27,
+   "entry_price": 3.5728,
+   "entry_ts": "2026-11-05T18:37:10+00:00",
+   "exit_price": 4.5112,
+   "exit_ts": "2026-11-06T17:53:50+00:00",
+   "reason": "hype rolled over (PEAKING)",
+   "pnl": 25.34,
+   "pnl_pct": 26.27,
+   "entry_stage": "EARLY",
+   "entry_score": 53
   }
  ],
  "equity": [
@@ -1426,6 +1438,10 @@
   [
    "2026-11-05T23:59:16+00:00",
    464.28
+  ],
+  [
+   "2026-11-06T17:53:50+00:00",
+   490.37
   ]
  ],
  "day_trades": [
@@ -1562,25 +1578,34 @@
   {
    "ts": "2026-11-05T18:37:10+00:00",
    "msg": "BUY  DNUT x27 @ 3.5728 (score 53, relvol 1.7x)"
+  },
+  {
+   "ts": "2026-11-06T17:53:50+00:00",
+   "msg": "SELL DNUT x27 @ 4.5112 (hype rolled over (PEAKING)) -> +25.34"
+  },
+  {
+   "ts": "2026-11-06T17:53:50+00:00",
+   "msg": "BUY  OKLO x5 @ 19.5408 (score 48, relvol 1.8x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 464.28,
-  "total_return_pct": -7.14,
-  "cash": 369.24,
+  "equity": 490.37,
+  "total_return_pct": -1.93,
+  "cash": 393.34,
   "open_positions": 1,
-  "trades_closed": 14,
-  "win_rate": 35.7,
+  "trades_closed": 15,
+  "win_rate": 40.0,
   "median_trade_pct": -0.6,
-  "best_pct": 22.68,
+  "best_pct": 26.27,
   "worst_pct": -42.01,
-  "total_pnl": -34.26,
+  "total_pnl": -8.92,
   "exit_reasons": {
    "hype rolled over (FADING)": 7,
    "time stop": 6,
-   "stop loss -41.6%": 1
+   "stop loss -41.6%": 1,
+   "hype rolled over (PEAKING)": 1
   },
   "day_trades_5d": 0
  }
