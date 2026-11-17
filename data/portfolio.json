@@ -1,8 +1,35 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 526.3380734,
- "positions": [],
+ "cash": 348.8368634,
+ "positions": [
+  {
+   "symbol": "RCAT",
+   "qty": 27,
+   "entry_price": 3.5829,
+   "entry_ts": "2026-11-17T19:41:48+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 53,
+   "stop": 3.0455,
+   "target": 4.6578,
+   "last_price": 3.53,
+   "pnl_pct": -1.48,
+   "pnl": -1.43
+  },
+  {
+   "symbol": "SHAZ",
+   "qty": 4,
+   "entry_price": 20.1904,
+   "entry_ts": "2026-11-17T19:41:48+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 51,
+   "stop": 17.1618,
+   "target": 26.2475,
+   "last_price": 20.13,
+   "pnl_pct": -0.3,
+   "pnl": -0.24
+  }
+ ],
  "closed": [
   {
    "symbol": "CAST",
@@ -1529,6 +1556,10 @@
   [
    "2026-11-17T03:34:58+00:00",
    526.34
+  ],
+  [
+   "2026-11-17T19:41:48+00:00",
+   524.67
   ]
  ],
  "day_trades": [
@@ -1677,15 +1708,23 @@
   {
    "ts": "2026-11-09T21:22:45+00:00",
    "msg": "SELL OKLO x5 @ 26.5996 (target hit 36.5%) -> +35.29"
+  },
+  {
+   "ts": "2026-11-17T19:41:48+00:00",
+   "msg": "BUY  RCAT x27 @ 3.5829 (score 53, relvol 1.6x)"
+  },
+  {
+   "ts": "2026-11-17T19:41:48+00:00",
+   "msg": "BUY  SHAZ x4 @ 20.1904 (score 51, relvol 2.3x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 526.34,
-  "total_return_pct": 5.27,
-  "cash": 526.34,
-  "open_positions": 0,
+  "equity": 524.67,
+  "total_return_pct": 4.93,
+  "cash": 348.84,
+  "open_positions": 2,
   "trades_closed": 16,
   "win_rate": 43.8,
   "median_trade_pct": -0.6,
