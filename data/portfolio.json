@@ -1,22 +1,8 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 348.8368634,
+ "cash": 406.9469384,
  "positions": [
-  {
-   "symbol": "RCAT",
-   "qty": 27,
-   "entry_price": 3.5829,
-   "entry_ts": "2026-11-17T19:41:48+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 53,
-   "stop": 3.0455,
-   "target": 4.6578,
-   "last_price": 3.53,
-   "pnl_pct": -1.48,
-   "pnl": -1.43,
-   "high_water": 3.5829
-  },
   {
    "symbol": "SHAZ",
    "qty": 4,
@@ -26,10 +12,10 @@
    "entry_score": 51,
    "stop": 17.1618,
    "target": 26.2475,
-   "last_price": 20.13,
-   "pnl_pct": -0.3,
-   "pnl": -0.24,
-   "high_water": 20.1904
+   "last_price": 23.065,
+   "pnl_pct": 14.24,
+   "pnl": 11.5,
+   "high_water": 23.065
   }
  ],
  "closed": [
@@ -240,6 +226,19 @@
    "pnl_pct": 36.12,
    "entry_stage": "EARLY",
    "entry_score": 48
+  },
+  {
+   "symbol": "RCAT",
+   "qty": 27,
+   "entry_price": 3.5829,
+   "entry_ts": "2026-11-17T19:41:48+00:00",
+   "exit_price": 2.1522,
+   "exit_ts": "2026-11-18T19:17:51+00:00",
+   "reason": "stop loss -39.0%",
+   "pnl": -38.63,
+   "pnl_pct": -39.93,
+   "entry_stage": "EARLY",
+   "entry_score": 53
   }
  ],
  "equity": [
@@ -1566,6 +1565,10 @@
   [
    "2026-11-18T02:16:36+00:00",
    524.67
+  ],
+  [
+   "2026-11-18T19:17:51+00:00",
+   499.21
   ]
  ],
  "day_trades": [
@@ -1722,27 +1725,32 @@
   {
    "ts": "2026-11-17T19:41:48+00:00",
    "msg": "BUY  SHAZ x4 @ 20.1904 (score 51, relvol 2.3x)"
+  },
+  {
+   "ts": "2026-11-18T19:17:56+00:00",
+   "msg": "SELL RCAT x27 @ 2.1522 (stop loss -39.0%) -> -38.63"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 524.67,
-  "total_return_pct": 4.93,
-  "cash": 348.84,
-  "open_positions": 2,
-  "trades_closed": 16,
-  "win_rate": 43.8,
+  "equity": 499.21,
+  "total_return_pct": -0.16,
+  "cash": 406.95,
+  "open_positions": 1,
+  "trades_closed": 17,
+  "win_rate": 41.2,
   "median_trade_pct": -0.6,
   "best_pct": 36.12,
   "worst_pct": -42.01,
-  "total_pnl": 26.37,
+  "total_pnl": -12.26,
   "exit_reasons": {
    "hype rolled over (FADING)": 7,
    "time stop": 6,
    "stop loss -41.6%": 1,
    "hype rolled over (PEAKING)": 1,
-   "target hit 36.5%": 1
+   "target hit 36.5%": 1,
+   "stop loss -39.0%": 1
   },
   "day_trades_5d": 0
  }
