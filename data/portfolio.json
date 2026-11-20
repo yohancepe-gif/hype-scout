@@ -1,23 +1,8 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 406.9469384,
- "positions": [
-  {
-   "symbol": "SHAZ",
-   "qty": 4,
-   "entry_price": 20.1904,
-   "entry_ts": "2026-11-17T19:41:48+00:00",
-   "entry_stage": "EARLY",
-   "entry_score": 51,
-   "stop": 17.1618,
-   "target": 26.2475,
-   "last_price": 21.99,
-   "pnl_pct": 8.91,
-   "pnl": 7.2,
-   "high_water": 23.065
-  }
- ],
+ "cash": 475.1064584,
+ "positions": [],
  "closed": [
   {
    "symbol": "CAST",
@@ -239,6 +224,19 @@
    "pnl_pct": -39.93,
    "entry_stage": "EARLY",
    "entry_score": 53
+  },
+  {
+   "symbol": "SHAZ",
+   "qty": 4,
+   "entry_price": 20.1904,
+   "entry_ts": "2026-11-17T19:41:48+00:00",
+   "exit_price": 17.0399,
+   "exit_ts": "2026-11-20T19:00:59+00:00",
+   "reason": "stop loss -15.0%",
+   "pnl": -12.6,
+   "pnl_pct": -15.6,
+   "entry_stage": "EARLY",
+   "entry_score": 51
   }
  ],
  "equity": [
@@ -1581,6 +1579,10 @@
   [
    "2026-11-20T01:44:28+00:00",
    494.91
+  ],
+  [
+   "2026-11-20T19:00:59+00:00",
+   475.11
   ]
  ],
  "day_trades": [
@@ -1741,28 +1743,33 @@
   {
    "ts": "2026-11-18T19:17:56+00:00",
    "msg": "SELL RCAT x27 @ 2.1522 (stop loss -39.0%) -> -38.63"
+  },
+  {
+   "ts": "2026-11-20T19:01:02+00:00",
+   "msg": "SELL SHAZ x4 @ 17.0399 (stop loss -15.0%) -> -12.60"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 494.91,
-  "total_return_pct": -1.02,
-  "cash": 406.95,
-  "open_positions": 1,
-  "trades_closed": 17,
-  "win_rate": 41.2,
+  "equity": 475.11,
+  "total_return_pct": -4.98,
+  "cash": 475.11,
+  "open_positions": 0,
+  "trades_closed": 18,
+  "win_rate": 38.9,
   "median_trade_pct": -0.6,
   "best_pct": 36.12,
   "worst_pct": -42.01,
-  "total_pnl": -12.26,
+  "total_pnl": -24.86,
   "exit_reasons": {
    "hype rolled over (FADING)": 7,
    "time stop": 6,
    "stop loss -41.6%": 1,
    "hype rolled over (PEAKING)": 1,
    "target hit 36.5%": 1,
-   "stop loss -39.0%": 1
+   "stop loss -39.0%": 1,
+   "stop loss -15.0%": 1
   },
   "day_trades_5d": 0
  }
