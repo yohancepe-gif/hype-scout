@@ -1,8 +1,22 @@
 {
  "mode": "sim",
  "start_capital": 500.0,
- "cash": 475.1064584,
- "positions": [],
+ "cash": 391.5465284,
+ "positions": [
+  {
+   "symbol": "AMBA",
+   "qty": 3,
+   "entry_price": 27.8533,
+   "entry_ts": "2026-11-25T20:25:05+00:00",
+   "entry_stage": "EARLY",
+   "entry_score": 69,
+   "stop": 23.6753,
+   "target": 36.2093,
+   "last_price": 27.77,
+   "pnl_pct": -0.3,
+   "pnl": -0.25
+  }
+ ],
  "closed": [
   {
    "symbol": "CAST",
@@ -1619,6 +1633,10 @@
   [
    "2026-11-25T04:50:49+00:00",
    475.11
+  ],
+  [
+   "2026-11-25T20:25:05+00:00",
+   474.86
   ]
  ],
  "day_trades": [
@@ -1783,15 +1801,19 @@
   {
    "ts": "2026-11-20T19:01:02+00:00",
    "msg": "SELL SHAZ x4 @ 17.0399 (stop loss -15.0%) -> -12.60"
+  },
+  {
+   "ts": "2026-11-25T20:25:05+00:00",
+   "msg": "BUY  AMBA x3 @ 27.8533 (score 69, relvol 6.1x)"
   }
  ],
  "summary": {
   "mode": "sim",
   "start_capital": 500.0,
-  "equity": 475.11,
-  "total_return_pct": -4.98,
-  "cash": 475.11,
-  "open_positions": 0,
+  "equity": 474.86,
+  "total_return_pct": -5.03,
+  "cash": 391.55,
+  "open_positions": 1,
   "trades_closed": 18,
   "win_rate": 38.9,
   "median_trade_pct": -0.6,
